@@ -1,0 +1,25 @@
+{
+  "name": "typst-tabler-icons",
+  "version": "0.0.0",
+  "scripts": {
+    "generate": "node ./scripts/generate.mjs"
+  },
+  "keywords": [],
+  "author": "zyf722",
+  "license": "MIT",
+  "description": "Tabler Icons for Typst using webfont.",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "semver": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  },
+  "prettier": {
+    "tabWidth": 2
+  },
+  "typst": {
+    "tabler-version": "0.0.0"
+  }
+}
