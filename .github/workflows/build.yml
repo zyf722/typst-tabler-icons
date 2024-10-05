@@ -1,0 +1,125 @@
+name: Build
+
+on:
+  # Runs automatically every day at 00:00 UTC
+  schedule: [{ cron: "0 0 * * *" }]
+
+  workflow_dispatch:
+
+jobs:
+  precheck:
+    name: Precheck
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    outputs:
+      latest_tabler_version: ${{ steps.check.outputs.LATEST_TABLER_VERSION }}
+      skip: ${{ steps.check.outputs.SKIP }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - id: check
+        name: Check latest release of tabler-icons
+        run: |
+          LATEST_TABLER_VERSION=$(npx semver $(gh release view -R tabler/tabler-icons --json tagName -q .tagName))
+          PACKAGE_TABLER_VERSION=$(jq -r '.typst."tabler-version"' package.json)
+
+          if [[ -z "$PACKAGE_TABLER_VERSION" || $(npx semver $PACKAGE_TABLER_VERSION -r "<$LATEST_TABLER_VERSION") ]]; then
+            echo "Tabler-icons has a new version: $LATEST_TABLER_VERSION."
+            echo "LATEST_TABLER_VERSION=$LATEST_TABLER_VERSION" >> $GITHUB_OUTPUT
+          else
+            echo "Tabler-icons is up to date."
+            echo "SKIP=true" >> $GITHUB_OUTPUT
+          fi
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: precheck
+    if: ${{ needs.precheck.outputs.skip != 'true' }}
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      LATEST_TABLER_VERSION: ${{ needs.precheck.outputs.latest_tabler_version }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update metadata
+        run: |
+          jq --arg version "$LATEST_TABLER_VERSION" '.typst."tabler-version" = $version' package.json > package.json.tmp \
+          && mv package.json.tmp package.json
+        
+      - name: Fetch latest tabler-icons
+        run: |
+          mkdir temp
+          gh release download -R tabler/tabler-icons -p '*.zip' -D temp
+          unzip -j temp/*.zip 'webfont/tabler-icons.html' 'webfont/fonts/tabler-icons.ttf' -d temp
+      
+      - name: Generate icons
+        run: |
+          npm run generate -- temp/tabler-icons.html src/lib-gen.typ gallery/gallery.typ
+      
+      - name: Install typst
+        run: |
+          gh release download -R typst/typst -p 'typst-x86_64-unknown-linux-musl.tar.xz' -D temp
+          tar -xvf temp/typst-x86_64-unknown-linux-musl.tar.xz -C /usr/local/bin --strip-components 1 typst-x86_64-unknown-linux-musl/typst
+          typst -V
+
+      - name: Generate gallery pdf
+        run: |
+          typst compile --root . --font-path temp gallery/gallery.typ gallery/gallery.pdf
+
+      - name: Bump typst package version
+        run: |
+          TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
+          BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
+          sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
+          echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
+      
+      - name: Commit changes in a new branch
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # Create new branch if not exists
+          if [[ -z $(git branch --list "tabler-icons-$LATEST_TABLER_VERSION") ]]; then
+            git checkout -b tabler-icons-$LATEST_TABLER_VERSION
+          else
+            git checkout tabler-icons-$LATEST_TABLER_VERSION
+          fi
+          git add .
+          git commit -m "chore: update tabler-icons to $LATEST_TABLER_VERSION"
+          git push origin tabler-icons-$LATEST_TABLER_VERSION
+      
+      - name: Create PR
+        run: |
+          gh pr create \
+            --title "Update \`tabler-icons\` to $LATEST_TABLER_VERSION" \
+            --body "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION))." \
+            --base main \
+            --head tabler-icons-$LATEST_TABLER_VERSION \
+            --label "auto-update"
