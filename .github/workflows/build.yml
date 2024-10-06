@@ -6,12 +6,14 @@ on:
 
   workflow_dispatch:
 
+env:
+  FORCE_COLOR: 3
+  GH_TOKEN: ${{ github.token }}
+
 jobs:
   precheck:
     name: Precheck
     runs-on: ubuntu-latest
-    env:
-      GH_TOKEN: ${{ github.token }}
     outputs:
       latest_tabler_version: ${{ steps.check.outputs.LATEST_TABLER_VERSION }}
       skip: ${{ steps.check.outputs.SKIP }}
@@ -36,10 +38,10 @@ jobs:
           PACKAGE_TABLER_VERSION=$(jq -r '.typst."tabler-version"' package.json)
 
           if [[ -z "$PACKAGE_TABLER_VERSION" || $(npx semver $PACKAGE_TABLER_VERSION -r "<$LATEST_TABLER_VERSION") ]]; then
-            echo "Tabler-icons has a new version: $LATEST_TABLER_VERSION."
+            npx chalk -t "{yellow Tabler-icons has a new version: {bold $LATEST_TABLER_VERSION}.}"
             echo "LATEST_TABLER_VERSION=$LATEST_TABLER_VERSION" >> $GITHUB_OUTPUT
           else
-            echo "Tabler-icons is up to date."
+            npx chalk -t "{green Tabler-icons is up to date.}"
             echo "SKIP=true" >> $GITHUB_OUTPUT
           fi
 
@@ -52,7 +54,6 @@ jobs:
       contents: write
       pull-requests: write
     env:
-      GH_TOKEN: ${{ github.token }}
       LATEST_TABLER_VERSION: ${{ needs.precheck.outputs.latest_tabler_version }}
     steps:
       - name: Checkout code
@@ -72,26 +73,33 @@ jobs:
         run: |
           jq --arg version "$LATEST_TABLER_VERSION" '.typst."tabler-version" = $version' package.json > package.json.tmp \
           && mv package.json.tmp package.json
+          npx chalk -t "{green Bumped tabler-icons version in {bold.yellow package.json} to {bold.yellow $LATEST_TABLER_VERSION}.}"
         
       - name: Fetch latest tabler-icons
         run: |
           mkdir temp
           gh release download -R tabler/tabler-icons -p '*.zip' -D temp
+          npx chalk -t "{green Downloaded latest release of tabler-icons.}"
           unzip -j temp/*.zip 'webfont/tabler-icons.html' 'webfont/fonts/tabler-icons.ttf' -d temp
+          npx chalk -t "{green Extracted tabler-icons files.}"
       
       - name: Generate icons
         run: |
           npm run generate -- temp/tabler-icons.html src/lib-gen.typ gallery/gallery.typ
+          npx chalk -t "{green Generated {bold.yellow src/lib-gen.typ} and {bold.yellow gallery/gallery.typ}.}"
       
       - name: Install typst
         run: |
           gh release download -R typst/typst -p 'typst-x86_64-unknown-linux-musl.tar.xz' -D temp
+          npx chalk -t "{green Downloaded latest release of typst.}"
           tar -xvf temp/typst-x86_64-unknown-linux-musl.tar.xz -C /usr/local/bin --strip-components 1 typst-x86_64-unknown-linux-musl/typst
+          npx chalk -t "{green Installed typst.}"
           typst -V
 
       - name: Generate gallery pdf
         run: |
           typst compile --root . --font-path temp gallery/gallery.typ gallery/gallery.pdf
+          npx chalk -t "{green Compiled {bold.yellow gallery/gallery.pdf}.}"
 
       - name: Bump typst package version
         run: |
@@ -99,27 +107,44 @@ jobs:
           BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
           sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
           echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
+          npx chalk -t "{green Bumped typst package version in {bold.yellow typst.toml} to {bold.yellow $BUMPED_TYPST_PACKAGE_VERSION}.}"
       
-      - name: Commit changes in a new branch
+      - id: commit
+        name: Commit changes in a new branch
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
+
+          BRANCH="tabler-icons-$LATEST_TABLER_VERSION"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
           
-          # Create new branch if not exists
-          if [[ -z $(git branch --list "tabler-icons-$LATEST_TABLER_VERSION") ]]; then
-            git checkout -b tabler-icons-$LATEST_TABLER_VERSION
+          if [[ -z $(git branch --list $BRANCH) ]]; then
+            npx chalk -t "{green Creating a new branch {bold.yellow $BRANCH}.}"
+            git checkout -b $BRANCH
           else
-            git checkout tabler-icons-$LATEST_TABLER_VERSION
+            npx chalk -t "{green Switching to existing branch {bold.yellow $BRANCH}.}"
+            git checkout $BRANCH
+            git pull origin $BRANCH
           fi
           git add .
+
+          if [[ -z $(git status --porcelain) ]]; then
+            npx chalk -t "{yellow No changes to commit.}"
+            echo "SKIP=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
           git commit -m "chore: update tabler-icons to $LATEST_TABLER_VERSION"
-          git push origin tabler-icons-$LATEST_TABLER_VERSION
+          git push origin $BRANCH
+          npx chalk -t "{green Pushed changes to {bold.yellow $BRANCH}.}"
       
       - name: Create PR
+        if: ${{ steps.commit.outputs.SKIP != 'true' }}
         run: |
           gh pr create \
             --title "Update \`tabler-icons\` to $LATEST_TABLER_VERSION" \
             --body "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION))." \
-            --base main \
-            --head tabler-icons-$LATEST_TABLER_VERSION \
+            --base ${{ github.ref }} \
+            --head $BRANCH \
             --label "auto-update"
+          npx chalk -t "{green Created PR.}"
