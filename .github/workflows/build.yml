@@ -144,7 +144,7 @@ jobs:
           gh pr create \
             --title "Update \`tabler-icons\` to $LATEST_TABLER_VERSION" \
             --body "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION))." \
-            --base main \
+            --base ${{ github.ref }} \
             --head $BRANCH \
             --label "auto-update"
           npx chalk -t "{green Created PR.}"
