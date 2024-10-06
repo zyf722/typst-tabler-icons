@@ -10,6 +10,7 @@
   "description": "Tabler Icons for Typst using webfont.",
   "private": true,
   "dependencies": {
+    "chalk-cli": "^5.0.1",
     "cheerio": "^1.0.0",
     "semver": "^7.6.3"
   },
