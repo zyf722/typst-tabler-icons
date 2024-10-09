@@ -8,4 +8,4 @@ description = "Tabler Icons for Typst using webfont."
 repository = "https://github.com/zyf722/typst-tabler-icons"
 keywords = ["icon", "tabler"]
 categories = ["text"]
-exclude = ["/gallery/*"]
+exclude = ["/gallery/*", "/assets/*"]
