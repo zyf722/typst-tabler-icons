@@ -1,5 +1,5 @@
 [package]
-name = "tabler-icons"
+name = "use-tabler-icons"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
 authors = ["MaxMixAlex <MaxMixAlex@protonmail.com>"]

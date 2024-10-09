@@ -106,7 +106,7 @@ jobs:
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
           BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
           sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
-          sed -i "s/#import \"@preview\/tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
+          sed -i "s/#import \"@preview\/use-tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
           echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
           npx chalk -t "{green Bumped typst package version in {bold.yellow typst.toml, README.md} to {bold.yellow $BUMPED_TYPST_PACKAGE_VERSION}.}"
       
