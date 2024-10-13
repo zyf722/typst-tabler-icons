@@ -40,7 +40,7 @@ Or you can directly use the `ti-` prefix :
 
 As these icons are actually text with custom font, you can pass any text attributes to the function:
 ```typst
-#ti-calendar("calendar", fill: blue)
+#tabler-icon("calendar", fill: blue)
 ```
 
 Refer to [`gallery.pdf`](./gallery/gallery.pdf) and [Tabler Icons website](https://tabler.io/icons) for all available icons.
