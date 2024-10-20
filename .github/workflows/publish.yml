@@ -19,7 +19,7 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout library code
         uses: actions/checkout@v4
 
       - name: Set up node
@@ -32,18 +32,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Clone Typst Package Index
+      - name: Sync package index
         run: |
-          TYPST_PACKAGE_INDEX_REPO=$TYPST_PACKAGE_INDEX_REPO_OWNER/$TYPST_PACKAGE_INDEX_REPO_NAME
-          npx chalk -t "{yellow Cloning Typst Package Index...}"
-          gh repo sync $TYPST_PACKAGE_INDEX_REPO
-          gh repo clone $TYPST_PACKAGE_INDEX_REPO
+          npx chalk -t "{yellow Syncing package index...}"
+          gh repo sync $TYPST_PACKAGE_INDEX_REPO_OWNER/$TYPST_PACKAGE_INDEX_REPO_NAME
+
+      - name: Checkout package index code
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TYPST_PACKAGE_INDEX_REPO_OWNER }}/${{ env.TYPST_PACKAGE_INDEX_REPO_NAME }}
+          token: ${{ secrets.TOKEN }}
+          path: "./index"
 
       - name: Create package
         run: |
           NAME=$(sed -n 's/name = "\(.*\)"/\1/p' typst.toml)
           VERSION=$(sed -n 's/version = "\(.*\)"/\1/p' typst.toml)
-          TARGET_DIR=$TYPST_PACKAGE_INDEX_REPO_NAME/packages/preview/$NAME/$VERSION
+          TARGET_DIR=$GITHUB_WORKSPACE/index/packages/preview/$NAME/$VERSION
+          echo "NAME=$NAME" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
           
           mkdir -p $TARGET_DIR
           npx chalk -t "{green Created package folder {bold $NAME} {bold $VERSION}.}"
@@ -60,9 +67,10 @@ jobs:
           git config --global user.email $COMMITTER_EMAIL
           git config --global user.name $COMMITTER_NAME
 
-          TYPST_PACKAGE_INDEX_REPO=$TYPST_PACKAGE_INDEX_REPO_OWNER/$TYPST_PACKAGE_INDEX_REPO_NAME
-          git -C $TYPST_PACKAGE_INDEX_REPO_NAME add .
-          git -C $TYPST_PACKAGE_INDEX_REPO_NAME commit -m "chore: add $NAME $VERSION"
-          git -C $TYPST_PACKAGE_INDEX_REPO_NAME push
+          cd index
+          git checkout -b $NAME-$VERSION
+          git add .
+          git commit -m "$NAME:$VERSION"
+          git push origin $NAME-$VERSION
 
           npx chalk -t "{green Committed package {bold $NAME} {bold $VERSION}.}"
