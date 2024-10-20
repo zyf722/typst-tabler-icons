@@ -25,6 +25,7 @@
     "dist-manifest": [
       "src/**",
       "LICENSE",
+      "README.md",
       "typst.toml",
       "assets/splash.svg"
     ]
