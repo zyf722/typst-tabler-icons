@@ -21,6 +21,11 @@
     "tabWidth": 2
   },
   "typst": {
-    "tabler-version": "3.19.0"
+    "tabler-version": "3.19.0",
+    "dist-manifest": [
+      "src/**",
+      "LICENSE",
+      "typst.toml"
+    ]
   }
 }

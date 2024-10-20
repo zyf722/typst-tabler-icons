@@ -1,0 +1,68 @@
+name: Publish
+
+on:
+  release:
+    types: [published]
+
+  workflow_dispatch:
+
+env:
+  FORCE_COLOR: 3
+  GH_TOKEN: ${{ secrets.TOKEN }}
+  TYPST_PACKAGE_INDEX_REPO_OWNER: zyf722
+  TYPST_PACKAGE_INDEX_REPO_NAME: typst-packages
+  COMMITTER_NAME: zyf722
+  COMMITTER_EMAIL: MaxMixAlex@protonmail.com
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Clone Typst Package Index
+        run: |
+          TYPST_PACKAGE_INDEX_REPO=$TYPST_PACKAGE_INDEX_REPO_OWNER/$TYPST_PACKAGE_INDEX_REPO_NAME
+          npx chalk -t "{yellow Cloning Typst Package Index...}"
+          gh repo sync $TYPST_PACKAGE_INDEX_REPO
+          gh repo clone $TYPST_PACKAGE_INDEX_REPO
+
+      - name: Create package
+        run: |
+          NAME=$(sed -n 's/name = "\(.*\)"/\1/p' typst.toml)
+          VERSION=$(sed -n 's/version = "\(.*\)"/\1/p' typst.toml)
+          TARGET_DIR=$TYPST_PACKAGE_INDEX_REPO_NAME/packages/preview/$NAME/$VERSION
+          
+          mkdir -p $TARGET_DIR
+          npx chalk -t "{green Created package folder {bold $NAME} {bold $VERSION}.}"
+
+          readarray -t FILES < <(jq -r '.typst."dist-manifest".[]' package.json)
+          for FILE in "${FILES[@]}"; do
+            cp $FILE $TARGET_DIR
+          done
+
+          npx chalk -t "{green Copied ${#FILES[@]} files to package folder.}"
+      
+      - name: Commit package
+        run: |
+          git config --global user.email $COMMITTER_EMAIL
+          git config --global user.name $COMMITTER_NAME
+
+          TYPST_PACKAGE_INDEX_REPO=$TYPST_PACKAGE_INDEX_REPO_OWNER/$TYPST_PACKAGE_INDEX_REPO_NAME
+          git -C $TYPST_PACKAGE_INDEX_REPO_NAME add .
+          git -C $TYPST_PACKAGE_INDEX_REPO_NAME commit -m "chore: add $NAME $VERSION"
+          git -C $TYPST_PACKAGE_INDEX_REPO_NAME push
+
+          npx chalk -t "{green Committed package {bold $NAME} {bold $VERSION}.}"
