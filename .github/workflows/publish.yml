@@ -57,7 +57,7 @@ jobs:
 
           readarray -t FILES < <(jq -r '.typst."dist-manifest"[]' package.json)
           for FILE in "${FILES[@]}"; do
-            cp $FILE $TARGET_DIR
+            cp --parents $FILE $TARGET_DIR
           done
 
           npx chalk -t "{green Copied ${#FILES[@]} files to package folder.}"
