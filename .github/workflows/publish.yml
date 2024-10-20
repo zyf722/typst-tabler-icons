@@ -48,7 +48,7 @@ jobs:
           mkdir -p $TARGET_DIR
           npx chalk -t "{green Created package folder {bold $NAME} {bold $VERSION}.}"
 
-          readarray -t FILES < <(jq -r '.typst."dist-manifest".[]' package.json)
+          readarray -t FILES < <(jq -r '.typst."dist-manifest"[]' package.json)
           for FILE in "${FILES[@]}"; do
             cp $FILE $TARGET_DIR
           done
