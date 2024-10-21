@@ -18,7 +18,7 @@
   radius: 24pt,
   inset: 32pt,
   {
-    text(baseline: -6pt, weight: "bold")[typst-tabler-icon]
+    text(baseline: -6pt, weight: "bold")[use-tabler-icons]
     h(1fr)
     text(fill: gradient.linear(rgb(255, 255, 255, 0), white))[
       #tabler-icon("a-b")
