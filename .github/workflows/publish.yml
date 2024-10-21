@@ -68,7 +68,15 @@ jobs:
           git config --global user.name $COMMITTER_NAME
 
           cd index
-          git checkout -b $NAME-$VERSION
+
+          git fetch origin
+          if [[ $(git ls-remote --heads origin $NAME-$VERSION) ]]; then
+            git checkout $NAME-$VERSION
+            npx chalk -t "{yellow Branch {bold $NAME-$VERSION} already exists.}"
+          else
+            git checkout -b $NAME-$VERSION
+          fi
+
           git add .
           git commit -m "$NAME:$VERSION"
           git push origin $NAME-$VERSION
