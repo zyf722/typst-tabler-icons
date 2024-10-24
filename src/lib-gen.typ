@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.19.0
+// Generated based on Tabler Icons v3.20.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -2517,6 +2517,7 @@
   "feather-off": "\u{f128}",
   "fence": "\u{ef2a}",
   "fence-off": "\u{f129}",
+  "ferry": "\u{10074}",
   "fidget-spinner": "\u{f068}",
   "file": "\u{eaa4}",
   "file-3d": "\u{f032}",
@@ -3619,6 +3620,7 @@
   "math-x-divide-2": "\u{f4ef}",
   "math-x-divide-y": "\u{f4f1}",
   "math-x-divide-y-2": "\u{f4f0}",
+  "math-x-floor-divide-y": "\u{10073}",
   "math-x-minus-x": "\u{f4f2}",
   "math-x-minus-y": "\u{f4f3}",
   "math-x-plus-x": "\u{f4f4}",
@@ -4267,21 +4269,36 @@
   "play-basketball": "\u{fa66}",
   "play-card": "\u{eebf}",
   "play-card-1": "\u{1005c}",
+  "play-card-1-filled": "\u{10083}",
   "play-card-10": "\u{1005b}",
+  "play-card-10-filled": "\u{10082}",
   "play-card-2": "\u{1005a}",
+  "play-card-2-filled": "\u{10081}",
   "play-card-3": "\u{10059}",
+  "play-card-3-filled": "\u{10080}",
   "play-card-4": "\u{10058}",
+  "play-card-4-filled": "\u{1007f}",
   "play-card-5": "\u{10057}",
+  "play-card-5-filled": "\u{1007e}",
   "play-card-6": "\u{10056}",
+  "play-card-6-filled": "\u{1007d}",
   "play-card-7": "\u{10055}",
+  "play-card-7-filled": "\u{1007c}",
   "play-card-8": "\u{10054}",
+  "play-card-8-filled": "\u{1007b}",
   "play-card-9": "\u{10053}",
+  "play-card-9-filled": "\u{1007a}",
   "play-card-a": "\u{10052}",
+  "play-card-a-filled": "\u{10079}",
   "play-card-j": "\u{10051}",
+  "play-card-j-filled": "\u{10078}",
   "play-card-k": "\u{10050}",
+  "play-card-k-filled": "\u{10077}",
   "play-card-off": "\u{f17e}",
   "play-card-q": "\u{1004f}",
+  "play-card-q-filled": "\u{10076}",
   "play-card-star": "\u{1004e}",
+  "play-card-star-filled": "\u{10075}",
   "play-football": "\u{fa67}",
   "play-handball": "\u{fa68}",
   "play-volleyball": "\u{fa69}",
@@ -5609,6 +5626,7 @@
   "writing-sign": "\u{ef07}",
   "writing-sign-off": "\u{f1cc}",
   "x": "\u{eb55}",
+  "x-power-y": "\u{10072}",
   "xbox-a": "\u{f2b6}",
   "xbox-a-filled": "\u{fdcb}",
   "xbox-b": "\u{f2b7}",
@@ -8184,6 +8202,7 @@
 #let ti-feather-off = tabler-icon.with("\u{f128}")
 #let ti-fence = tabler-icon.with("\u{ef2a}")
 #let ti-fence-off = tabler-icon.with("\u{f129}")
+#let ti-ferry = tabler-icon.with("\u{10074}")
 #let ti-fidget-spinner = tabler-icon.with("\u{f068}")
 #let ti-file = tabler-icon.with("\u{eaa4}")
 #let ti-file-3d = tabler-icon.with("\u{f032}")
@@ -9286,6 +9305,7 @@
 #let ti-math-x-divide-2 = tabler-icon.with("\u{f4ef}")
 #let ti-math-x-divide-y = tabler-icon.with("\u{f4f1}")
 #let ti-math-x-divide-y-2 = tabler-icon.with("\u{f4f0}")
+#let ti-math-x-floor-divide-y = tabler-icon.with("\u{10073}")
 #let ti-math-x-minus-x = tabler-icon.with("\u{f4f2}")
 #let ti-math-x-minus-y = tabler-icon.with("\u{f4f3}")
 #let ti-math-x-plus-x = tabler-icon.with("\u{f4f4}")
@@ -9934,21 +9954,36 @@
 #let ti-play-basketball = tabler-icon.with("\u{fa66}")
 #let ti-play-card = tabler-icon.with("\u{eebf}")
 #let ti-play-card-1 = tabler-icon.with("\u{1005c}")
+#let ti-play-card-1-filled = tabler-icon.with("\u{10083}")
 #let ti-play-card-10 = tabler-icon.with("\u{1005b}")
+#let ti-play-card-10-filled = tabler-icon.with("\u{10082}")
 #let ti-play-card-2 = tabler-icon.with("\u{1005a}")
+#let ti-play-card-2-filled = tabler-icon.with("\u{10081}")
 #let ti-play-card-3 = tabler-icon.with("\u{10059}")
+#let ti-play-card-3-filled = tabler-icon.with("\u{10080}")
 #let ti-play-card-4 = tabler-icon.with("\u{10058}")
+#let ti-play-card-4-filled = tabler-icon.with("\u{1007f}")
 #let ti-play-card-5 = tabler-icon.with("\u{10057}")
+#let ti-play-card-5-filled = tabler-icon.with("\u{1007e}")
 #let ti-play-card-6 = tabler-icon.with("\u{10056}")
+#let ti-play-card-6-filled = tabler-icon.with("\u{1007d}")
 #let ti-play-card-7 = tabler-icon.with("\u{10055}")
+#let ti-play-card-7-filled = tabler-icon.with("\u{1007c}")
 #let ti-play-card-8 = tabler-icon.with("\u{10054}")
+#let ti-play-card-8-filled = tabler-icon.with("\u{1007b}")
 #let ti-play-card-9 = tabler-icon.with("\u{10053}")
+#let ti-play-card-9-filled = tabler-icon.with("\u{1007a}")
 #let ti-play-card-a = tabler-icon.with("\u{10052}")
+#let ti-play-card-a-filled = tabler-icon.with("\u{10079}")
 #let ti-play-card-j = tabler-icon.with("\u{10051}")
+#let ti-play-card-j-filled = tabler-icon.with("\u{10078}")
 #let ti-play-card-k = tabler-icon.with("\u{10050}")
+#let ti-play-card-k-filled = tabler-icon.with("\u{10077}")
 #let ti-play-card-off = tabler-icon.with("\u{f17e}")
 #let ti-play-card-q = tabler-icon.with("\u{1004f}")
+#let ti-play-card-q-filled = tabler-icon.with("\u{10076}")
 #let ti-play-card-star = tabler-icon.with("\u{1004e}")
+#let ti-play-card-star-filled = tabler-icon.with("\u{10075}")
 #let ti-play-football = tabler-icon.with("\u{fa67}")
 #let ti-play-handball = tabler-icon.with("\u{fa68}")
 #let ti-play-volleyball = tabler-icon.with("\u{fa69}")
@@ -11276,6 +11311,7 @@
 #let ti-writing-sign = tabler-icon.with("\u{ef07}")
 #let ti-writing-sign-off = tabler-icon.with("\u{f1cc}")
 #let ti-x = tabler-icon.with("\u{eb55}")
+#let ti-x-power-y = tabler-icon.with("\u{10072}")
 #let ti-xbox-a = tabler-icon.with("\u{f2b6}")
 #let ti-xbox-a-filled = tabler-icon.with("\u{fdcb}")
 #let ti-xbox-b = tabler-icon.with("\u{f2b7}")
