@@ -106,7 +106,7 @@ jobs:
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
           BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
           sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
-          sed -i "s/#import \"@preview\/use-tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
+          sed -i "s/#import \"@preview\/use-tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/use-tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
           echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
           npx chalk -t "{green Bumped typst package version in {bold.yellow typst.toml, README.md} to {bold.yellow $BUMPED_TYPST_PACKAGE_VERSION}.}"
       
@@ -142,10 +142,16 @@ jobs:
       - name: Create PR
         if: ${{ steps.commit.outputs.SKIP != 'true' }}
         run: |
+          ORIGINAL_RELEASE_MESSAGE=$(
+            gh release view -R tabler/tabler-icons --json body -q .body
+          )
+          
+          echo -e "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION)).\n---\n$ORIGINAL_RELEASE_MESSAGE" | \
           gh pr create \
             --title "Update \`tabler-icons\` to $LATEST_TABLER_VERSION" \
-            --body "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION))." \
             --base ${{ github.ref }} \
             --head $BRANCH \
-            --label "auto-update"
-          npx chalk -t "{green Created PR.}"
+            --label "auto-update" \
+            --body-file -
+          
+              npx chalk -t "{green Created PR.}"
