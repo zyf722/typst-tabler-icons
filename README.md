@@ -16,7 +16,7 @@ Download [latest release of tabler-icons](https://github.com/tabler/tabler-icons
 #### Using the Typst Packages
 You can install the library using the typst packages:
 ```typst
-#import "@preview/use-tabler-icons:0.2.0": *
+#import "@preview/use-tabler-icons:0.3.0": *
 ```
 
 #### Manually Install
