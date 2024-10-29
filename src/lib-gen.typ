@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.20.0
+// Generated based on Tabler Icons v3.21.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -781,6 +781,7 @@
   "brand-among-us": "\u{f205}",
   "brand-android": "\u{ec16}",
   "brand-angular": "\u{ef6b}",
+  "brand-angular-filled": "\u{10095}",
   "brand-ansible": "\u{fa70}",
   "brand-ao3": "\u{f5e8}",
   "brand-appgallery": "\u{f231}",
@@ -928,6 +929,7 @@
   "brand-html5": "\u{ed6c}",
   "brand-inertia": "\u{f34a}",
   "brand-instagram": "\u{ec20}",
+  "brand-instagram-filled": "\u{10094}",
   "brand-intercom": "\u{f1cf}",
   "brand-itch": "\u{fa22}",
   "brand-javascript": "\u{ef0c}",
@@ -935,6 +937,7 @@
   "brand-kako-talk": "\u{fd2d}",
   "brand-kbin": "\u{fad0}",
   "brand-kick": "\u{fa23}",
+  "brand-kick-filled": "\u{10093}",
   "brand-kickstarter": "\u{edce}",
   "brand-kotlin": "\u{ed6d}",
   "brand-laravel": "\u{f34b}",
@@ -943,6 +946,7 @@
   "brand-letterboxd": "\u{fa24}",
   "brand-line": "\u{f7e8}",
   "brand-linkedin": "\u{ec8c}",
+  "brand-linkedin-filled": "\u{10092}",
   "brand-linktree": "\u{f1e7}",
   "brand-linqpad": "\u{f562}",
   "brand-livewire": "\u{fd76}",
@@ -986,9 +990,11 @@
   "brand-onedrive": "\u{f5d7}",
   "brand-onlyfans": "\u{f605}",
   "brand-open-source": "\u{edd0}",
+  "brand-open-source-filled": "\u{10091}",
   "brand-openai": "\u{f78e}",
   "brand-openvpn": "\u{f39a}",
   "brand-opera": "\u{ec21}",
+  "brand-opera-filled": "\u{10090}",
   "brand-pagekit": "\u{edd1}",
   "brand-parsinta": "\u{fc42}",
   "brand-patreon": "\u{edd2}",
@@ -1001,6 +1007,7 @@
   "brand-php": "\u{ef72}",
   "brand-picsart": "\u{f4d9}",
   "brand-pinterest": "\u{ec8d}",
+  "brand-pinterest-filled": "\u{1008f}",
   "brand-planetscale": "\u{f78f}",
   "brand-pnpm": "\u{fd77}",
   "brand-pocket": "\u{ed00}",
@@ -1031,9 +1038,11 @@
   "brand-shazam": "\u{edd6}",
   "brand-shopee": "\u{f252}",
   "brand-sketch": "\u{ec24}",
+  "brand-sketch-filled": "\u{1008e}",
   "brand-skype": "\u{ed02}",
   "brand-slack": "\u{ec72}",
   "brand-snapchat": "\u{ec25}",
+  "brand-snapchat-filled": "\u{1008d}",
   "brand-snapseed": "\u{f253}",
   "brand-snowflake": "\u{f615}",
   "brand-socket-io": "\u{f49b}",
@@ -1046,12 +1055,14 @@
   "brand-stackoverflow": "\u{ef58}",
   "brand-stackshare": "\u{f607}",
   "brand-steam": "\u{ed6f}",
+  "brand-steam-filled": "\u{1008c}",
   "brand-stocktwits": "\u{fd78}",
   "brand-storj": "\u{fa54}",
   "brand-storybook": "\u{f332}",
   "brand-storytel": "\u{f608}",
   "brand-strava": "\u{f254}",
   "brand-stripe": "\u{edd7}",
+  "brand-stripe-filled": "\u{1008b}",
   "brand-sublime-text": "\u{ef74}",
   "brand-sugarizer": "\u{f7a5}",
   "brand-supabase": "\u{f6d3}",
@@ -1062,6 +1073,7 @@
   "brand-swift": "\u{fa55}",
   "brand-symfony": "\u{f616}",
   "brand-tabler": "\u{ec8f}",
+  "brand-tabler-filled": "\u{1008a}",
   "brand-tailwind": "\u{eca1}",
   "brand-taobao": "\u{f5ef}",
   "brand-teams": "\u{fadf}",
@@ -1076,12 +1088,14 @@
   "brand-tiktok": "\u{ec73}",
   "brand-tiktok-filled": "\u{f7ea}",
   "brand-tinder": "\u{ed71}",
+  "brand-tinder-filled": "\u{10089}",
   "brand-topbuzz": "\u{f50d}",
   "brand-torchain": "\u{f5a4}",
   "brand-toyota": "\u{f262}",
   "brand-trello": "\u{f39d}",
   "brand-tripadvisor": "\u{f002}",
   "brand-tumblr": "\u{ed04}",
+  "brand-tumblr-filled": "\u{10088}",
   "brand-twilio": "\u{f617}",
   "brand-twitch": "\u{ed05}",
   "brand-twitter": "\u{ec27}",
@@ -1094,7 +1108,9 @@
   "brand-upwork": "\u{f39e}",
   "brand-valorant": "\u{f39f}",
   "brand-vercel": "\u{ef24}",
+  "brand-vercel-filled": "\u{10087}",
   "brand-vimeo": "\u{ed06}",
+  "brand-vimeo-filled": "\u{10086}",
   "brand-vinted": "\u{f20f}",
   "brand-visa": "\u{f380}",
   "brand-visual-studio": "\u{ef76}",
@@ -1112,8 +1128,10 @@
   "brand-wechat": "\u{f5f3}",
   "brand-weibo": "\u{f609}",
   "brand-whatsapp": "\u{ec74}",
+  "brand-whatsapp-filled": "\u{10085}",
   "brand-wikipedia": "\u{fa79}",
   "brand-windows": "\u{ecd8}",
+  "brand-windows-filled": "\u{10084}",
   "brand-windy": "\u{f4dd}",
   "brand-wish": "\u{f212}",
   "brand-wix": "\u{f3a1}",
@@ -6466,6 +6484,7 @@
 #let ti-brand-among-us = tabler-icon.with("\u{f205}")
 #let ti-brand-android = tabler-icon.with("\u{ec16}")
 #let ti-brand-angular = tabler-icon.with("\u{ef6b}")
+#let ti-brand-angular-filled = tabler-icon.with("\u{10095}")
 #let ti-brand-ansible = tabler-icon.with("\u{fa70}")
 #let ti-brand-ao3 = tabler-icon.with("\u{f5e8}")
 #let ti-brand-appgallery = tabler-icon.with("\u{f231}")
@@ -6613,6 +6632,7 @@
 #let ti-brand-html5 = tabler-icon.with("\u{ed6c}")
 #let ti-brand-inertia = tabler-icon.with("\u{f34a}")
 #let ti-brand-instagram = tabler-icon.with("\u{ec20}")
+#let ti-brand-instagram-filled = tabler-icon.with("\u{10094}")
 #let ti-brand-intercom = tabler-icon.with("\u{f1cf}")
 #let ti-brand-itch = tabler-icon.with("\u{fa22}")
 #let ti-brand-javascript = tabler-icon.with("\u{ef0c}")
@@ -6620,6 +6640,7 @@
 #let ti-brand-kako-talk = tabler-icon.with("\u{fd2d}")
 #let ti-brand-kbin = tabler-icon.with("\u{fad0}")
 #let ti-brand-kick = tabler-icon.with("\u{fa23}")
+#let ti-brand-kick-filled = tabler-icon.with("\u{10093}")
 #let ti-brand-kickstarter = tabler-icon.with("\u{edce}")
 #let ti-brand-kotlin = tabler-icon.with("\u{ed6d}")
 #let ti-brand-laravel = tabler-icon.with("\u{f34b}")
@@ -6628,6 +6649,7 @@
 #let ti-brand-letterboxd = tabler-icon.with("\u{fa24}")
 #let ti-brand-line = tabler-icon.with("\u{f7e8}")
 #let ti-brand-linkedin = tabler-icon.with("\u{ec8c}")
+#let ti-brand-linkedin-filled = tabler-icon.with("\u{10092}")
 #let ti-brand-linktree = tabler-icon.with("\u{f1e7}")
 #let ti-brand-linqpad = tabler-icon.with("\u{f562}")
 #let ti-brand-livewire = tabler-icon.with("\u{fd76}")
@@ -6671,9 +6693,11 @@
 #let ti-brand-onedrive = tabler-icon.with("\u{f5d7}")
 #let ti-brand-onlyfans = tabler-icon.with("\u{f605}")
 #let ti-brand-open-source = tabler-icon.with("\u{edd0}")
+#let ti-brand-open-source-filled = tabler-icon.with("\u{10091}")
 #let ti-brand-openai = tabler-icon.with("\u{f78e}")
 #let ti-brand-openvpn = tabler-icon.with("\u{f39a}")
 #let ti-brand-opera = tabler-icon.with("\u{ec21}")
+#let ti-brand-opera-filled = tabler-icon.with("\u{10090}")
 #let ti-brand-pagekit = tabler-icon.with("\u{edd1}")
 #let ti-brand-parsinta = tabler-icon.with("\u{fc42}")
 #let ti-brand-patreon = tabler-icon.with("\u{edd2}")
@@ -6686,6 +6710,7 @@
 #let ti-brand-php = tabler-icon.with("\u{ef72}")
 #let ti-brand-picsart = tabler-icon.with("\u{f4d9}")
 #let ti-brand-pinterest = tabler-icon.with("\u{ec8d}")
+#let ti-brand-pinterest-filled = tabler-icon.with("\u{1008f}")
 #let ti-brand-planetscale = tabler-icon.with("\u{f78f}")
 #let ti-brand-pnpm = tabler-icon.with("\u{fd77}")
 #let ti-brand-pocket = tabler-icon.with("\u{ed00}")
@@ -6716,9 +6741,11 @@
 #let ti-brand-shazam = tabler-icon.with("\u{edd6}")
 #let ti-brand-shopee = tabler-icon.with("\u{f252}")
 #let ti-brand-sketch = tabler-icon.with("\u{ec24}")
+#let ti-brand-sketch-filled = tabler-icon.with("\u{1008e}")
 #let ti-brand-skype = tabler-icon.with("\u{ed02}")
 #let ti-brand-slack = tabler-icon.with("\u{ec72}")
 #let ti-brand-snapchat = tabler-icon.with("\u{ec25}")
+#let ti-brand-snapchat-filled = tabler-icon.with("\u{1008d}")
 #let ti-brand-snapseed = tabler-icon.with("\u{f253}")
 #let ti-brand-snowflake = tabler-icon.with("\u{f615}")
 #let ti-brand-socket-io = tabler-icon.with("\u{f49b}")
@@ -6731,12 +6758,14 @@
 #let ti-brand-stackoverflow = tabler-icon.with("\u{ef58}")
 #let ti-brand-stackshare = tabler-icon.with("\u{f607}")
 #let ti-brand-steam = tabler-icon.with("\u{ed6f}")
+#let ti-brand-steam-filled = tabler-icon.with("\u{1008c}")
 #let ti-brand-stocktwits = tabler-icon.with("\u{fd78}")
 #let ti-brand-storj = tabler-icon.with("\u{fa54}")
 #let ti-brand-storybook = tabler-icon.with("\u{f332}")
 #let ti-brand-storytel = tabler-icon.with("\u{f608}")
 #let ti-brand-strava = tabler-icon.with("\u{f254}")
 #let ti-brand-stripe = tabler-icon.with("\u{edd7}")
+#let ti-brand-stripe-filled = tabler-icon.with("\u{1008b}")
 #let ti-brand-sublime-text = tabler-icon.with("\u{ef74}")
 #let ti-brand-sugarizer = tabler-icon.with("\u{f7a5}")
 #let ti-brand-supabase = tabler-icon.with("\u{f6d3}")
@@ -6747,6 +6776,7 @@
 #let ti-brand-swift = tabler-icon.with("\u{fa55}")
 #let ti-brand-symfony = tabler-icon.with("\u{f616}")
 #let ti-brand-tabler = tabler-icon.with("\u{ec8f}")
+#let ti-brand-tabler-filled = tabler-icon.with("\u{1008a}")
 #let ti-brand-tailwind = tabler-icon.with("\u{eca1}")
 #let ti-brand-taobao = tabler-icon.with("\u{f5ef}")
 #let ti-brand-teams = tabler-icon.with("\u{fadf}")
@@ -6761,12 +6791,14 @@
 #let ti-brand-tiktok = tabler-icon.with("\u{ec73}")
 #let ti-brand-tiktok-filled = tabler-icon.with("\u{f7ea}")
 #let ti-brand-tinder = tabler-icon.with("\u{ed71}")
+#let ti-brand-tinder-filled = tabler-icon.with("\u{10089}")
 #let ti-brand-topbuzz = tabler-icon.with("\u{f50d}")
 #let ti-brand-torchain = tabler-icon.with("\u{f5a4}")
 #let ti-brand-toyota = tabler-icon.with("\u{f262}")
 #let ti-brand-trello = tabler-icon.with("\u{f39d}")
 #let ti-brand-tripadvisor = tabler-icon.with("\u{f002}")
 #let ti-brand-tumblr = tabler-icon.with("\u{ed04}")
+#let ti-brand-tumblr-filled = tabler-icon.with("\u{10088}")
 #let ti-brand-twilio = tabler-icon.with("\u{f617}")
 #let ti-brand-twitch = tabler-icon.with("\u{ed05}")
 #let ti-brand-twitter = tabler-icon.with("\u{ec27}")
@@ -6779,7 +6811,9 @@
 #let ti-brand-upwork = tabler-icon.with("\u{f39e}")
 #let ti-brand-valorant = tabler-icon.with("\u{f39f}")
 #let ti-brand-vercel = tabler-icon.with("\u{ef24}")
+#let ti-brand-vercel-filled = tabler-icon.with("\u{10087}")
 #let ti-brand-vimeo = tabler-icon.with("\u{ed06}")
+#let ti-brand-vimeo-filled = tabler-icon.with("\u{10086}")
 #let ti-brand-vinted = tabler-icon.with("\u{f20f}")
 #let ti-brand-visa = tabler-icon.with("\u{f380}")
 #let ti-brand-visual-studio = tabler-icon.with("\u{ef76}")
@@ -6797,8 +6831,10 @@
 #let ti-brand-wechat = tabler-icon.with("\u{f5f3}")
 #let ti-brand-weibo = tabler-icon.with("\u{f609}")
 #let ti-brand-whatsapp = tabler-icon.with("\u{ec74}")
+#let ti-brand-whatsapp-filled = tabler-icon.with("\u{10085}")
 #let ti-brand-wikipedia = tabler-icon.with("\u{fa79}")
 #let ti-brand-windows = tabler-icon.with("\u{ecd8}")
+#let ti-brand-windows-filled = tabler-icon.with("\u{10084}")
 #let ti-brand-windy = tabler-icon.with("\u{f4dd}")
 #let ti-brand-wish = tabler-icon.with("\u{f212}")
 #let ti-brand-wix = tabler-icon.with("\u{f3a1}")
