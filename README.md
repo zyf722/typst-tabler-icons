@@ -1,10 +1,10 @@
-> [!NOTE]
+> **Note**
 >
 > This project is greatly inspired by and mainly edited based on [typst-fontawesome](https://github.com/duskmoon314/typst-fontawesome).
 
-<h1 align="center">
-  <img alt="Typst" src="assets/splash.svg">
-</h1>
+<h2 align="center">
+  <img alt="use-tabler-icons" src="assets/splash.svg">
+</h2>
 
 A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5500 free MIT-licensed high-quality SVG icons.
 
