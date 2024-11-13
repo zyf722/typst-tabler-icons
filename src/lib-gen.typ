@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.21.0
+// Generated based on Tabler Icons v3.22.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -961,6 +961,7 @@
   "brand-meetup": "\u{fc6a}",
   "brand-mercedes": "\u{f072}",
   "brand-messenger": "\u{ec71}",
+  "brand-messenger-filled": "\u{100a7}",
   "brand-meta": "\u{efb0}",
   "brand-metabrainz": "\u{ff12}",
   "brand-minecraft": "\u{faef}",
@@ -1080,6 +1081,7 @@
   "brand-ted": "\u{f658}",
   "brand-telegram": "\u{ec26}",
   "brand-terraform": "\u{fa56}",
+  "brand-tesla": "\u{10099}",
   "brand-tether": "\u{f5a3}",
   "brand-thingiverse": "\u{fd1c}",
   "brand-threads": "\u{fb02}",
@@ -1127,6 +1129,7 @@
   "brand-webflow": "\u{f2d2}",
   "brand-wechat": "\u{f5f3}",
   "brand-weibo": "\u{f609}",
+  "brand-weibo-filled": "\u{100a6}",
   "brand-whatsapp": "\u{ec74}",
   "brand-whatsapp-filled": "\u{10085}",
   "brand-wikipedia": "\u{fa79}",
@@ -1192,6 +1195,7 @@
   "bubble-tea": "\u{ff51}",
   "bubble-tea-2": "\u{ff52}",
   "bubble-text": "\u{febc}",
+  "bubble-text-filled": "\u{100a5}",
   "bubble-x": "\u{febb}",
   "bucket": "\u{ea47}",
   "bucket-droplet": "\u{f56a}",
@@ -1551,7 +1555,6 @@
   "circle-dashed-letter-j": "\u{ff91}",
   "circle-dashed-letter-k": "\u{ff90}",
   "circle-dashed-letter-l": "\u{ff8f}",
-  "circle-dashed-letter-letter-v": "\u{ff8e}",
   "circle-dashed-letter-m": "\u{ff8d}",
   "circle-dashed-letter-n": "\u{ff8c}",
   "circle-dashed-letter-o": "\u{ff8b}",
@@ -1736,6 +1739,7 @@
   "clipboard-list": "\u{ea6d}",
   "clipboard-off": "\u{f0ce}",
   "clipboard-plus": "\u{efb2}",
+  "clipboard-search": "\u{10098}",
   "clipboard-smile": "\u{fd9a}",
   "clipboard-text": "\u{f089}",
   "clipboard-typography": "\u{f34f}",
@@ -2816,6 +2820,7 @@
   "ghost-2": "\u{f57c}",
   "ghost-2-filled": "\u{f74a}",
   "ghost-3": "\u{fc13}",
+  "ghost-3-filled": "\u{100a4}",
   "ghost-filled": "\u{f74b}",
   "ghost-off": "\u{f3f2}",
   "gif": "\u{f257}",
@@ -2848,6 +2853,7 @@
   "globe-off": "\u{f139}",
   "go-game": "\u{f512}",
   "golf": "\u{ed8c}",
+  "golf-filled": "\u{100a3}",
   "golf-off": "\u{f13a}",
   "gps": "\u{ed7a}",
   "gps-filled": "\u{fe48}",
@@ -3215,6 +3221,7 @@
   "key-filled": "\u{fe28}",
   "key-off": "\u{f14b}",
   "keyboard": "\u{ebd6}",
+  "keyboard-filled": "\u{100a2}",
   "keyboard-hide": "\u{ec7e}",
   "keyboard-off": "\u{eea0}",
   "keyboard-show": "\u{ec7f}",
@@ -3422,6 +3429,7 @@
   "live-photo-filled": "\u{fed1}",
   "live-photo-off": "\u{f403}",
   "live-view": "\u{ec6b}",
+  "live-view-filled": "\u{100a1}",
   "load-balancer": "\u{fa5c}",
   "loader": "\u{eca3}",
   "loader-2": "\u{f226}",
@@ -3658,6 +3666,7 @@
   "medical-cross-off": "\u{f160}",
   "medicine-syrup": "\u{ef63}",
   "meeple": "\u{f514}",
+  "meeple-filled": "\u{100a0}",
   "melon": "\u{fc7a}",
   "melon-filled": "\u{1000e}",
   "menorah": "\u{f58c}",
@@ -3677,6 +3686,7 @@
   "message-2-dollar": "\u{f960}",
   "message-2-down": "\u{f961}",
   "message-2-exclamation": "\u{f962}",
+  "message-2-filled": "\u{1009f}",
   "message-2-heart": "\u{f963}",
   "message-2-minus": "\u{f964}",
   "message-2-off": "\u{f40b}",
@@ -4059,6 +4069,7 @@
   "number-99-small": "\u{ffbf}",
   "numbers": "\u{f015}",
   "nurse": "\u{ef65}",
+  "nurse-filled": "\u{1009e}",
   "nut": "\u{fc61}",
   "object-scan": "\u{fef1}",
   "octagon": "\u{ecbd}",
@@ -4094,6 +4105,7 @@
   "paint-filled": "\u{f75f}",
   "paint-off": "\u{f16d}",
   "palette": "\u{eb01}",
+  "palette-filled": "\u{1009d}",
   "palette-off": "\u{f16e}",
   "panorama-horizontal": "\u{ed33}",
   "panorama-horizontal-filled": "\u{fecc}",
@@ -4433,6 +4445,7 @@
   "qrcode-off": "\u{f41e}",
   "question-mark": "\u{ec9d}",
   "quote": "\u{efbe}",
+  "quote-filled": "\u{1009c}",
   "quote-off": "\u{f188}",
   "quotes": "\u{fb1e}",
   "radar": "\u{f017}",
@@ -5229,9 +5242,11 @@
   "table-share": "\u{fa20}",
   "table-shortcut": "\u{f25d}",
   "table-spark": "\u{ffad}",
-  "tag": "\u{eb34}",
+  "tag": "\u{10096}",
   "tag-filled": "\u{ff02}",
+  "tag-minus": "\u{eb34}",
   "tag-off": "\u{efc0}",
+  "tag-plus": "\u{10097}",
   "tag-starred": "\u{fc99}",
   "tags": "\u{ef86}",
   "tags-filled": "\u{ff01}",
@@ -5513,6 +5528,7 @@
   "versions-filled": "\u{f6b1}",
   "versions-off": "\u{f1c0}",
   "video": "\u{ed22}",
+  "video-filled": "\u{1009b}",
   "video-minus": "\u{ed1f}",
   "video-off": "\u{ed20}",
   "video-plus": "\u{ed21}",
@@ -5607,6 +5623,7 @@
   "window-minimize": "\u{f1f2}",
   "window-off": "\u{f1c9}",
   "windsock": "\u{f06d}",
+  "windsock-filled": "\u{1009a}",
   "wiper": "\u{ecab}",
   "wiper-wash": "\u{ecaa}",
   "woman": "\u{eb53}",
@@ -6664,6 +6681,7 @@
 #let ti-brand-meetup = tabler-icon.with("\u{fc6a}")
 #let ti-brand-mercedes = tabler-icon.with("\u{f072}")
 #let ti-brand-messenger = tabler-icon.with("\u{ec71}")
+#let ti-brand-messenger-filled = tabler-icon.with("\u{100a7}")
 #let ti-brand-meta = tabler-icon.with("\u{efb0}")
 #let ti-brand-metabrainz = tabler-icon.with("\u{ff12}")
 #let ti-brand-minecraft = tabler-icon.with("\u{faef}")
@@ -6783,6 +6801,7 @@
 #let ti-brand-ted = tabler-icon.with("\u{f658}")
 #let ti-brand-telegram = tabler-icon.with("\u{ec26}")
 #let ti-brand-terraform = tabler-icon.with("\u{fa56}")
+#let ti-brand-tesla = tabler-icon.with("\u{10099}")
 #let ti-brand-tether = tabler-icon.with("\u{f5a3}")
 #let ti-brand-thingiverse = tabler-icon.with("\u{fd1c}")
 #let ti-brand-threads = tabler-icon.with("\u{fb02}")
@@ -6830,6 +6849,7 @@
 #let ti-brand-webflow = tabler-icon.with("\u{f2d2}")
 #let ti-brand-wechat = tabler-icon.with("\u{f5f3}")
 #let ti-brand-weibo = tabler-icon.with("\u{f609}")
+#let ti-brand-weibo-filled = tabler-icon.with("\u{100a6}")
 #let ti-brand-whatsapp = tabler-icon.with("\u{ec74}")
 #let ti-brand-whatsapp-filled = tabler-icon.with("\u{10085}")
 #let ti-brand-wikipedia = tabler-icon.with("\u{fa79}")
@@ -6895,6 +6915,7 @@
 #let ti-bubble-tea = tabler-icon.with("\u{ff51}")
 #let ti-bubble-tea-2 = tabler-icon.with("\u{ff52}")
 #let ti-bubble-text = tabler-icon.with("\u{febc}")
+#let ti-bubble-text-filled = tabler-icon.with("\u{100a5}")
 #let ti-bubble-x = tabler-icon.with("\u{febb}")
 #let ti-bucket = tabler-icon.with("\u{ea47}")
 #let ti-bucket-droplet = tabler-icon.with("\u{f56a}")
@@ -7254,7 +7275,6 @@
 #let ti-circle-dashed-letter-j = tabler-icon.with("\u{ff91}")
 #let ti-circle-dashed-letter-k = tabler-icon.with("\u{ff90}")
 #let ti-circle-dashed-letter-l = tabler-icon.with("\u{ff8f}")
-#let ti-circle-dashed-letter-letter-v = tabler-icon.with("\u{ff8e}")
 #let ti-circle-dashed-letter-m = tabler-icon.with("\u{ff8d}")
 #let ti-circle-dashed-letter-n = tabler-icon.with("\u{ff8c}")
 #let ti-circle-dashed-letter-o = tabler-icon.with("\u{ff8b}")
@@ -7439,6 +7459,7 @@
 #let ti-clipboard-list = tabler-icon.with("\u{ea6d}")
 #let ti-clipboard-off = tabler-icon.with("\u{f0ce}")
 #let ti-clipboard-plus = tabler-icon.with("\u{efb2}")
+#let ti-clipboard-search = tabler-icon.with("\u{10098}")
 #let ti-clipboard-smile = tabler-icon.with("\u{fd9a}")
 #let ti-clipboard-text = tabler-icon.with("\u{f089}")
 #let ti-clipboard-typography = tabler-icon.with("\u{f34f}")
@@ -8519,6 +8540,7 @@
 #let ti-ghost-2 = tabler-icon.with("\u{f57c}")
 #let ti-ghost-2-filled = tabler-icon.with("\u{f74a}")
 #let ti-ghost-3 = tabler-icon.with("\u{fc13}")
+#let ti-ghost-3-filled = tabler-icon.with("\u{100a4}")
 #let ti-ghost-filled = tabler-icon.with("\u{f74b}")
 #let ti-ghost-off = tabler-icon.with("\u{f3f2}")
 #let ti-gif = tabler-icon.with("\u{f257}")
@@ -8551,6 +8573,7 @@
 #let ti-globe-off = tabler-icon.with("\u{f139}")
 #let ti-go-game = tabler-icon.with("\u{f512}")
 #let ti-golf = tabler-icon.with("\u{ed8c}")
+#let ti-golf-filled = tabler-icon.with("\u{100a3}")
 #let ti-golf-off = tabler-icon.with("\u{f13a}")
 #let ti-gps = tabler-icon.with("\u{ed7a}")
 #let ti-gps-filled = tabler-icon.with("\u{fe48}")
@@ -8918,6 +8941,7 @@
 #let ti-key-filled = tabler-icon.with("\u{fe28}")
 #let ti-key-off = tabler-icon.with("\u{f14b}")
 #let ti-keyboard = tabler-icon.with("\u{ebd6}")
+#let ti-keyboard-filled = tabler-icon.with("\u{100a2}")
 #let ti-keyboard-hide = tabler-icon.with("\u{ec7e}")
 #let ti-keyboard-off = tabler-icon.with("\u{eea0}")
 #let ti-keyboard-show = tabler-icon.with("\u{ec7f}")
@@ -9125,6 +9149,7 @@
 #let ti-live-photo-filled = tabler-icon.with("\u{fed1}")
 #let ti-live-photo-off = tabler-icon.with("\u{f403}")
 #let ti-live-view = tabler-icon.with("\u{ec6b}")
+#let ti-live-view-filled = tabler-icon.with("\u{100a1}")
 #let ti-load-balancer = tabler-icon.with("\u{fa5c}")
 #let ti-loader = tabler-icon.with("\u{eca3}")
 #let ti-loader-2 = tabler-icon.with("\u{f226}")
@@ -9361,6 +9386,7 @@
 #let ti-medical-cross-off = tabler-icon.with("\u{f160}")
 #let ti-medicine-syrup = tabler-icon.with("\u{ef63}")
 #let ti-meeple = tabler-icon.with("\u{f514}")
+#let ti-meeple-filled = tabler-icon.with("\u{100a0}")
 #let ti-melon = tabler-icon.with("\u{fc7a}")
 #let ti-melon-filled = tabler-icon.with("\u{1000e}")
 #let ti-menorah = tabler-icon.with("\u{f58c}")
@@ -9380,6 +9406,7 @@
 #let ti-message-2-dollar = tabler-icon.with("\u{f960}")
 #let ti-message-2-down = tabler-icon.with("\u{f961}")
 #let ti-message-2-exclamation = tabler-icon.with("\u{f962}")
+#let ti-message-2-filled = tabler-icon.with("\u{1009f}")
 #let ti-message-2-heart = tabler-icon.with("\u{f963}")
 #let ti-message-2-minus = tabler-icon.with("\u{f964}")
 #let ti-message-2-off = tabler-icon.with("\u{f40b}")
@@ -9762,6 +9789,7 @@
 #let ti-number-99-small = tabler-icon.with("\u{ffbf}")
 #let ti-numbers = tabler-icon.with("\u{f015}")
 #let ti-nurse = tabler-icon.with("\u{ef65}")
+#let ti-nurse-filled = tabler-icon.with("\u{1009e}")
 #let ti-nut = tabler-icon.with("\u{fc61}")
 #let ti-object-scan = tabler-icon.with("\u{fef1}")
 #let ti-octagon = tabler-icon.with("\u{ecbd}")
@@ -9797,6 +9825,7 @@
 #let ti-paint-filled = tabler-icon.with("\u{f75f}")
 #let ti-paint-off = tabler-icon.with("\u{f16d}")
 #let ti-palette = tabler-icon.with("\u{eb01}")
+#let ti-palette-filled = tabler-icon.with("\u{1009d}")
 #let ti-palette-off = tabler-icon.with("\u{f16e}")
 #let ti-panorama-horizontal = tabler-icon.with("\u{ed33}")
 #let ti-panorama-horizontal-filled = tabler-icon.with("\u{fecc}")
@@ -10136,6 +10165,7 @@
 #let ti-qrcode-off = tabler-icon.with("\u{f41e}")
 #let ti-question-mark = tabler-icon.with("\u{ec9d}")
 #let ti-quote = tabler-icon.with("\u{efbe}")
+#let ti-quote-filled = tabler-icon.with("\u{1009c}")
 #let ti-quote-off = tabler-icon.with("\u{f188}")
 #let ti-quotes = tabler-icon.with("\u{fb1e}")
 #let ti-radar = tabler-icon.with("\u{f017}")
@@ -10932,9 +10962,11 @@
 #let ti-table-share = tabler-icon.with("\u{fa20}")
 #let ti-table-shortcut = tabler-icon.with("\u{f25d}")
 #let ti-table-spark = tabler-icon.with("\u{ffad}")
-#let ti-tag = tabler-icon.with("\u{eb34}")
+#let ti-tag = tabler-icon.with("\u{10096}")
 #let ti-tag-filled = tabler-icon.with("\u{ff02}")
+#let ti-tag-minus = tabler-icon.with("\u{eb34}")
 #let ti-tag-off = tabler-icon.with("\u{efc0}")
+#let ti-tag-plus = tabler-icon.with("\u{10097}")
 #let ti-tag-starred = tabler-icon.with("\u{fc99}")
 #let ti-tags = tabler-icon.with("\u{ef86}")
 #let ti-tags-filled = tabler-icon.with("\u{ff01}")
@@ -11216,6 +11248,7 @@
 #let ti-versions-filled = tabler-icon.with("\u{f6b1}")
 #let ti-versions-off = tabler-icon.with("\u{f1c0}")
 #let ti-video = tabler-icon.with("\u{ed22}")
+#let ti-video-filled = tabler-icon.with("\u{1009b}")
 #let ti-video-minus = tabler-icon.with("\u{ed1f}")
 #let ti-video-off = tabler-icon.with("\u{ed20}")
 #let ti-video-plus = tabler-icon.with("\u{ed21}")
@@ -11310,6 +11343,7 @@
 #let ti-window-minimize = tabler-icon.with("\u{f1f2}")
 #let ti-window-off = tabler-icon.with("\u{f1c9}")
 #let ti-windsock = tabler-icon.with("\u{f06d}")
+#let ti-windsock-filled = tabler-icon.with("\u{1009a}")
 #let ti-wiper = tabler-icon.with("\u{ecab}")
 #let ti-wiper-wash = tabler-icon.with("\u{ecaa}")
 #let ti-woman = tabler-icon.with("\u{eb53}")
