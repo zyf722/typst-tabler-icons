@@ -6,7 +6,7 @@
   <img alt="use-tabler-icons" src="assets/splash.svg">
 </h2>
 
-A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5500 free MIT-licensed high-quality SVG icons.
+A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5700 free MIT-licensed high-quality SVG icons.
 
 ## Usage
 ### Install Font
