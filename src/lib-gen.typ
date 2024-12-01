@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.22.0
+// Generated based on Tabler Icons v3.23.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -66,6 +66,7 @@
   "alarm-off": "\u{f0a9}",
   "alarm-plus": "\u{f631}",
   "alarm-plus-filled": "\u{f70b}",
+  "alarm-smoke": "\u{100b6}",
   "alarm-snooze": "\u{f632}",
   "alarm-snooze-filled": "\u{f70c}",
   "album": "\u{f022}",
@@ -438,10 +439,13 @@
   "backspace": "\u{ea2d}",
   "backspace-filled": "\u{f7dc}",
   "badge": "\u{efc2}",
+  "badge-2k": "\u{100b5}",
   "badge-3d": "\u{f555}",
   "badge-3d-filled": "\u{fe9b}",
+  "badge-3k": "\u{100b4}",
   "badge-4k": "\u{f556}",
   "badge-4k-filled": "\u{fe9a}",
+  "badge-5k": "\u{100b3}",
   "badge-8k": "\u{f557}",
   "badge-8k-filled": "\u{fe99}",
   "badge-ad": "\u{f558}",
@@ -632,6 +636,7 @@
   "blob": "\u{feaf}",
   "blob-filled": "\u{feb1}",
   "blockquote": "\u{ee09}",
+  "blocks": "\u{100b2}",
   "bluetooth": "\u{ea37}",
   "bluetooth-connected": "\u{ecea}",
   "bluetooth-off": "\u{eceb}",
@@ -712,6 +717,7 @@
   "bowl-filled": "\u{fb22}",
   "bowl-spoon": "\u{fd91}",
   "bowl-spoon-filled": "\u{fe87}",
+  "bowling": "\u{100b1}",
   "box": "\u{ea45}",
   "box-align-bottom": "\u{f2a8}",
   "box-align-bottom-filled": "\u{fa8a}",
@@ -1183,8 +1189,11 @@
   "broadcast-off": "\u{f1e8}",
   "browser": "\u{ebb7}",
   "browser-check": "\u{efd6}",
+  "browser-maximize": "\u{100b0}",
+  "browser-minus": "\u{100af}",
   "browser-off": "\u{f0c1}",
   "browser-plus": "\u{efd7}",
+  "browser-share": "\u{100ae}",
   "browser-x": "\u{efd8}",
   "brush": "\u{ebb8}",
   "brush-off": "\u{f0c2}",
@@ -1269,11 +1278,13 @@
   "calendar-down": "\u{f828}",
   "calendar-due": "\u{f621}",
   "calendar-event": "\u{ea52}",
+  "calendar-event-filled": "\u{100b9}",
   "calendar-exclamation": "\u{f829}",
   "calendar-filled": "\u{fb27}",
   "calendar-heart": "\u{f82a}",
   "calendar-minus": "\u{ebb9}",
   "calendar-month": "\u{fd2f}",
+  "calendar-month-filled": "\u{100b8}",
   "calendar-off": "\u{ee1f}",
   "calendar-pause": "\u{f82b}",
   "calendar-pin": "\u{f82c}",
@@ -1290,6 +1301,7 @@
   "calendar-up": "\u{f831}",
   "calendar-user": "\u{fd1f}",
   "calendar-week": "\u{fd30}",
+  "calendar-week-filled": "\u{100b7}",
   "calendar-x": "\u{f832}",
   "camera": "\u{ea54}",
   "camera-ai": "\u{ffa8}",
@@ -1850,6 +1862,9 @@
   "code-minus": "\u{ee42}",
   "code-off": "\u{f0d0}",
   "code-plus": "\u{ee43}",
+  "code-variable": "\u{100ab}",
+  "code-variable-minus": "\u{100ad}",
+  "code-variable-plus": "\u{100ac}",
   "coffee": "\u{ef0e}",
   "coffee-off": "\u{f106}",
   "coffin": "\u{f579}",
@@ -5455,6 +5470,7 @@
   "u-turn-right": "\u{fea1}",
   "ufo": "\u{f26f}",
   "ufo-off": "\u{f26e}",
+  "uhd": "\u{100aa}",
   "umbrella": "\u{ebf1}",
   "umbrella-2": "\u{ff0e}",
   "umbrella-closed": "\u{ff0c}",
@@ -5603,6 +5619,8 @@
   "webhook": "\u{f01e}",
   "webhook-off": "\u{f43d}",
   "weight": "\u{f589}",
+  "wheat": "\u{100a8}",
+  "wheat-off": "\u{100a9}",
   "wheel": "\u{fc64}",
   "wheelchair": "\u{f1db}",
   "wheelchair-off": "\u{f43e}",
@@ -5786,6 +5804,7 @@
 #let ti-alarm-off = tabler-icon.with("\u{f0a9}")
 #let ti-alarm-plus = tabler-icon.with("\u{f631}")
 #let ti-alarm-plus-filled = tabler-icon.with("\u{f70b}")
+#let ti-alarm-smoke = tabler-icon.with("\u{100b6}")
 #let ti-alarm-snooze = tabler-icon.with("\u{f632}")
 #let ti-alarm-snooze-filled = tabler-icon.with("\u{f70c}")
 #let ti-album = tabler-icon.with("\u{f022}")
@@ -6158,10 +6177,13 @@
 #let ti-backspace = tabler-icon.with("\u{ea2d}")
 #let ti-backspace-filled = tabler-icon.with("\u{f7dc}")
 #let ti-badge = tabler-icon.with("\u{efc2}")
+#let ti-badge-2k = tabler-icon.with("\u{100b5}")
 #let ti-badge-3d = tabler-icon.with("\u{f555}")
 #let ti-badge-3d-filled = tabler-icon.with("\u{fe9b}")
+#let ti-badge-3k = tabler-icon.with("\u{100b4}")
 #let ti-badge-4k = tabler-icon.with("\u{f556}")
 #let ti-badge-4k-filled = tabler-icon.with("\u{fe9a}")
+#let ti-badge-5k = tabler-icon.with("\u{100b3}")
 #let ti-badge-8k = tabler-icon.with("\u{f557}")
 #let ti-badge-8k-filled = tabler-icon.with("\u{fe99}")
 #let ti-badge-ad = tabler-icon.with("\u{f558}")
@@ -6352,6 +6374,7 @@
 #let ti-blob = tabler-icon.with("\u{feaf}")
 #let ti-blob-filled = tabler-icon.with("\u{feb1}")
 #let ti-blockquote = tabler-icon.with("\u{ee09}")
+#let ti-blocks = tabler-icon.with("\u{100b2}")
 #let ti-bluetooth = tabler-icon.with("\u{ea37}")
 #let ti-bluetooth-connected = tabler-icon.with("\u{ecea}")
 #let ti-bluetooth-off = tabler-icon.with("\u{eceb}")
@@ -6432,6 +6455,7 @@
 #let ti-bowl-filled = tabler-icon.with("\u{fb22}")
 #let ti-bowl-spoon = tabler-icon.with("\u{fd91}")
 #let ti-bowl-spoon-filled = tabler-icon.with("\u{fe87}")
+#let ti-bowling = tabler-icon.with("\u{100b1}")
 #let ti-box = tabler-icon.with("\u{ea45}")
 #let ti-box-align-bottom = tabler-icon.with("\u{f2a8}")
 #let ti-box-align-bottom-filled = tabler-icon.with("\u{fa8a}")
@@ -6903,8 +6927,11 @@
 #let ti-broadcast-off = tabler-icon.with("\u{f1e8}")
 #let ti-browser = tabler-icon.with("\u{ebb7}")
 #let ti-browser-check = tabler-icon.with("\u{efd6}")
+#let ti-browser-maximize = tabler-icon.with("\u{100b0}")
+#let ti-browser-minus = tabler-icon.with("\u{100af}")
 #let ti-browser-off = tabler-icon.with("\u{f0c1}")
 #let ti-browser-plus = tabler-icon.with("\u{efd7}")
+#let ti-browser-share = tabler-icon.with("\u{100ae}")
 #let ti-browser-x = tabler-icon.with("\u{efd8}")
 #let ti-brush = tabler-icon.with("\u{ebb8}")
 #let ti-brush-off = tabler-icon.with("\u{f0c2}")
@@ -6989,11 +7016,13 @@
 #let ti-calendar-down = tabler-icon.with("\u{f828}")
 #let ti-calendar-due = tabler-icon.with("\u{f621}")
 #let ti-calendar-event = tabler-icon.with("\u{ea52}")
+#let ti-calendar-event-filled = tabler-icon.with("\u{100b9}")
 #let ti-calendar-exclamation = tabler-icon.with("\u{f829}")
 #let ti-calendar-filled = tabler-icon.with("\u{fb27}")
 #let ti-calendar-heart = tabler-icon.with("\u{f82a}")
 #let ti-calendar-minus = tabler-icon.with("\u{ebb9}")
 #let ti-calendar-month = tabler-icon.with("\u{fd2f}")
+#let ti-calendar-month-filled = tabler-icon.with("\u{100b8}")
 #let ti-calendar-off = tabler-icon.with("\u{ee1f}")
 #let ti-calendar-pause = tabler-icon.with("\u{f82b}")
 #let ti-calendar-pin = tabler-icon.with("\u{f82c}")
@@ -7010,6 +7039,7 @@
 #let ti-calendar-up = tabler-icon.with("\u{f831}")
 #let ti-calendar-user = tabler-icon.with("\u{fd1f}")
 #let ti-calendar-week = tabler-icon.with("\u{fd30}")
+#let ti-calendar-week-filled = tabler-icon.with("\u{100b7}")
 #let ti-calendar-x = tabler-icon.with("\u{f832}")
 #let ti-camera = tabler-icon.with("\u{ea54}")
 #let ti-camera-ai = tabler-icon.with("\u{ffa8}")
@@ -7570,6 +7600,9 @@
 #let ti-code-minus = tabler-icon.with("\u{ee42}")
 #let ti-code-off = tabler-icon.with("\u{f0d0}")
 #let ti-code-plus = tabler-icon.with("\u{ee43}")
+#let ti-code-variable = tabler-icon.with("\u{100ab}")
+#let ti-code-variable-minus = tabler-icon.with("\u{100ad}")
+#let ti-code-variable-plus = tabler-icon.with("\u{100ac}")
 #let ti-coffee = tabler-icon.with("\u{ef0e}")
 #let ti-coffee-off = tabler-icon.with("\u{f106}")
 #let ti-coffin = tabler-icon.with("\u{f579}")
@@ -11175,6 +11208,7 @@
 #let ti-u-turn-right = tabler-icon.with("\u{fea1}")
 #let ti-ufo = tabler-icon.with("\u{f26f}")
 #let ti-ufo-off = tabler-icon.with("\u{f26e}")
+#let ti-uhd = tabler-icon.with("\u{100aa}")
 #let ti-umbrella = tabler-icon.with("\u{ebf1}")
 #let ti-umbrella-2 = tabler-icon.with("\u{ff0e}")
 #let ti-umbrella-closed = tabler-icon.with("\u{ff0c}")
@@ -11323,6 +11357,8 @@
 #let ti-webhook = tabler-icon.with("\u{f01e}")
 #let ti-webhook-off = tabler-icon.with("\u{f43d}")
 #let ti-weight = tabler-icon.with("\u{f589}")
+#let ti-wheat = tabler-icon.with("\u{100a8}")
+#let ti-wheat-off = tabler-icon.with("\u{100a9}")
 #let ti-wheel = tabler-icon.with("\u{fc64}")
 #let ti-wheelchair = tabler-icon.with("\u{f1db}")
 #let ti-wheelchair-off = tabler-icon.with("\u{f43e}")
