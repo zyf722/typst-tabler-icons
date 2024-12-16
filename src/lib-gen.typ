@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.24.0
+// Generated based on Tabler Icons v3.26.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -1455,9 +1455,12 @@
   "chart-donut-filled": "\u{f66f}",
   "chart-dots": "\u{ee2f}",
   "chart-dots-2": "\u{f097}",
+  "chart-dots-2-filled": "\u{100dd}",
   "chart-dots-3": "\u{f098}",
+  "chart-dots-3-filled": "\u{100dc}",
   "chart-dots-filled": "\u{fd04}",
   "chart-funnel": "\u{fef5}",
+  "chart-funnel-filled": "\u{100db}",
   "chart-grid-dots": "\u{f4c2}",
   "chart-grid-dots-filled": "\u{fd05}",
   "chart-histogram": "\u{f65c}",
@@ -1465,8 +1468,11 @@
   "chart-line": "\u{ea5c}",
   "chart-pie": "\u{ea5d}",
   "chart-pie-2": "\u{ee31}",
+  "chart-pie-2-filled": "\u{100da}",
   "chart-pie-3": "\u{ee32}",
+  "chart-pie-3-filled": "\u{100d9}",
   "chart-pie-4": "\u{ee33}",
+  "chart-pie-4-filled": "\u{100d8}",
   "chart-pie-filled": "\u{f670}",
   "chart-pie-off": "\u{f3d3}",
   "chart-ppf": "\u{f618}",
@@ -1482,6 +1488,7 @@
   "checkup-list": "\u{ef5a}",
   "cheese": "\u{ef26}",
   "chef-hat": "\u{f21d}",
+  "chef-hat-filled": "\u{100d7}",
   "chef-hat-off": "\u{f3d4}",
   "cherry": "\u{f511}",
   "cherry-filled": "\u{f728}",
@@ -1542,19 +1549,31 @@
   "circle-arrow-up-right": "\u{f702}",
   "circle-arrow-up-right-filled": "\u{f701}",
   "circle-caret-down": "\u{f4a9}",
+  "circle-caret-down-filled": "\u{100d6}",
   "circle-caret-left": "\u{f4aa}",
+  "circle-caret-left-filled": "\u{100d5}",
   "circle-caret-right": "\u{f4ab}",
+  "circle-caret-right-filled": "\u{100d4}",
   "circle-caret-up": "\u{f4ac}",
+  "circle-caret-up-filled": "\u{100d3}",
   "circle-check": "\u{ea67}",
   "circle-check-filled": "\u{f704}",
   "circle-chevron-down": "\u{f622}",
+  "circle-chevron-down-filled": "\u{100d2}",
   "circle-chevron-left": "\u{f623}",
+  "circle-chevron-left-filled": "\u{100d1}",
   "circle-chevron-right": "\u{f624}",
+  "circle-chevron-right-filled": "\u{100d0}",
   "circle-chevron-up": "\u{f625}",
+  "circle-chevron-up-filled": "\u{100cf}",
   "circle-chevrons-down": "\u{f642}",
+  "circle-chevrons-down-filled": "\u{100ef}",
   "circle-chevrons-left": "\u{f643}",
+  "circle-chevrons-left-filled": "\u{100ee}",
   "circle-chevrons-right": "\u{f644}",
+  "circle-chevrons-right-filled": "\u{100ed}",
   "circle-chevrons-up": "\u{f645}",
+  "circle-chevrons-up-filled": "\u{100ec}",
   "circle-dashed": "\u{ed27}",
   "circle-dashed-check": "\u{feb8}",
   "circle-dashed-letter-a": "\u{ff9a}",
@@ -1747,17 +1766,24 @@
   "cliff-jumping": "\u{fefc}",
   "clipboard": "\u{ea6f}",
   "clipboard-check": "\u{ea6c}",
+  "clipboard-check-filled": "\u{100ce}",
   "clipboard-copy": "\u{f299}",
   "clipboard-data": "\u{f563}",
+  "clipboard-data-filled": "\u{100eb}",
+  "clipboard-filled": "\u{100cc}",
   "clipboard-heart": "\u{f34e}",
   "clipboard-list": "\u{ea6d}",
+  "clipboard-list-filled": "\u{100ea}",
   "clipboard-off": "\u{f0ce}",
   "clipboard-plus": "\u{efb2}",
   "clipboard-search": "\u{10098}",
   "clipboard-smile": "\u{fd9a}",
   "clipboard-text": "\u{f089}",
+  "clipboard-text-filled": "\u{100e9}",
   "clipboard-typography": "\u{f34f}",
+  "clipboard-typography-filled": "\u{100e8}",
   "clipboard-x": "\u{ea6e}",
+  "clipboard-x-filled": "\u{100cd}",
   "clock": "\u{ea70}",
   "clock-12": "\u{fc56}",
   "clock-2": "\u{f099}",
@@ -3149,15 +3175,25 @@
   "hours-24": "\u{f5e7}",
   "html": "\u{f7b1}",
   "http-connect": "\u{fa28}",
+  "http-connect-off": "\u{100e7}",
   "http-delete": "\u{fa29}",
+  "http-delete-off": "\u{100e6}",
   "http-get": "\u{fa2a}",
+  "http-get-off": "\u{100e5}",
   "http-head": "\u{fa2b}",
+  "http-head-off": "\u{100e4}",
   "http-options": "\u{fa2c}",
+  "http-options-off": "\u{100e3}",
   "http-patch": "\u{fa2d}",
+  "http-patch-off": "\u{100e2}",
   "http-post": "\u{fa2e}",
+  "http-post-off": "\u{100e1}",
   "http-put": "\u{fa2f}",
+  "http-put-off": "\u{100e0}",
   "http-que": "\u{fa5b}",
+  "http-que-off": "\u{100df}",
   "http-trace": "\u{fa30}",
+  "http-trace-off": "\u{100de}",
   "ice-cream": "\u{eac2}",
   "ice-cream-2": "\u{ee9f}",
   "ice-cream-off": "\u{f148}",
@@ -4693,9 +4729,9 @@
   "section": "\u{eed5}",
   "section-filled": "\u{fe09}",
   "section-sign": "\u{f019}",
-  "seeding": "\u{ed51}",
-  "seeding-filled": "\u{10006}",
-  "seeding-off": "\u{f19d}",
+  "seedling": "\u{ed51}",
+  "seedling-filled": "\u{10006}",
+  "seedling-off": "\u{f19d}",
   "select": "\u{ec9e}",
   "select-all": "\u{f9f7}",
   "selector": "\u{eb1d}",
@@ -7211,9 +7247,12 @@
 #let ti-chart-donut-filled = tabler-icon.with("\u{f66f}")
 #let ti-chart-dots = tabler-icon.with("\u{ee2f}")
 #let ti-chart-dots-2 = tabler-icon.with("\u{f097}")
+#let ti-chart-dots-2-filled = tabler-icon.with("\u{100dd}")
 #let ti-chart-dots-3 = tabler-icon.with("\u{f098}")
+#let ti-chart-dots-3-filled = tabler-icon.with("\u{100dc}")
 #let ti-chart-dots-filled = tabler-icon.with("\u{fd04}")
 #let ti-chart-funnel = tabler-icon.with("\u{fef5}")
+#let ti-chart-funnel-filled = tabler-icon.with("\u{100db}")
 #let ti-chart-grid-dots = tabler-icon.with("\u{f4c2}")
 #let ti-chart-grid-dots-filled = tabler-icon.with("\u{fd05}")
 #let ti-chart-histogram = tabler-icon.with("\u{f65c}")
@@ -7221,8 +7260,11 @@
 #let ti-chart-line = tabler-icon.with("\u{ea5c}")
 #let ti-chart-pie = tabler-icon.with("\u{ea5d}")
 #let ti-chart-pie-2 = tabler-icon.with("\u{ee31}")
+#let ti-chart-pie-2-filled = tabler-icon.with("\u{100da}")
 #let ti-chart-pie-3 = tabler-icon.with("\u{ee32}")
+#let ti-chart-pie-3-filled = tabler-icon.with("\u{100d9}")
 #let ti-chart-pie-4 = tabler-icon.with("\u{ee33}")
+#let ti-chart-pie-4-filled = tabler-icon.with("\u{100d8}")
 #let ti-chart-pie-filled = tabler-icon.with("\u{f670}")
 #let ti-chart-pie-off = tabler-icon.with("\u{f3d3}")
 #let ti-chart-ppf = tabler-icon.with("\u{f618}")
@@ -7238,6 +7280,7 @@
 #let ti-checkup-list = tabler-icon.with("\u{ef5a}")
 #let ti-cheese = tabler-icon.with("\u{ef26}")
 #let ti-chef-hat = tabler-icon.with("\u{f21d}")
+#let ti-chef-hat-filled = tabler-icon.with("\u{100d7}")
 #let ti-chef-hat-off = tabler-icon.with("\u{f3d4}")
 #let ti-cherry = tabler-icon.with("\u{f511}")
 #let ti-cherry-filled = tabler-icon.with("\u{f728}")
@@ -7298,19 +7341,31 @@
 #let ti-circle-arrow-up-right = tabler-icon.with("\u{f702}")
 #let ti-circle-arrow-up-right-filled = tabler-icon.with("\u{f701}")
 #let ti-circle-caret-down = tabler-icon.with("\u{f4a9}")
+#let ti-circle-caret-down-filled = tabler-icon.with("\u{100d6}")
 #let ti-circle-caret-left = tabler-icon.with("\u{f4aa}")
+#let ti-circle-caret-left-filled = tabler-icon.with("\u{100d5}")
 #let ti-circle-caret-right = tabler-icon.with("\u{f4ab}")
+#let ti-circle-caret-right-filled = tabler-icon.with("\u{100d4}")
 #let ti-circle-caret-up = tabler-icon.with("\u{f4ac}")
+#let ti-circle-caret-up-filled = tabler-icon.with("\u{100d3}")
 #let ti-circle-check = tabler-icon.with("\u{ea67}")
 #let ti-circle-check-filled = tabler-icon.with("\u{f704}")
 #let ti-circle-chevron-down = tabler-icon.with("\u{f622}")
+#let ti-circle-chevron-down-filled = tabler-icon.with("\u{100d2}")
 #let ti-circle-chevron-left = tabler-icon.with("\u{f623}")
+#let ti-circle-chevron-left-filled = tabler-icon.with("\u{100d1}")
 #let ti-circle-chevron-right = tabler-icon.with("\u{f624}")
+#let ti-circle-chevron-right-filled = tabler-icon.with("\u{100d0}")
 #let ti-circle-chevron-up = tabler-icon.with("\u{f625}")
+#let ti-circle-chevron-up-filled = tabler-icon.with("\u{100cf}")
 #let ti-circle-chevrons-down = tabler-icon.with("\u{f642}")
+#let ti-circle-chevrons-down-filled = tabler-icon.with("\u{100ef}")
 #let ti-circle-chevrons-left = tabler-icon.with("\u{f643}")
+#let ti-circle-chevrons-left-filled = tabler-icon.with("\u{100ee}")
 #let ti-circle-chevrons-right = tabler-icon.with("\u{f644}")
+#let ti-circle-chevrons-right-filled = tabler-icon.with("\u{100ed}")
 #let ti-circle-chevrons-up = tabler-icon.with("\u{f645}")
+#let ti-circle-chevrons-up-filled = tabler-icon.with("\u{100ec}")
 #let ti-circle-dashed = tabler-icon.with("\u{ed27}")
 #let ti-circle-dashed-check = tabler-icon.with("\u{feb8}")
 #let ti-circle-dashed-letter-a = tabler-icon.with("\u{ff9a}")
@@ -7503,17 +7558,24 @@
 #let ti-cliff-jumping = tabler-icon.with("\u{fefc}")
 #let ti-clipboard = tabler-icon.with("\u{ea6f}")
 #let ti-clipboard-check = tabler-icon.with("\u{ea6c}")
+#let ti-clipboard-check-filled = tabler-icon.with("\u{100ce}")
 #let ti-clipboard-copy = tabler-icon.with("\u{f299}")
 #let ti-clipboard-data = tabler-icon.with("\u{f563}")
+#let ti-clipboard-data-filled = tabler-icon.with("\u{100eb}")
+#let ti-clipboard-filled = tabler-icon.with("\u{100cc}")
 #let ti-clipboard-heart = tabler-icon.with("\u{f34e}")
 #let ti-clipboard-list = tabler-icon.with("\u{ea6d}")
+#let ti-clipboard-list-filled = tabler-icon.with("\u{100ea}")
 #let ti-clipboard-off = tabler-icon.with("\u{f0ce}")
 #let ti-clipboard-plus = tabler-icon.with("\u{efb2}")
 #let ti-clipboard-search = tabler-icon.with("\u{10098}")
 #let ti-clipboard-smile = tabler-icon.with("\u{fd9a}")
 #let ti-clipboard-text = tabler-icon.with("\u{f089}")
+#let ti-clipboard-text-filled = tabler-icon.with("\u{100e9}")
 #let ti-clipboard-typography = tabler-icon.with("\u{f34f}")
+#let ti-clipboard-typography-filled = tabler-icon.with("\u{100e8}")
 #let ti-clipboard-x = tabler-icon.with("\u{ea6e}")
+#let ti-clipboard-x-filled = tabler-icon.with("\u{100cd}")
 #let ti-clock = tabler-icon.with("\u{ea70}")
 #let ti-clock-12 = tabler-icon.with("\u{fc56}")
 #let ti-clock-2 = tabler-icon.with("\u{f099}")
@@ -8905,15 +8967,25 @@
 #let ti-hours-24 = tabler-icon.with("\u{f5e7}")
 #let ti-html = tabler-icon.with("\u{f7b1}")
 #let ti-http-connect = tabler-icon.with("\u{fa28}")
+#let ti-http-connect-off = tabler-icon.with("\u{100e7}")
 #let ti-http-delete = tabler-icon.with("\u{fa29}")
+#let ti-http-delete-off = tabler-icon.with("\u{100e6}")
 #let ti-http-get = tabler-icon.with("\u{fa2a}")
+#let ti-http-get-off = tabler-icon.with("\u{100e5}")
 #let ti-http-head = tabler-icon.with("\u{fa2b}")
+#let ti-http-head-off = tabler-icon.with("\u{100e4}")
 #let ti-http-options = tabler-icon.with("\u{fa2c}")
+#let ti-http-options-off = tabler-icon.with("\u{100e3}")
 #let ti-http-patch = tabler-icon.with("\u{fa2d}")
+#let ti-http-patch-off = tabler-icon.with("\u{100e2}")
 #let ti-http-post = tabler-icon.with("\u{fa2e}")
+#let ti-http-post-off = tabler-icon.with("\u{100e1}")
 #let ti-http-put = tabler-icon.with("\u{fa2f}")
+#let ti-http-put-off = tabler-icon.with("\u{100e0}")
 #let ti-http-que = tabler-icon.with("\u{fa5b}")
+#let ti-http-que-off = tabler-icon.with("\u{100df}")
 #let ti-http-trace = tabler-icon.with("\u{fa30}")
+#let ti-http-trace-off = tabler-icon.with("\u{100de}")
 #let ti-ice-cream = tabler-icon.with("\u{eac2}")
 #let ti-ice-cream-2 = tabler-icon.with("\u{ee9f}")
 #let ti-ice-cream-off = tabler-icon.with("\u{f148}")
@@ -10449,9 +10521,9 @@
 #let ti-section = tabler-icon.with("\u{eed5}")
 #let ti-section-filled = tabler-icon.with("\u{fe09}")
 #let ti-section-sign = tabler-icon.with("\u{f019}")
-#let ti-seeding = tabler-icon.with("\u{ed51}")
-#let ti-seeding-filled = tabler-icon.with("\u{10006}")
-#let ti-seeding-off = tabler-icon.with("\u{f19d}")
+#let ti-seedling = tabler-icon.with("\u{ed51}")
+#let ti-seedling-filled = tabler-icon.with("\u{10006}")
+#let ti-seedling-off = tabler-icon.with("\u{f19d}")
 #let ti-select = tabler-icon.with("\u{ec9e}")
 #let ti-select-all = tabler-icon.with("\u{f9f7}")
 #let ti-selector = tabler-icon.with("\u{eb1d}")
