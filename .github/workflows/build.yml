@@ -5,6 +5,12 @@ on:
   schedule: [{ cron: "0 0 * * *" }]
 
   workflow_dispatch:
+    inputs:
+      bump_version:
+        description: Whether to bump the typst package version
+        type: boolean
+        required: false
+        default: true
 
 env:
   FORCE_COLOR: 3
@@ -102,6 +108,7 @@ jobs:
           npx chalk -t "{green Compiled {bold.yellow gallery/gallery.pdf}.}"
 
       - name: Bump typst package version
+        if: ${{ inputs.bump_version == 'true' }}
         run: |
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
           BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
