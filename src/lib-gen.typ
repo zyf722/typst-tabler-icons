@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.27.1
+// Generated based on Tabler Icons v3.28.1
 
 #import "lib-impl.typ": tabler-icon
 
@@ -181,11 +181,17 @@
   "arrow-autofit-content": "\u{ef31}",
   "arrow-autofit-content-filled": "\u{f6f2}",
   "arrow-autofit-down": "\u{ef32}",
+  "arrow-autofit-down-filled": "\u{10113}",
   "arrow-autofit-height": "\u{ef33}",
+  "arrow-autofit-height-filled": "\u{10112}",
   "arrow-autofit-left": "\u{ef34}",
+  "arrow-autofit-left-filled": "\u{10111}",
   "arrow-autofit-right": "\u{ef35}",
+  "arrow-autofit-right-filled": "\u{10110}",
   "arrow-autofit-up": "\u{ef36}",
+  "arrow-autofit-up-filled": "\u{1010f}",
   "arrow-autofit-width": "\u{ef37}",
+  "arrow-autofit-width-filled": "\u{1010e}",
   "arrow-back": "\u{ea0c}",
   "arrow-back-up": "\u{eb77}",
   "arrow-back-up-double": "\u{f9ec}",
@@ -1854,7 +1860,9 @@
   "cloud-code": "\u{f84e}",
   "cloud-cog": "\u{f84f}",
   "cloud-computing": "\u{f1d0}",
+  "cloud-computing-filled": "\u{1010d}",
   "cloud-data-connection": "\u{f1d1}",
+  "cloud-data-connection-filled": "\u{1010c}",
   "cloud-dollar": "\u{f850}",
   "cloud-down": "\u{f851}",
   "cloud-download": "\u{ea71}",
@@ -2731,6 +2739,7 @@
   "first-aid-kit-off": "\u{f3ed}",
   "fish": "\u{ef2b}",
   "fish-bone": "\u{f287}",
+  "fish-bone-filled": "\u{1010b}",
   "fish-christianity": "\u{f58b}",
   "fish-hook": "\u{f1f9}",
   "fish-hook-off": "\u{f3ee}",
@@ -4342,6 +4351,7 @@
   "picture-in-picture-top": "\u{efe4}",
   "picture-in-picture-top-filled": "\u{fec2}",
   "pig": "\u{ef52}",
+  "pig-filled": "\u{1010a}",
   "pig-money": "\u{f38c}",
   "pig-off": "\u{f177}",
   "pilcrow": "\u{f5f6}",
@@ -4963,6 +4973,7 @@
   "sphere-off": "\u{fab6}",
   "sphere-plus": "\u{fab7}",
   "spider": "\u{f293}",
+  "spider-filled": "\u{10109}",
   "spiral": "\u{f294}",
   "spiral-off": "\u{f42e}",
   "sport-billard": "\u{eee4}",
@@ -5280,15 +5291,20 @@
   "sun-electricity": "\u{fcc2}",
   "sun-filled": "\u{f6a9}",
   "sun-high": "\u{f236}",
+  "sun-high-filled": "\u{10108}",
   "sun-low": "\u{f237}",
+  "sun-low-filled": "\u{10107}",
   "sun-moon": "\u{f4a3}",
   "sun-off": "\u{ed63}",
   "sun-wind": "\u{f238}",
   "sunglasses": "\u{f239}",
   "sunglasses-filled": "\u{fec8}",
   "sunrise": "\u{ef1c}",
+  "sunrise-filled": "\u{10106}",
   "sunset": "\u{ec31}",
   "sunset-2": "\u{f23a}",
+  "sunset-2-filled": "\u{10105}",
+  "sunset-filled": "\u{10104}",
   "superscript": "\u{eba0}",
   "svg": "\u{f25a}",
   "swimming": "\u{ec92}",
@@ -5354,8 +5370,10 @@
   "temperature-celsius": "\u{eb36}",
   "temperature-fahrenheit": "\u{eb37}",
   "temperature-minus": "\u{ebed}",
+  "temperature-minus-filled": "\u{10103}",
   "temperature-off": "\u{f1af}",
   "temperature-plus": "\u{ebee}",
+  "temperature-plus-filled": "\u{10102}",
   "temperature-snow": "\u{fda3}",
   "temperature-sun": "\u{fda4}",
   "template": "\u{eb39}",
@@ -5991,11 +6009,17 @@
 #let ti-arrow-autofit-content = tabler-icon.with("\u{ef31}")
 #let ti-arrow-autofit-content-filled = tabler-icon.with("\u{f6f2}")
 #let ti-arrow-autofit-down = tabler-icon.with("\u{ef32}")
+#let ti-arrow-autofit-down-filled = tabler-icon.with("\u{10113}")
 #let ti-arrow-autofit-height = tabler-icon.with("\u{ef33}")
+#let ti-arrow-autofit-height-filled = tabler-icon.with("\u{10112}")
 #let ti-arrow-autofit-left = tabler-icon.with("\u{ef34}")
+#let ti-arrow-autofit-left-filled = tabler-icon.with("\u{10111}")
 #let ti-arrow-autofit-right = tabler-icon.with("\u{ef35}")
+#let ti-arrow-autofit-right-filled = tabler-icon.with("\u{10110}")
 #let ti-arrow-autofit-up = tabler-icon.with("\u{ef36}")
+#let ti-arrow-autofit-up-filled = tabler-icon.with("\u{1010f}")
 #let ti-arrow-autofit-width = tabler-icon.with("\u{ef37}")
+#let ti-arrow-autofit-width-filled = tabler-icon.with("\u{1010e}")
 #let ti-arrow-back = tabler-icon.with("\u{ea0c}")
 #let ti-arrow-back-up = tabler-icon.with("\u{eb77}")
 #let ti-arrow-back-up-double = tabler-icon.with("\u{f9ec}")
@@ -7664,7 +7688,9 @@
 #let ti-cloud-code = tabler-icon.with("\u{f84e}")
 #let ti-cloud-cog = tabler-icon.with("\u{f84f}")
 #let ti-cloud-computing = tabler-icon.with("\u{f1d0}")
+#let ti-cloud-computing-filled = tabler-icon.with("\u{1010d}")
 #let ti-cloud-data-connection = tabler-icon.with("\u{f1d1}")
+#let ti-cloud-data-connection-filled = tabler-icon.with("\u{1010c}")
 #let ti-cloud-dollar = tabler-icon.with("\u{f850}")
 #let ti-cloud-down = tabler-icon.with("\u{f851}")
 #let ti-cloud-download = tabler-icon.with("\u{ea71}")
@@ -8541,6 +8567,7 @@
 #let ti-first-aid-kit-off = tabler-icon.with("\u{f3ed}")
 #let ti-fish = tabler-icon.with("\u{ef2b}")
 #let ti-fish-bone = tabler-icon.with("\u{f287}")
+#let ti-fish-bone-filled = tabler-icon.with("\u{1010b}")
 #let ti-fish-christianity = tabler-icon.with("\u{f58b}")
 #let ti-fish-hook = tabler-icon.with("\u{f1f9}")
 #let ti-fish-hook-off = tabler-icon.with("\u{f3ee}")
@@ -10152,6 +10179,7 @@
 #let ti-picture-in-picture-top = tabler-icon.with("\u{efe4}")
 #let ti-picture-in-picture-top-filled = tabler-icon.with("\u{fec2}")
 #let ti-pig = tabler-icon.with("\u{ef52}")
+#let ti-pig-filled = tabler-icon.with("\u{1010a}")
 #let ti-pig-money = tabler-icon.with("\u{f38c}")
 #let ti-pig-off = tabler-icon.with("\u{f177}")
 #let ti-pilcrow = tabler-icon.with("\u{f5f6}")
@@ -10773,6 +10801,7 @@
 #let ti-sphere-off = tabler-icon.with("\u{fab6}")
 #let ti-sphere-plus = tabler-icon.with("\u{fab7}")
 #let ti-spider = tabler-icon.with("\u{f293}")
+#let ti-spider-filled = tabler-icon.with("\u{10109}")
 #let ti-spiral = tabler-icon.with("\u{f294}")
 #let ti-spiral-off = tabler-icon.with("\u{f42e}")
 #let ti-sport-billard = tabler-icon.with("\u{eee4}")
@@ -11090,15 +11119,20 @@
 #let ti-sun-electricity = tabler-icon.with("\u{fcc2}")
 #let ti-sun-filled = tabler-icon.with("\u{f6a9}")
 #let ti-sun-high = tabler-icon.with("\u{f236}")
+#let ti-sun-high-filled = tabler-icon.with("\u{10108}")
 #let ti-sun-low = tabler-icon.with("\u{f237}")
+#let ti-sun-low-filled = tabler-icon.with("\u{10107}")
 #let ti-sun-moon = tabler-icon.with("\u{f4a3}")
 #let ti-sun-off = tabler-icon.with("\u{ed63}")
 #let ti-sun-wind = tabler-icon.with("\u{f238}")
 #let ti-sunglasses = tabler-icon.with("\u{f239}")
 #let ti-sunglasses-filled = tabler-icon.with("\u{fec8}")
 #let ti-sunrise = tabler-icon.with("\u{ef1c}")
+#let ti-sunrise-filled = tabler-icon.with("\u{10106}")
 #let ti-sunset = tabler-icon.with("\u{ec31}")
 #let ti-sunset-2 = tabler-icon.with("\u{f23a}")
+#let ti-sunset-2-filled = tabler-icon.with("\u{10105}")
+#let ti-sunset-filled = tabler-icon.with("\u{10104}")
 #let ti-superscript = tabler-icon.with("\u{eba0}")
 #let ti-svg = tabler-icon.with("\u{f25a}")
 #let ti-swimming = tabler-icon.with("\u{ec92}")
@@ -11164,8 +11198,10 @@
 #let ti-temperature-celsius = tabler-icon.with("\u{eb36}")
 #let ti-temperature-fahrenheit = tabler-icon.with("\u{eb37}")
 #let ti-temperature-minus = tabler-icon.with("\u{ebed}")
+#let ti-temperature-minus-filled = tabler-icon.with("\u{10103}")
 #let ti-temperature-off = tabler-icon.with("\u{f1af}")
 #let ti-temperature-plus = tabler-icon.with("\u{ebee}")
+#let ti-temperature-plus-filled = tabler-icon.with("\u{10102}")
 #let ti-temperature-snow = tabler-icon.with("\u{fda3}")
 #let ti-temperature-sun = tabler-icon.with("\u{fda4}")
 #let ti-template = tabler-icon.with("\u{eb39}")
