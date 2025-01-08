@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.26.0
+// Generated based on Tabler Icons v3.27.1
 
 #import "lib-impl.typ": tabler-icon
 
@@ -51,10 +51,12 @@
   "adjustments-up": "\u{f80c}",
   "adjustments-x": "\u{f80d}",
   "aerial-lift": "\u{edfe}",
+  "aerial-lift-filled": "\u{10101}",
   "affiliate": "\u{edff}",
   "affiliate-filled": "\u{f6ed}",
   "ai": "\u{fee7}",
   "air-balloon": "\u{f4a6}",
+  "air-balloon-filled": "\u{10100}",
   "air-conditioning": "\u{f3a2}",
   "air-conditioning-disabled": "\u{f542}",
   "air-traffic-control": "\u{fb01}",
@@ -1254,6 +1256,7 @@
   "bulldozer": "\u{ee1d}",
   "burger": "\u{fcb4}",
   "bus": "\u{ebe4}",
+  "bus-filled": "\u{100ff}",
   "bus-off": "\u{f3ce}",
   "bus-stop": "\u{f2d4}",
   "businessplan": "\u{ee1e}",
@@ -1358,6 +1361,7 @@
   "car-4wd": "\u{fdb8}",
   "car-4wd-filled": "\u{1001e}",
   "car-crane": "\u{ef25}",
+  "car-crane-filled": "\u{100fe}",
   "car-crash": "\u{efa4}",
   "car-fan": "\u{fdb3}",
   "car-fan-1": "\u{fdb7}",
@@ -1374,6 +1378,7 @@
   "carambola": "\u{feb9}",
   "carambola-filled": "\u{10014}",
   "caravan": "\u{ec7c}",
+  "caravan-filled": "\u{100fd}",
   "cardboards": "\u{ed74}",
   "cardboards-filled": "\u{1001c}",
   "cardboards-off": "\u{f0c8}",
@@ -2512,6 +2517,7 @@
   "empathize-off": "\u{f3e9}",
   "emphasis": "\u{ebcf}",
   "engine": "\u{ef7e}",
+  "engine-filled": "\u{100fc}",
   "engine-off": "\u{f120}",
   "equal": "\u{ee87}",
   "equal-double": "\u{f4e1}",
@@ -2586,6 +2592,7 @@
   "fence": "\u{ef2a}",
   "fence-off": "\u{f129}",
   "ferry": "\u{10074}",
+  "ferry-filled": "\u{100fb}",
   "fidget-spinner": "\u{f068}",
   "file": "\u{eaa4}",
   "file-3d": "\u{f032}",
@@ -2651,6 +2658,7 @@
   "file-symlink": "\u{ed53}",
   "file-text": "\u{eaa2}",
   "file-text-ai": "\u{fa27}",
+  "file-text-shield": "\u{100f2}",
   "file-text-spark": "\u{ffb8}",
   "file-time": "\u{f040}",
   "file-type-bmp": "\u{fb07}",
@@ -2843,6 +2851,7 @@
   "garden-cart-filled": "\u{100c3}",
   "garden-cart-off": "\u{f3f1}",
   "gas-station": "\u{ec7d}",
+  "gas-station-filled": "\u{100fa}",
   "gas-station-off": "\u{f137}",
   "gauge": "\u{eab1}",
   "gauge-filled": "\u{fc2c}",
@@ -2941,6 +2950,7 @@
   "hammer": "\u{ef91}",
   "hammer-off": "\u{f13c}",
   "hand-click": "\u{ef4f}",
+  "hand-click-off": "\u{100f1}",
   "hand-finger": "\u{ee94}",
   "hand-finger-down": "\u{ff4f}",
   "hand-finger-left": "\u{ff4e}",
@@ -3004,6 +3014,7 @@
   "hearts": "\u{f387}",
   "hearts-off": "\u{f3f7}",
   "helicopter": "\u{ed8e}",
+  "helicopter-filled": "\u{100f9}",
   "helicopter-landing": "\u{ed8d}",
   "helicopter-landing-filled": "\u{100c1}",
   "helmet": "\u{efca}",
@@ -3928,6 +3939,7 @@
   "moon-stars": "\u{ece7}",
   "moped": "\u{ecbc}",
   "motorbike": "\u{eeb6}",
+  "motorbike-filled": "\u{100f8}",
   "mountain": "\u{ef97}",
   "mountain-filled": "\u{1000a}",
   "mountain-off": "\u{f411}",
@@ -4585,6 +4597,7 @@
   "replace": "\u{ebc7}",
   "replace-filled": "\u{f69c}",
   "replace-off": "\u{f422}",
+  "replace-user": "\u{100f0}",
   "report": "\u{eece}",
   "report-analytics": "\u{eecb}",
   "report-medical": "\u{eecc}",
@@ -4624,6 +4637,7 @@
   "rocket-off": "\u{f193}",
   "roller-skating": "\u{efd1}",
   "rollercoaster": "\u{f0a2}",
+  "rollercoaster-filled": "\u{100f7}",
   "rollercoaster-off": "\u{f423}",
   "rosette": "\u{f599}",
   "rosette-discount": "\u{ee7c}",
@@ -4944,6 +4958,7 @@
   "sparkles": "\u{f6d7}",
   "speakerphone": "\u{ed61}",
   "speedboat": "\u{ed93}",
+  "speedboat-filled": "\u{100f6}",
   "sphere": "\u{fab8}",
   "sphere-off": "\u{fab6}",
   "sphere-plus": "\u{fab7}",
@@ -5452,6 +5467,7 @@
   "traffic-lights": "\u{ed39}",
   "traffic-lights-off": "\u{f1b9}",
   "train": "\u{ed96}",
+  "train-filled": "\u{100f5}",
   "transaction-bitcoin": "\u{fd6e}",
   "transaction-dollar": "\u{fd6f}",
   "transaction-euro": "\u{fd70}",
@@ -5507,12 +5523,14 @@
   "triangles": "\u{f0a5}",
   "trident": "\u{ecc5}",
   "trolley": "\u{f4cc}",
+  "trolley-filled": "\u{100f4}",
   "trophy": "\u{eb45}",
   "trophy-filled": "\u{f6af}",
   "trophy-off": "\u{f438}",
   "trowel": "\u{f368}",
   "truck": "\u{ebc4}",
   "truck-delivery": "\u{ec4b}",
+  "truck-filled": "\u{100f3}",
   "truck-loading": "\u{f1da}",
   "truck-off": "\u{ef03}",
   "truck-return": "\u{ec4c}",
@@ -5843,10 +5861,12 @@
 #let ti-adjustments-up = tabler-icon.with("\u{f80c}")
 #let ti-adjustments-x = tabler-icon.with("\u{f80d}")
 #let ti-aerial-lift = tabler-icon.with("\u{edfe}")
+#let ti-aerial-lift-filled = tabler-icon.with("\u{10101}")
 #let ti-affiliate = tabler-icon.with("\u{edff}")
 #let ti-affiliate-filled = tabler-icon.with("\u{f6ed}")
 #let ti-ai = tabler-icon.with("\u{fee7}")
 #let ti-air-balloon = tabler-icon.with("\u{f4a6}")
+#let ti-air-balloon-filled = tabler-icon.with("\u{10100}")
 #let ti-air-conditioning = tabler-icon.with("\u{f3a2}")
 #let ti-air-conditioning-disabled = tabler-icon.with("\u{f542}")
 #let ti-air-traffic-control = tabler-icon.with("\u{fb01}")
@@ -7046,6 +7066,7 @@
 #let ti-bulldozer = tabler-icon.with("\u{ee1d}")
 #let ti-burger = tabler-icon.with("\u{fcb4}")
 #let ti-bus = tabler-icon.with("\u{ebe4}")
+#let ti-bus-filled = tabler-icon.with("\u{100ff}")
 #let ti-bus-off = tabler-icon.with("\u{f3ce}")
 #let ti-bus-stop = tabler-icon.with("\u{f2d4}")
 #let ti-businessplan = tabler-icon.with("\u{ee1e}")
@@ -7150,6 +7171,7 @@
 #let ti-car-4wd = tabler-icon.with("\u{fdb8}")
 #let ti-car-4wd-filled = tabler-icon.with("\u{1001e}")
 #let ti-car-crane = tabler-icon.with("\u{ef25}")
+#let ti-car-crane-filled = tabler-icon.with("\u{100fe}")
 #let ti-car-crash = tabler-icon.with("\u{efa4}")
 #let ti-car-fan = tabler-icon.with("\u{fdb3}")
 #let ti-car-fan-1 = tabler-icon.with("\u{fdb7}")
@@ -7166,6 +7188,7 @@
 #let ti-carambola = tabler-icon.with("\u{feb9}")
 #let ti-carambola-filled = tabler-icon.with("\u{10014}")
 #let ti-caravan = tabler-icon.with("\u{ec7c}")
+#let ti-caravan-filled = tabler-icon.with("\u{100fd}")
 #let ti-cardboards = tabler-icon.with("\u{ed74}")
 #let ti-cardboards-filled = tabler-icon.with("\u{1001c}")
 #let ti-cardboards-off = tabler-icon.with("\u{f0c8}")
@@ -8304,6 +8327,7 @@
 #let ti-empathize-off = tabler-icon.with("\u{f3e9}")
 #let ti-emphasis = tabler-icon.with("\u{ebcf}")
 #let ti-engine = tabler-icon.with("\u{ef7e}")
+#let ti-engine-filled = tabler-icon.with("\u{100fc}")
 #let ti-engine-off = tabler-icon.with("\u{f120}")
 #let ti-equal = tabler-icon.with("\u{ee87}")
 #let ti-equal-double = tabler-icon.with("\u{f4e1}")
@@ -8378,6 +8402,7 @@
 #let ti-fence = tabler-icon.with("\u{ef2a}")
 #let ti-fence-off = tabler-icon.with("\u{f129}")
 #let ti-ferry = tabler-icon.with("\u{10074}")
+#let ti-ferry-filled = tabler-icon.with("\u{100fb}")
 #let ti-fidget-spinner = tabler-icon.with("\u{f068}")
 #let ti-file = tabler-icon.with("\u{eaa4}")
 #let ti-file-3d = tabler-icon.with("\u{f032}")
@@ -8443,6 +8468,7 @@
 #let ti-file-symlink = tabler-icon.with("\u{ed53}")
 #let ti-file-text = tabler-icon.with("\u{eaa2}")
 #let ti-file-text-ai = tabler-icon.with("\u{fa27}")
+#let ti-file-text-shield = tabler-icon.with("\u{100f2}")
 #let ti-file-text-spark = tabler-icon.with("\u{ffb8}")
 #let ti-file-time = tabler-icon.with("\u{f040}")
 #let ti-file-type-bmp = tabler-icon.with("\u{fb07}")
@@ -8635,6 +8661,7 @@
 #let ti-garden-cart-filled = tabler-icon.with("\u{100c3}")
 #let ti-garden-cart-off = tabler-icon.with("\u{f3f1}")
 #let ti-gas-station = tabler-icon.with("\u{ec7d}")
+#let ti-gas-station-filled = tabler-icon.with("\u{100fa}")
 #let ti-gas-station-off = tabler-icon.with("\u{f137}")
 #let ti-gauge = tabler-icon.with("\u{eab1}")
 #let ti-gauge-filled = tabler-icon.with("\u{fc2c}")
@@ -8733,6 +8760,7 @@
 #let ti-hammer = tabler-icon.with("\u{ef91}")
 #let ti-hammer-off = tabler-icon.with("\u{f13c}")
 #let ti-hand-click = tabler-icon.with("\u{ef4f}")
+#let ti-hand-click-off = tabler-icon.with("\u{100f1}")
 #let ti-hand-finger = tabler-icon.with("\u{ee94}")
 #let ti-hand-finger-down = tabler-icon.with("\u{ff4f}")
 #let ti-hand-finger-left = tabler-icon.with("\u{ff4e}")
@@ -8796,6 +8824,7 @@
 #let ti-hearts = tabler-icon.with("\u{f387}")
 #let ti-hearts-off = tabler-icon.with("\u{f3f7}")
 #let ti-helicopter = tabler-icon.with("\u{ed8e}")
+#let ti-helicopter-filled = tabler-icon.with("\u{100f9}")
 #let ti-helicopter-landing = tabler-icon.with("\u{ed8d}")
 #let ti-helicopter-landing-filled = tabler-icon.with("\u{100c1}")
 #let ti-helmet = tabler-icon.with("\u{efca}")
@@ -9720,6 +9749,7 @@
 #let ti-moon-stars = tabler-icon.with("\u{ece7}")
 #let ti-moped = tabler-icon.with("\u{ecbc}")
 #let ti-motorbike = tabler-icon.with("\u{eeb6}")
+#let ti-motorbike-filled = tabler-icon.with("\u{100f8}")
 #let ti-mountain = tabler-icon.with("\u{ef97}")
 #let ti-mountain-filled = tabler-icon.with("\u{1000a}")
 #let ti-mountain-off = tabler-icon.with("\u{f411}")
@@ -10377,6 +10407,7 @@
 #let ti-replace = tabler-icon.with("\u{ebc7}")
 #let ti-replace-filled = tabler-icon.with("\u{f69c}")
 #let ti-replace-off = tabler-icon.with("\u{f422}")
+#let ti-replace-user = tabler-icon.with("\u{100f0}")
 #let ti-report = tabler-icon.with("\u{eece}")
 #let ti-report-analytics = tabler-icon.with("\u{eecb}")
 #let ti-report-medical = tabler-icon.with("\u{eecc}")
@@ -10416,6 +10447,7 @@
 #let ti-rocket-off = tabler-icon.with("\u{f193}")
 #let ti-roller-skating = tabler-icon.with("\u{efd1}")
 #let ti-rollercoaster = tabler-icon.with("\u{f0a2}")
+#let ti-rollercoaster-filled = tabler-icon.with("\u{100f7}")
 #let ti-rollercoaster-off = tabler-icon.with("\u{f423}")
 #let ti-rosette = tabler-icon.with("\u{f599}")
 #let ti-rosette-discount = tabler-icon.with("\u{ee7c}")
@@ -10736,6 +10768,7 @@
 #let ti-sparkles = tabler-icon.with("\u{f6d7}")
 #let ti-speakerphone = tabler-icon.with("\u{ed61}")
 #let ti-speedboat = tabler-icon.with("\u{ed93}")
+#let ti-speedboat-filled = tabler-icon.with("\u{100f6}")
 #let ti-sphere = tabler-icon.with("\u{fab8}")
 #let ti-sphere-off = tabler-icon.with("\u{fab6}")
 #let ti-sphere-plus = tabler-icon.with("\u{fab7}")
@@ -11244,6 +11277,7 @@
 #let ti-traffic-lights = tabler-icon.with("\u{ed39}")
 #let ti-traffic-lights-off = tabler-icon.with("\u{f1b9}")
 #let ti-train = tabler-icon.with("\u{ed96}")
+#let ti-train-filled = tabler-icon.with("\u{100f5}")
 #let ti-transaction-bitcoin = tabler-icon.with("\u{fd6e}")
 #let ti-transaction-dollar = tabler-icon.with("\u{fd6f}")
 #let ti-transaction-euro = tabler-icon.with("\u{fd70}")
@@ -11299,12 +11333,14 @@
 #let ti-triangles = tabler-icon.with("\u{f0a5}")
 #let ti-trident = tabler-icon.with("\u{ecc5}")
 #let ti-trolley = tabler-icon.with("\u{f4cc}")
+#let ti-trolley-filled = tabler-icon.with("\u{100f4}")
 #let ti-trophy = tabler-icon.with("\u{eb45}")
 #let ti-trophy-filled = tabler-icon.with("\u{f6af}")
 #let ti-trophy-off = tabler-icon.with("\u{f438}")
 #let ti-trowel = tabler-icon.with("\u{f368}")
 #let ti-truck = tabler-icon.with("\u{ebc4}")
 #let ti-truck-delivery = tabler-icon.with("\u{ec4b}")
+#let ti-truck-filled = tabler-icon.with("\u{100f3}")
 #let ti-truck-loading = tabler-icon.with("\u{f1da}")
 #let ti-truck-off = tabler-icon.with("\u{ef03}")
 #let ti-truck-return = tabler-icon.with("\u{ec4c}")
