@@ -3,15 +3,6 @@
 #set page(width: 1280pt, margin: 0pt, height: auto)
 #set text(size: 48pt, fill: white)
 
-#let z-stack(..items) = {
-  grid(
-    columns: items.pos().len() * (1fr,),
-    column-gutter: -100%,
-    rows: 1,
-    ..items
-  )
-}
-
 #rect(
   width: 100%,
   fill: gradient.linear(rgb(57, 140, 184), rgb(30, 179, 180)),
@@ -32,14 +23,5 @@
       #tabler-icon("alert-circle")
       #tabler-icon("aperture")
     ]
-  }
+  },
 )
-
-#let z-stack(..items) = {
-  grid(
-    columns: items.pos().len() * (1fr,),
-    column-gutter: -100%,
-    rows: 1,
-    ..items
-  )
-}

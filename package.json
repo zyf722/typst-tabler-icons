@@ -27,7 +27,7 @@
       "LICENSE",
       "README.md",
       "typst.toml",
-      "assets/splash.svg"
+      "assets/banner.svg"
     ]
   }
 }

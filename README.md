@@ -3,7 +3,7 @@
 > This project is greatly inspired by and mainly edited based on [typst-fontawesome](https://github.com/duskmoon314/typst-fontawesome).
 
 <h2 align="center">
-  <img alt="use-tabler-icons" src="assets/splash.svg">
+  <img alt="use-tabler-icons" src="assets/banner.svg">
 </h2>
 
 A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5700 free MIT-licensed high-quality SVG icons.
