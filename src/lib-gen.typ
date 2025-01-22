@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.28.1
+// Generated based on Tabler Icons v3.29.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -2130,6 +2130,7 @@
   "currency-yuan": "\u{f29a}",
   "currency-zloty": "\u{ee6c}",
   "current-location": "\u{ecef}",
+  "current-location-filled": "\u{10125}",
   "current-location-off": "\u{f10e}",
   "cursor-off": "\u{f10f}",
   "cursor-text": "\u{ee6d}",
@@ -2547,6 +2548,7 @@
   "explicit-off": "\u{f3ea}",
   "exposure": "\u{eb8c}",
   "exposure-0": "\u{f29c}",
+  "exposure-filled": "\u{10124}",
   "exposure-minus-1": "\u{f29d}",
   "exposure-minus-2": "\u{f29e}",
   "exposure-off": "\u{f3eb}",
@@ -2581,15 +2583,18 @@
   "eye-spark": "\u{ffba}",
   "eye-star": "\u{fb7a}",
   "eye-table": "\u{ef5e}",
+  "eye-table-filled": "\u{10123}",
   "eye-up": "\u{fb7b}",
   "eye-x": "\u{f7f1}",
   "eyeglass": "\u{ee8a}",
   "eyeglass-2": "\u{ee89}",
+  "eyeglass-2-filled": "\u{10122}",
   "eyeglass-filled": "\u{100c8}",
   "eyeglass-off": "\u{f126}",
   "face-id": "\u{ea9b}",
   "face-id-error": "\u{efa7}",
   "face-mask": "\u{efb5}",
+  "face-mask-filled": "\u{10121}",
   "face-mask-off": "\u{f127}",
   "fall": "\u{ecb9}",
   "favicon": "\u{fd65}",
@@ -2598,10 +2603,12 @@
   "feather-filled": "\u{10011}",
   "feather-off": "\u{f128}",
   "fence": "\u{ef2a}",
+  "fence-filled": "\u{10120}",
   "fence-off": "\u{f129}",
   "ferry": "\u{10074}",
   "ferry-filled": "\u{100fb}",
   "fidget-spinner": "\u{f068}",
+  "fidget-spinner-filled": "\u{1011f}",
   "file": "\u{eaa4}",
   "file-3d": "\u{f032}",
   "file-ai": "\u{ffa1}",
@@ -2621,8 +2628,10 @@
   "file-database": "\u{f037}",
   "file-delta": "\u{f53d}",
   "file-description": "\u{f028}",
+  "file-description-filled": "\u{1011e}",
   "file-diff": "\u{ecf1}",
   "file-digit": "\u{efa8}",
+  "file-digit-filled": "\u{1011d}",
   "file-dislike": "\u{ed2a}",
   "file-dollar": "\u{efe0}",
   "file-dots": "\u{f038}",
@@ -2633,16 +2642,20 @@
   "file-filled": "\u{f747}",
   "file-function": "\u{f53e}",
   "file-horizontal": "\u{ebb0}",
+  "file-horizontal-filled": "\u{1011c}",
   "file-import": "\u{edea}",
   "file-infinity": "\u{f502}",
   "file-info": "\u{edec}",
   "file-invoice": "\u{eb67}",
+  "file-invoice-filled": "\u{1011b}",
   "file-isr": "\u{feac}",
   "file-lambda": "\u{f53f}",
   "file-like": "\u{ed2b}",
   "file-minus": "\u{ea9e}",
+  "file-minus-filled": "\u{1011a}",
   "file-music": "\u{ea9f}",
   "file-neutral": "\u{fd22}",
+  "file-neutral-filled": "\u{10119}",
   "file-off": "\u{ecf2}",
   "file-orientation": "\u{f2a1}",
   "file-pencil": "\u{f039}",
@@ -2650,22 +2663,27 @@
   "file-phone": "\u{ecdc}",
   "file-plus": "\u{eaa0}",
   "file-power": "\u{f03a}",
+  "file-power-filled": "\u{10118}",
   "file-report": "\u{eded}",
   "file-rss": "\u{f03b}",
   "file-sad": "\u{fd23}",
+  "file-sad-filled": "\u{10117}",
   "file-scissors": "\u{f03c}",
   "file-search": "\u{ed5d}",
   "file-settings": "\u{f029}",
   "file-shredder": "\u{eaa1}",
   "file-signal": "\u{f03d}",
   "file-smile": "\u{fd24}",
+  "file-smile-filled": "\u{10116}",
   "file-spark": "\u{ffb9}",
   "file-spreadsheet": "\u{f03e}",
   "file-stack": "\u{f503}",
   "file-star": "\u{f03f}",
+  "file-star-filled": "\u{10115}",
   "file-symlink": "\u{ed53}",
   "file-text": "\u{eaa2}",
   "file-text-ai": "\u{fa27}",
+  "file-text-filled": "\u{10114}",
   "file-text-shield": "\u{100f2}",
   "file-text-spark": "\u{ffb8}",
   "file-time": "\u{f040}",
@@ -7958,6 +7976,7 @@
 #let ti-currency-yuan = tabler-icon.with("\u{f29a}")
 #let ti-currency-zloty = tabler-icon.with("\u{ee6c}")
 #let ti-current-location = tabler-icon.with("\u{ecef}")
+#let ti-current-location-filled = tabler-icon.with("\u{10125}")
 #let ti-current-location-off = tabler-icon.with("\u{f10e}")
 #let ti-cursor-off = tabler-icon.with("\u{f10f}")
 #let ti-cursor-text = tabler-icon.with("\u{ee6d}")
@@ -8375,6 +8394,7 @@
 #let ti-explicit-off = tabler-icon.with("\u{f3ea}")
 #let ti-exposure = tabler-icon.with("\u{eb8c}")
 #let ti-exposure-0 = tabler-icon.with("\u{f29c}")
+#let ti-exposure-filled = tabler-icon.with("\u{10124}")
 #let ti-exposure-minus-1 = tabler-icon.with("\u{f29d}")
 #let ti-exposure-minus-2 = tabler-icon.with("\u{f29e}")
 #let ti-exposure-off = tabler-icon.with("\u{f3eb}")
@@ -8409,15 +8429,18 @@
 #let ti-eye-spark = tabler-icon.with("\u{ffba}")
 #let ti-eye-star = tabler-icon.with("\u{fb7a}")
 #let ti-eye-table = tabler-icon.with("\u{ef5e}")
+#let ti-eye-table-filled = tabler-icon.with("\u{10123}")
 #let ti-eye-up = tabler-icon.with("\u{fb7b}")
 #let ti-eye-x = tabler-icon.with("\u{f7f1}")
 #let ti-eyeglass = tabler-icon.with("\u{ee8a}")
 #let ti-eyeglass-2 = tabler-icon.with("\u{ee89}")
+#let ti-eyeglass-2-filled = tabler-icon.with("\u{10122}")
 #let ti-eyeglass-filled = tabler-icon.with("\u{100c8}")
 #let ti-eyeglass-off = tabler-icon.with("\u{f126}")
 #let ti-face-id = tabler-icon.with("\u{ea9b}")
 #let ti-face-id-error = tabler-icon.with("\u{efa7}")
 #let ti-face-mask = tabler-icon.with("\u{efb5}")
+#let ti-face-mask-filled = tabler-icon.with("\u{10121}")
 #let ti-face-mask-off = tabler-icon.with("\u{f127}")
 #let ti-fall = tabler-icon.with("\u{ecb9}")
 #let ti-favicon = tabler-icon.with("\u{fd65}")
@@ -8426,10 +8449,12 @@
 #let ti-feather-filled = tabler-icon.with("\u{10011}")
 #let ti-feather-off = tabler-icon.with("\u{f128}")
 #let ti-fence = tabler-icon.with("\u{ef2a}")
+#let ti-fence-filled = tabler-icon.with("\u{10120}")
 #let ti-fence-off = tabler-icon.with("\u{f129}")
 #let ti-ferry = tabler-icon.with("\u{10074}")
 #let ti-ferry-filled = tabler-icon.with("\u{100fb}")
 #let ti-fidget-spinner = tabler-icon.with("\u{f068}")
+#let ti-fidget-spinner-filled = tabler-icon.with("\u{1011f}")
 #let ti-file = tabler-icon.with("\u{eaa4}")
 #let ti-file-3d = tabler-icon.with("\u{f032}")
 #let ti-file-ai = tabler-icon.with("\u{ffa1}")
@@ -8449,8 +8474,10 @@
 #let ti-file-database = tabler-icon.with("\u{f037}")
 #let ti-file-delta = tabler-icon.with("\u{f53d}")
 #let ti-file-description = tabler-icon.with("\u{f028}")
+#let ti-file-description-filled = tabler-icon.with("\u{1011e}")
 #let ti-file-diff = tabler-icon.with("\u{ecf1}")
 #let ti-file-digit = tabler-icon.with("\u{efa8}")
+#let ti-file-digit-filled = tabler-icon.with("\u{1011d}")
 #let ti-file-dislike = tabler-icon.with("\u{ed2a}")
 #let ti-file-dollar = tabler-icon.with("\u{efe0}")
 #let ti-file-dots = tabler-icon.with("\u{f038}")
@@ -8461,16 +8488,20 @@
 #let ti-file-filled = tabler-icon.with("\u{f747}")
 #let ti-file-function = tabler-icon.with("\u{f53e}")
 #let ti-file-horizontal = tabler-icon.with("\u{ebb0}")
+#let ti-file-horizontal-filled = tabler-icon.with("\u{1011c}")
 #let ti-file-import = tabler-icon.with("\u{edea}")
 #let ti-file-infinity = tabler-icon.with("\u{f502}")
 #let ti-file-info = tabler-icon.with("\u{edec}")
 #let ti-file-invoice = tabler-icon.with("\u{eb67}")
+#let ti-file-invoice-filled = tabler-icon.with("\u{1011b}")
 #let ti-file-isr = tabler-icon.with("\u{feac}")
 #let ti-file-lambda = tabler-icon.with("\u{f53f}")
 #let ti-file-like = tabler-icon.with("\u{ed2b}")
 #let ti-file-minus = tabler-icon.with("\u{ea9e}")
+#let ti-file-minus-filled = tabler-icon.with("\u{1011a}")
 #let ti-file-music = tabler-icon.with("\u{ea9f}")
 #let ti-file-neutral = tabler-icon.with("\u{fd22}")
+#let ti-file-neutral-filled = tabler-icon.with("\u{10119}")
 #let ti-file-off = tabler-icon.with("\u{ecf2}")
 #let ti-file-orientation = tabler-icon.with("\u{f2a1}")
 #let ti-file-pencil = tabler-icon.with("\u{f039}")
@@ -8478,22 +8509,27 @@
 #let ti-file-phone = tabler-icon.with("\u{ecdc}")
 #let ti-file-plus = tabler-icon.with("\u{eaa0}")
 #let ti-file-power = tabler-icon.with("\u{f03a}")
+#let ti-file-power-filled = tabler-icon.with("\u{10118}")
 #let ti-file-report = tabler-icon.with("\u{eded}")
 #let ti-file-rss = tabler-icon.with("\u{f03b}")
 #let ti-file-sad = tabler-icon.with("\u{fd23}")
+#let ti-file-sad-filled = tabler-icon.with("\u{10117}")
 #let ti-file-scissors = tabler-icon.with("\u{f03c}")
 #let ti-file-search = tabler-icon.with("\u{ed5d}")
 #let ti-file-settings = tabler-icon.with("\u{f029}")
 #let ti-file-shredder = tabler-icon.with("\u{eaa1}")
 #let ti-file-signal = tabler-icon.with("\u{f03d}")
 #let ti-file-smile = tabler-icon.with("\u{fd24}")
+#let ti-file-smile-filled = tabler-icon.with("\u{10116}")
 #let ti-file-spark = tabler-icon.with("\u{ffb9}")
 #let ti-file-spreadsheet = tabler-icon.with("\u{f03e}")
 #let ti-file-stack = tabler-icon.with("\u{f503}")
 #let ti-file-star = tabler-icon.with("\u{f03f}")
+#let ti-file-star-filled = tabler-icon.with("\u{10115}")
 #let ti-file-symlink = tabler-icon.with("\u{ed53}")
 #let ti-file-text = tabler-icon.with("\u{eaa2}")
 #let ti-file-text-ai = tabler-icon.with("\u{fa27}")
+#let ti-file-text-filled = tabler-icon.with("\u{10114}")
 #let ti-file-text-shield = tabler-icon.with("\u{100f2}")
 #let ti-file-text-spark = tabler-icon.with("\u{ffb8}")
 #let ti-file-time = tabler-icon.with("\u{f040}")

@@ -21,7 +21,7 @@
     "tabWidth": 2
   },
   "typst": {
-    "tabler-version": "3.28.1",
+    "tabler-version": "3.29.0",
     "dist-manifest": [
       "src/**",
       "LICENSE",
