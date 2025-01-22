@@ -6,11 +6,10 @@ on:
 
   workflow_dispatch:
     inputs:
-      bump_version:
-        description: Whether to bump the typst package version
+      skip_bump_version:
+        description: Skip bumping the typst package version
         type: boolean
         required: false
-        default: true
 
 env:
   FORCE_COLOR: 3
@@ -61,6 +60,7 @@ jobs:
       pull-requests: write
     env:
       LATEST_TABLER_VERSION: ${{ needs.precheck.outputs.latest_tabler_version }}
+      BUMP_VERSION: ${{ github.event.inputs.skip_bump_version && 'false' || 'true' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -108,7 +108,7 @@ jobs:
           npx chalk -t "{green Compiled {bold.yellow gallery/gallery.pdf}.}"
 
       - name: Bump typst package version
-        if: ${{ inputs.bump_version == 'true' }}
+        if: ${{ env.BUMP_VERSION == 'true' }}
         run: |
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
           BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
