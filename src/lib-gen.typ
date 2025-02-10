@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.29.0
+// Generated based on Tabler Icons v3.30.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -2467,6 +2467,7 @@
   "drone": "\u{ed79}",
   "drone-off": "\u{ee7e}",
   "drop-circle": "\u{efde}",
+  "drop-circle-filled": "\u{10137}",
   "droplet": "\u{ea97}",
   "droplet-bolt": "\u{f8f9}",
   "droplet-cancel": "\u{f8fa}",
@@ -2496,7 +2497,9 @@
   "droplets": "\u{fc12}",
   "droplets-filled": "\u{100c9}",
   "dual-screen": "\u{fa59}",
+  "dual-screen-filled": "\u{10136}",
   "dumpling": "\u{feb5}",
+  "dumpling-filled": "\u{10135}",
   "e-passport": "\u{f4df}",
   "ear": "\u{ebce}",
   "ear-off": "\u{ee84}",
@@ -2516,6 +2519,7 @@
   "egg-cracked-filled": "\u{10012}",
   "egg-filled": "\u{f678}",
   "egg-fried": "\u{f386}",
+  "egg-fried-filled": "\u{10134}",
   "egg-off": "\u{f11f}",
   "eggs": "\u{f500}",
   "elevator": "\u{efdf}",
@@ -2537,14 +2541,19 @@
   "error-404-off": "\u{f122}",
   "escalator": "\u{fb06}",
   "escalator-down": "\u{fb04}",
+  "escalator-down-filled": "\u{10133}",
+  "escalator-filled": "\u{10131}",
   "escalator-up": "\u{fb05}",
+  "escalator-up-filled": "\u{10132}",
   "exchange": "\u{ebe7}",
+  "exchange-filled": "\u{10130}",
   "exchange-off": "\u{f123}",
   "exclamation-circle": "\u{f634}",
   "exclamation-circle-filled": "\u{ff62}",
   "exclamation-mark": "\u{efb4}",
   "exclamation-mark-off": "\u{f124}",
   "explicit": "\u{f256}",
+  "explicit-filled": "\u{1012f}",
   "explicit-off": "\u{f3ea}",
   "exposure": "\u{eb8c}",
   "exposure-0": "\u{f29c}",
@@ -2622,11 +2631,15 @@
   "file-certificate": "\u{ed4d}",
   "file-chart": "\u{f036}",
   "file-check": "\u{ea9c}",
+  "file-check-filled": "\u{1012e}",
   "file-code": "\u{ebd0}",
   "file-code-2": "\u{ede8}",
+  "file-code-2-filled": "\u{1012d}",
   "file-cv": "\u{fa5a}",
+  "file-cv-filled": "\u{1012c}",
   "file-database": "\u{f037}",
   "file-delta": "\u{f53d}",
+  "file-delta-filled": "\u{1012b}",
   "file-description": "\u{f028}",
   "file-description-filled": "\u{1011e}",
   "file-diff": "\u{ecf1}",
@@ -2636,6 +2649,7 @@
   "file-dollar": "\u{efe0}",
   "file-dots": "\u{f038}",
   "file-download": "\u{ea9d}",
+  "file-download-filled": "\u{1012a}",
   "file-euro": "\u{efe1}",
   "file-excel": "\u{fef3}",
   "file-export": "\u{ede9}",
@@ -2650,6 +2664,7 @@
   "file-invoice-filled": "\u{1011b}",
   "file-isr": "\u{feac}",
   "file-lambda": "\u{f53f}",
+  "file-lambda-filled": "\u{10129}",
   "file-like": "\u{ed2b}",
   "file-minus": "\u{ea9e}",
   "file-minus-filled": "\u{1011a}",
@@ -2660,12 +2675,15 @@
   "file-orientation": "\u{f2a1}",
   "file-pencil": "\u{f039}",
   "file-percent": "\u{f540}",
+  "file-percent-filled": "\u{10128}",
   "file-phone": "\u{ecdc}",
+  "file-phone-filled": "\u{10127}",
   "file-plus": "\u{eaa0}",
   "file-power": "\u{f03a}",
   "file-power-filled": "\u{10118}",
   "file-report": "\u{eded}",
   "file-rss": "\u{f03b}",
+  "file-rss-filled": "\u{10126}",
   "file-sad": "\u{fd23}",
   "file-sad-filled": "\u{10117}",
   "file-scissors": "\u{f03c}",
@@ -8313,6 +8331,7 @@
 #let ti-drone = tabler-icon.with("\u{ed79}")
 #let ti-drone-off = tabler-icon.with("\u{ee7e}")
 #let ti-drop-circle = tabler-icon.with("\u{efde}")
+#let ti-drop-circle-filled = tabler-icon.with("\u{10137}")
 #let ti-droplet = tabler-icon.with("\u{ea97}")
 #let ti-droplet-bolt = tabler-icon.with("\u{f8f9}")
 #let ti-droplet-cancel = tabler-icon.with("\u{f8fa}")
@@ -8342,7 +8361,9 @@
 #let ti-droplets = tabler-icon.with("\u{fc12}")
 #let ti-droplets-filled = tabler-icon.with("\u{100c9}")
 #let ti-dual-screen = tabler-icon.with("\u{fa59}")
+#let ti-dual-screen-filled = tabler-icon.with("\u{10136}")
 #let ti-dumpling = tabler-icon.with("\u{feb5}")
+#let ti-dumpling-filled = tabler-icon.with("\u{10135}")
 #let ti-e-passport = tabler-icon.with("\u{f4df}")
 #let ti-ear = tabler-icon.with("\u{ebce}")
 #let ti-ear-off = tabler-icon.with("\u{ee84}")
@@ -8362,6 +8383,7 @@
 #let ti-egg-cracked-filled = tabler-icon.with("\u{10012}")
 #let ti-egg-filled = tabler-icon.with("\u{f678}")
 #let ti-egg-fried = tabler-icon.with("\u{f386}")
+#let ti-egg-fried-filled = tabler-icon.with("\u{10134}")
 #let ti-egg-off = tabler-icon.with("\u{f11f}")
 #let ti-eggs = tabler-icon.with("\u{f500}")
 #let ti-elevator = tabler-icon.with("\u{efdf}")
@@ -8383,14 +8405,19 @@
 #let ti-error-404-off = tabler-icon.with("\u{f122}")
 #let ti-escalator = tabler-icon.with("\u{fb06}")
 #let ti-escalator-down = tabler-icon.with("\u{fb04}")
+#let ti-escalator-down-filled = tabler-icon.with("\u{10133}")
+#let ti-escalator-filled = tabler-icon.with("\u{10131}")
 #let ti-escalator-up = tabler-icon.with("\u{fb05}")
+#let ti-escalator-up-filled = tabler-icon.with("\u{10132}")
 #let ti-exchange = tabler-icon.with("\u{ebe7}")
+#let ti-exchange-filled = tabler-icon.with("\u{10130}")
 #let ti-exchange-off = tabler-icon.with("\u{f123}")
 #let ti-exclamation-circle = tabler-icon.with("\u{f634}")
 #let ti-exclamation-circle-filled = tabler-icon.with("\u{ff62}")
 #let ti-exclamation-mark = tabler-icon.with("\u{efb4}")
 #let ti-exclamation-mark-off = tabler-icon.with("\u{f124}")
 #let ti-explicit = tabler-icon.with("\u{f256}")
+#let ti-explicit-filled = tabler-icon.with("\u{1012f}")
 #let ti-explicit-off = tabler-icon.with("\u{f3ea}")
 #let ti-exposure = tabler-icon.with("\u{eb8c}")
 #let ti-exposure-0 = tabler-icon.with("\u{f29c}")
@@ -8468,11 +8495,15 @@
 #let ti-file-certificate = tabler-icon.with("\u{ed4d}")
 #let ti-file-chart = tabler-icon.with("\u{f036}")
 #let ti-file-check = tabler-icon.with("\u{ea9c}")
+#let ti-file-check-filled = tabler-icon.with("\u{1012e}")
 #let ti-file-code = tabler-icon.with("\u{ebd0}")
 #let ti-file-code-2 = tabler-icon.with("\u{ede8}")
+#let ti-file-code-2-filled = tabler-icon.with("\u{1012d}")
 #let ti-file-cv = tabler-icon.with("\u{fa5a}")
+#let ti-file-cv-filled = tabler-icon.with("\u{1012c}")
 #let ti-file-database = tabler-icon.with("\u{f037}")
 #let ti-file-delta = tabler-icon.with("\u{f53d}")
+#let ti-file-delta-filled = tabler-icon.with("\u{1012b}")
 #let ti-file-description = tabler-icon.with("\u{f028}")
 #let ti-file-description-filled = tabler-icon.with("\u{1011e}")
 #let ti-file-diff = tabler-icon.with("\u{ecf1}")
@@ -8482,6 +8513,7 @@
 #let ti-file-dollar = tabler-icon.with("\u{efe0}")
 #let ti-file-dots = tabler-icon.with("\u{f038}")
 #let ti-file-download = tabler-icon.with("\u{ea9d}")
+#let ti-file-download-filled = tabler-icon.with("\u{1012a}")
 #let ti-file-euro = tabler-icon.with("\u{efe1}")
 #let ti-file-excel = tabler-icon.with("\u{fef3}")
 #let ti-file-export = tabler-icon.with("\u{ede9}")
@@ -8496,6 +8528,7 @@
 #let ti-file-invoice-filled = tabler-icon.with("\u{1011b}")
 #let ti-file-isr = tabler-icon.with("\u{feac}")
 #let ti-file-lambda = tabler-icon.with("\u{f53f}")
+#let ti-file-lambda-filled = tabler-icon.with("\u{10129}")
 #let ti-file-like = tabler-icon.with("\u{ed2b}")
 #let ti-file-minus = tabler-icon.with("\u{ea9e}")
 #let ti-file-minus-filled = tabler-icon.with("\u{1011a}")
@@ -8506,12 +8539,15 @@
 #let ti-file-orientation = tabler-icon.with("\u{f2a1}")
 #let ti-file-pencil = tabler-icon.with("\u{f039}")
 #let ti-file-percent = tabler-icon.with("\u{f540}")
+#let ti-file-percent-filled = tabler-icon.with("\u{10128}")
 #let ti-file-phone = tabler-icon.with("\u{ecdc}")
+#let ti-file-phone-filled = tabler-icon.with("\u{10127}")
 #let ti-file-plus = tabler-icon.with("\u{eaa0}")
 #let ti-file-power = tabler-icon.with("\u{f03a}")
 #let ti-file-power-filled = tabler-icon.with("\u{10118}")
 #let ti-file-report = tabler-icon.with("\u{eded}")
 #let ti-file-rss = tabler-icon.with("\u{f03b}")
+#let ti-file-rss-filled = tabler-icon.with("\u{10126}")
 #let ti-file-sad = tabler-icon.with("\u{fd23}")
 #let ti-file-sad-filled = tabler-icon.with("\u{10117}")
 #let ti-file-scissors = tabler-icon.with("\u{f03c}")
