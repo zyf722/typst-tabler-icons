@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.30.0
+// Generated based on Tabler Icons v3.31.0
 
 #import "../src/lib.typ": *
 
@@ -1412,9 +1412,21 @@
   figure([#ti-carrot-off(size: 2em)], caption: [`\u{f3d0}` \ #text([`carrot-off` \ ```typst #ti-carrot-off()```], size: 0.75em)], supplement: none),
   figure([#ti-cash(size: 2em)], caption: [`\u{ea55}` \ #text([`cash` \ ```typst #ti-cash()```], size: 0.75em)], supplement: none),
   figure([#ti-cash-banknote(size: 2em)], caption: [`\u{ee25}` \ #text([`cash-banknote` \ ```typst #ti-cash-banknote()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-edit(size: 2em)], caption: [`\u{10149}` \ #text([`cash-banknote-edit` \ ```typst #ti-cash-banknote-edit()```], size: 0.75em)], supplement: none),
   figure([#ti-cash-banknote-filled(size: 2em)], caption: [`\u{fe80}` \ #text([`cash-banknote-filled` \ ```typst #ti-cash-banknote-filled()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-heart(size: 2em)], caption: [`\u{10148}` \ #text([`cash-banknote-heart` \ ```typst #ti-cash-banknote-heart()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-minus(size: 2em)], caption: [`\u{10147}` \ #text([`cash-banknote-minus` \ ```typst #ti-cash-banknote-minus()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-move(size: 2em)], caption: [`\u{10145}` \ #text([`cash-banknote-move` \ ```typst #ti-cash-banknote-move()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-move-back(size: 2em)], caption: [`\u{10146}` \ #text([`cash-banknote-move-back` \ ```typst #ti-cash-banknote-move-back()```], size: 0.75em)], supplement: none),
   figure([#ti-cash-banknote-off(size: 2em)], caption: [`\u{ee24}` \ #text([`cash-banknote-off` \ ```typst #ti-cash-banknote-off()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-banknote-plus(size: 2em)], caption: [`\u{10144}` \ #text([`cash-banknote-plus` \ ```typst #ti-cash-banknote-plus()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-edit(size: 2em)], caption: [`\u{10143}` \ #text([`cash-edit` \ ```typst #ti-cash-edit()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-heart(size: 2em)], caption: [`\u{10142}` \ #text([`cash-heart` \ ```typst #ti-cash-heart()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-minus(size: 2em)], caption: [`\u{10141}` \ #text([`cash-minus` \ ```typst #ti-cash-minus()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-move(size: 2em)], caption: [`\u{1013f}` \ #text([`cash-move` \ ```typst #ti-cash-move()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-move-back(size: 2em)], caption: [`\u{10140}` \ #text([`cash-move-back` \ ```typst #ti-cash-move-back()```], size: 0.75em)], supplement: none),
   figure([#ti-cash-off(size: 2em)], caption: [`\u{f105}` \ #text([`cash-off` \ ```typst #ti-cash-off()```], size: 0.75em)], supplement: none),
+  figure([#ti-cash-plus(size: 2em)], caption: [`\u{1013e}` \ #text([`cash-plus` \ ```typst #ti-cash-plus()```], size: 0.75em)], supplement: none),
   figure([#ti-cash-register(size: 2em)], caption: [`\u{fee6}` \ #text([`cash-register` \ ```typst #ti-cash-register()```], size: 0.75em)], supplement: none),
   figure([#ti-cast(size: 2em)], caption: [`\u{ea56}` \ #text([`cast` \ ```typst #ti-cast()```], size: 0.75em)], supplement: none),
   figure([#ti-cast-off(size: 2em)], caption: [`\u{f0c9}` \ #text([`cast-off` \ ```typst #ti-cast-off()```], size: 0.75em)], supplement: none),
@@ -3916,6 +3928,12 @@
   figure([#ti-mobiledata(size: 2em)], caption: [`\u{f9f5}` \ #text([`mobiledata` \ ```typst #ti-mobiledata()```], size: 0.75em)], supplement: none),
   figure([#ti-mobiledata-off(size: 2em)], caption: [`\u{f9f4}` \ #text([`mobiledata-off` \ ```typst #ti-mobiledata-off()```], size: 0.75em)], supplement: none),
   figure([#ti-moneybag(size: 2em)], caption: [`\u{f506}` \ #text([`moneybag` \ ```typst #ti-moneybag()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-edit(size: 2em)], caption: [`\u{1013d}` \ #text([`moneybag-edit` \ ```typst #ti-moneybag-edit()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-heart(size: 2em)], caption: [`\u{1013c}` \ #text([`moneybag-heart` \ ```typst #ti-moneybag-heart()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-minus(size: 2em)], caption: [`\u{1013b}` \ #text([`moneybag-minus` \ ```typst #ti-moneybag-minus()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-move(size: 2em)], caption: [`\u{10139}` \ #text([`moneybag-move` \ ```typst #ti-moneybag-move()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-move-back(size: 2em)], caption: [`\u{1013a}` \ #text([`moneybag-move-back` \ ```typst #ti-moneybag-move-back()```], size: 0.75em)], supplement: none),
+  figure([#ti-moneybag-plus(size: 2em)], caption: [`\u{10138}` \ #text([`moneybag-plus` \ ```typst #ti-moneybag-plus()```], size: 0.75em)], supplement: none),
   figure([#ti-monkeybar(size: 2em)], caption: [`\u{feb4}` \ #text([`monkeybar` \ ```typst #ti-monkeybar()```], size: 0.75em)], supplement: none),
   figure([#ti-mood-angry(size: 2em)], caption: [`\u{f2de}` \ #text([`mood-angry` \ ```typst #ti-mood-angry()```], size: 0.75em)], supplement: none),
   figure([#ti-mood-angry-filled(size: 2em)], caption: [`\u{ff0a}` \ #text([`mood-angry-filled` \ ```typst #ti-mood-angry-filled()```], size: 0.75em)], supplement: none),
