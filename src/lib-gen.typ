@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.30.0
+// Generated based on Tabler Icons v3.31.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -1410,9 +1410,21 @@
   "carrot-off": "\u{f3d0}",
   "cash": "\u{ea55}",
   "cash-banknote": "\u{ee25}",
+  "cash-banknote-edit": "\u{10149}",
   "cash-banknote-filled": "\u{fe80}",
+  "cash-banknote-heart": "\u{10148}",
+  "cash-banknote-minus": "\u{10147}",
+  "cash-banknote-move": "\u{10145}",
+  "cash-banknote-move-back": "\u{10146}",
   "cash-banknote-off": "\u{ee24}",
+  "cash-banknote-plus": "\u{10144}",
+  "cash-edit": "\u{10143}",
+  "cash-heart": "\u{10142}",
+  "cash-minus": "\u{10141}",
+  "cash-move": "\u{1013f}",
+  "cash-move-back": "\u{10140}",
   "cash-off": "\u{f105}",
+  "cash-plus": "\u{1013e}",
   "cash-register": "\u{fee6}",
   "cast": "\u{ea56}",
   "cast-off": "\u{f0c9}",
@@ -3914,6 +3926,12 @@
   "mobiledata": "\u{f9f5}",
   "mobiledata-off": "\u{f9f4}",
   "moneybag": "\u{f506}",
+  "moneybag-edit": "\u{1013d}",
+  "moneybag-heart": "\u{1013c}",
+  "moneybag-minus": "\u{1013b}",
+  "moneybag-move": "\u{10139}",
+  "moneybag-move-back": "\u{1013a}",
+  "moneybag-plus": "\u{10138}",
   "monkeybar": "\u{feb4}",
   "mood-angry": "\u{f2de}",
   "mood-angry-filled": "\u{ff0a}",
@@ -7274,9 +7292,21 @@
 #let ti-carrot-off = tabler-icon.with("\u{f3d0}")
 #let ti-cash = tabler-icon.with("\u{ea55}")
 #let ti-cash-banknote = tabler-icon.with("\u{ee25}")
+#let ti-cash-banknote-edit = tabler-icon.with("\u{10149}")
 #let ti-cash-banknote-filled = tabler-icon.with("\u{fe80}")
+#let ti-cash-banknote-heart = tabler-icon.with("\u{10148}")
+#let ti-cash-banknote-minus = tabler-icon.with("\u{10147}")
+#let ti-cash-banknote-move = tabler-icon.with("\u{10145}")
+#let ti-cash-banknote-move-back = tabler-icon.with("\u{10146}")
 #let ti-cash-banknote-off = tabler-icon.with("\u{ee24}")
+#let ti-cash-banknote-plus = tabler-icon.with("\u{10144}")
+#let ti-cash-edit = tabler-icon.with("\u{10143}")
+#let ti-cash-heart = tabler-icon.with("\u{10142}")
+#let ti-cash-minus = tabler-icon.with("\u{10141}")
+#let ti-cash-move = tabler-icon.with("\u{1013f}")
+#let ti-cash-move-back = tabler-icon.with("\u{10140}")
 #let ti-cash-off = tabler-icon.with("\u{f105}")
+#let ti-cash-plus = tabler-icon.with("\u{1013e}")
 #let ti-cash-register = tabler-icon.with("\u{fee6}")
 #let ti-cast = tabler-icon.with("\u{ea56}")
 #let ti-cast-off = tabler-icon.with("\u{f0c9}")
@@ -9778,6 +9808,12 @@
 #let ti-mobiledata = tabler-icon.with("\u{f9f5}")
 #let ti-mobiledata-off = tabler-icon.with("\u{f9f4}")
 #let ti-moneybag = tabler-icon.with("\u{f506}")
+#let ti-moneybag-edit = tabler-icon.with("\u{1013d}")
+#let ti-moneybag-heart = tabler-icon.with("\u{1013c}")
+#let ti-moneybag-minus = tabler-icon.with("\u{1013b}")
+#let ti-moneybag-move = tabler-icon.with("\u{10139}")
+#let ti-moneybag-move-back = tabler-icon.with("\u{1013a}")
+#let ti-moneybag-plus = tabler-icon.with("\u{10138}")
 #let ti-monkeybar = tabler-icon.with("\u{feb4}")
 #let ti-mood-angry = tabler-icon.with("\u{f2de}")
 #let ti-mood-angry-filled = tabler-icon.with("\u{ff0a}")
