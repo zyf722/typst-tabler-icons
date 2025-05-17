@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.31.0
+// Generated based on Tabler Icons v3.33.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -208,9 +208,13 @@
   "arrow-bar-left": "\u{ea0e}",
   "arrow-bar-right": "\u{ea0f}",
   "arrow-bar-to-down": "\u{ec88}",
+  "arrow-bar-to-down-dashed": "\u{10164}",
   "arrow-bar-to-left": "\u{ec89}",
+  "arrow-bar-to-left-dashed": "\u{10163}",
   "arrow-bar-to-right": "\u{ec8a}",
+  "arrow-bar-to-right-dashed": "\u{10162}",
   "arrow-bar-to-up": "\u{ec8b}",
+  "arrow-bar-to-up-dashed": "\u{10161}",
   "arrow-bar-up": "\u{ea10}",
   "arrow-bear-left": "\u{f045}",
   "arrow-bear-left-2": "\u{f044}",
@@ -1450,6 +1454,7 @@
   "chair-director": "\u{f2d5}",
   "chalkboard": "\u{f34d}",
   "chalkboard-off": "\u{f3d1}",
+  "chalkboard-teacher": "\u{10160}",
   "charging-pile": "\u{ee26}",
   "charging-pile-filled": "\u{1001b}",
   "chart-arcs": "\u{ee28}",
@@ -1799,8 +1804,10 @@
   "clipboard-list-filled": "\u{100ea}",
   "clipboard-off": "\u{f0ce}",
   "clipboard-plus": "\u{efb2}",
+  "clipboard-plus-filled": "\u{10176}",
   "clipboard-search": "\u{10098}",
   "clipboard-smile": "\u{fd9a}",
+  "clipboard-smile-filled": "\u{10175}",
   "clipboard-text": "\u{f089}",
   "clipboard-text-filled": "\u{100e9}",
   "clipboard-typography": "\u{f34f}",
@@ -2518,10 +2525,13 @@
   "ear-scan": "\u{fd57}",
   "ease-in": "\u{f573}",
   "ease-in-control-point": "\u{f570}",
+  "ease-in-control-point-filled": "\u{10174}",
   "ease-in-out": "\u{f572}",
   "ease-in-out-control-points": "\u{f571}",
+  "ease-in-out-control-points-filled": "\u{10173}",
   "ease-out": "\u{f575}",
   "ease-out-control-point": "\u{f574}",
+  "ease-out-control-point-filled": "\u{10172}",
   "edit": "\u{ea98}",
   "edit-circle": "\u{ee85}",
   "edit-circle-off": "\u{f11d}",
@@ -2635,6 +2645,7 @@
   "file-ai": "\u{ffa1}",
   "file-alert": "\u{ede6}",
   "file-analytics": "\u{ede7}",
+  "file-analytics-filled": "\u{10171}",
   "file-arrow-left": "\u{f033}",
   "file-arrow-right": "\u{f034}",
   "file-barcode": "\u{f035}",
@@ -2647,6 +2658,7 @@
   "file-code": "\u{ebd0}",
   "file-code-2": "\u{ede8}",
   "file-code-2-filled": "\u{1012d}",
+  "file-code-filled": "\u{10170}",
   "file-cv": "\u{fa5a}",
   "file-cv-filled": "\u{1012c}",
   "file-database": "\u{f037}",
@@ -2655,11 +2667,13 @@
   "file-description": "\u{f028}",
   "file-description-filled": "\u{1011e}",
   "file-diff": "\u{ecf1}",
+  "file-diff-filled": "\u{1016f}",
   "file-digit": "\u{efa8}",
   "file-digit-filled": "\u{1011d}",
   "file-dislike": "\u{ed2a}",
   "file-dollar": "\u{efe0}",
   "file-dots": "\u{f038}",
+  "file-dots-filled": "\u{1016e}",
   "file-download": "\u{ea9d}",
   "file-download-filled": "\u{1012a}",
   "file-euro": "\u{efe1}",
@@ -2667,11 +2681,13 @@
   "file-export": "\u{ede9}",
   "file-filled": "\u{f747}",
   "file-function": "\u{f53e}",
+  "file-function-filled": "\u{1016d}",
   "file-horizontal": "\u{ebb0}",
   "file-horizontal-filled": "\u{1011c}",
   "file-import": "\u{edea}",
   "file-infinity": "\u{f502}",
   "file-info": "\u{edec}",
+  "file-info-filled": "\u{1016c}",
   "file-invoice": "\u{eb67}",
   "file-invoice-filled": "\u{1011b}",
   "file-isr": "\u{feac}",
@@ -2741,6 +2757,7 @@
   "file-type-xml": "\u{fb1c}",
   "file-type-zip": "\u{fb1d}",
   "file-typography": "\u{f041}",
+  "file-typography-filled": "\u{1016b}",
   "file-unknown": "\u{f042}",
   "file-upload": "\u{ec91}",
   "file-vector": "\u{f043}",
@@ -2751,6 +2768,27 @@
   "files": "\u{edef}",
   "files-off": "\u{edee}",
   "filter": "\u{eaa5}",
+  "filter-2": "\u{1014b}",
+  "filter-2-bolt": "\u{1015f}",
+  "filter-2-cancel": "\u{1015e}",
+  "filter-2-check": "\u{1015d}",
+  "filter-2-code": "\u{1015c}",
+  "filter-2-cog": "\u{1015b}",
+  "filter-2-discount": "\u{1015a}",
+  "filter-2-dollar": "\u{10159}",
+  "filter-2-down": "\u{10158}",
+  "filter-2-edit": "\u{10157}",
+  "filter-2-exclamation": "\u{10156}",
+  "filter-2-minus": "\u{10155}",
+  "filter-2-pause": "\u{10154}",
+  "filter-2-pin": "\u{10153}",
+  "filter-2-plus": "\u{10152}",
+  "filter-2-question": "\u{10151}",
+  "filter-2-search": "\u{10150}",
+  "filter-2-share": "\u{1014f}",
+  "filter-2-spark": "\u{1014e}",
+  "filter-2-up": "\u{1014d}",
+  "filter-2-x": "\u{1014c}",
   "filter-bolt": "\u{fb7c}",
   "filter-cancel": "\u{fb7d}",
   "filter-check": "\u{fb7e}",
@@ -2771,6 +2809,7 @@
   "filter-question": "\u{fb86}",
   "filter-search": "\u{fb87}",
   "filter-share": "\u{fb88}",
+  "filter-spark": "\u{1014a}",
   "filter-star": "\u{fa03}",
   "filter-up": "\u{fb89}",
   "filter-x": "\u{fa04}",
@@ -3044,6 +3083,7 @@
   "heart-bitcoin": "\u{ff3b}",
   "heart-bolt": "\u{fb9e}",
   "heart-broken": "\u{ecba}",
+  "heart-broken-filled": "\u{1016a}",
   "heart-cancel": "\u{fb9f}",
   "heart-check": "\u{fba0}",
   "heart-code": "\u{fba1}",
@@ -3389,8 +3429,11 @@
   "lasso-polygon-filled": "\u{ff5f}",
   "laurel-wreath": "\u{ff45}",
   "laurel-wreath-1": "\u{ff48}",
+  "laurel-wreath-1-filled": "\u{10169}",
   "laurel-wreath-2": "\u{ff47}",
+  "laurel-wreath-2-filled": "\u{10168}",
   "laurel-wreath-3": "\u{ff46}",
+  "laurel-wreath-3-filled": "\u{10167}",
   "laurel-wreath-filled": "\u{100c0}",
   "layers-difference": "\u{eac8}",
   "layers-intersect": "\u{eac9}",
@@ -3907,6 +3950,7 @@
   "microphone-filled": "\u{fe0f}",
   "microphone-off": "\u{ed16}",
   "microscope": "\u{ef64}",
+  "microscope-filled": "\u{10166}",
   "microscope-off": "\u{f40e}",
   "microwave": "\u{f248}",
   "microwave-filled": "\u{fe0e}",
@@ -5613,6 +5657,7 @@
   "u-turn-left": "\u{fea2}",
   "u-turn-right": "\u{fea1}",
   "ufo": "\u{f26f}",
+  "ufo-filled": "\u{10165}",
   "ufo-off": "\u{f26e}",
   "uhd": "\u{100aa}",
   "umbrella": "\u{ebf1}",
@@ -6090,9 +6135,13 @@
 #let ti-arrow-bar-left = tabler-icon.with("\u{ea0e}")
 #let ti-arrow-bar-right = tabler-icon.with("\u{ea0f}")
 #let ti-arrow-bar-to-down = tabler-icon.with("\u{ec88}")
+#let ti-arrow-bar-to-down-dashed = tabler-icon.with("\u{10164}")
 #let ti-arrow-bar-to-left = tabler-icon.with("\u{ec89}")
+#let ti-arrow-bar-to-left-dashed = tabler-icon.with("\u{10163}")
 #let ti-arrow-bar-to-right = tabler-icon.with("\u{ec8a}")
+#let ti-arrow-bar-to-right-dashed = tabler-icon.with("\u{10162}")
 #let ti-arrow-bar-to-up = tabler-icon.with("\u{ec8b}")
+#let ti-arrow-bar-to-up-dashed = tabler-icon.with("\u{10161}")
 #let ti-arrow-bar-up = tabler-icon.with("\u{ea10}")
 #let ti-arrow-bear-left = tabler-icon.with("\u{f045}")
 #let ti-arrow-bear-left-2 = tabler-icon.with("\u{f044}")
@@ -7332,6 +7381,7 @@
 #let ti-chair-director = tabler-icon.with("\u{f2d5}")
 #let ti-chalkboard = tabler-icon.with("\u{f34d}")
 #let ti-chalkboard-off = tabler-icon.with("\u{f3d1}")
+#let ti-chalkboard-teacher = tabler-icon.with("\u{10160}")
 #let ti-charging-pile = tabler-icon.with("\u{ee26}")
 #let ti-charging-pile-filled = tabler-icon.with("\u{1001b}")
 #let ti-chart-arcs = tabler-icon.with("\u{ee28}")
@@ -7681,8 +7731,10 @@
 #let ti-clipboard-list-filled = tabler-icon.with("\u{100ea}")
 #let ti-clipboard-off = tabler-icon.with("\u{f0ce}")
 #let ti-clipboard-plus = tabler-icon.with("\u{efb2}")
+#let ti-clipboard-plus-filled = tabler-icon.with("\u{10176}")
 #let ti-clipboard-search = tabler-icon.with("\u{10098}")
 #let ti-clipboard-smile = tabler-icon.with("\u{fd9a}")
+#let ti-clipboard-smile-filled = tabler-icon.with("\u{10175}")
 #let ti-clipboard-text = tabler-icon.with("\u{f089}")
 #let ti-clipboard-text-filled = tabler-icon.with("\u{100e9}")
 #let ti-clipboard-typography = tabler-icon.with("\u{f34f}")
@@ -8400,10 +8452,13 @@
 #let ti-ear-scan = tabler-icon.with("\u{fd57}")
 #let ti-ease-in = tabler-icon.with("\u{f573}")
 #let ti-ease-in-control-point = tabler-icon.with("\u{f570}")
+#let ti-ease-in-control-point-filled = tabler-icon.with("\u{10174}")
 #let ti-ease-in-out = tabler-icon.with("\u{f572}")
 #let ti-ease-in-out-control-points = tabler-icon.with("\u{f571}")
+#let ti-ease-in-out-control-points-filled = tabler-icon.with("\u{10173}")
 #let ti-ease-out = tabler-icon.with("\u{f575}")
 #let ti-ease-out-control-point = tabler-icon.with("\u{f574}")
+#let ti-ease-out-control-point-filled = tabler-icon.with("\u{10172}")
 #let ti-edit = tabler-icon.with("\u{ea98}")
 #let ti-edit-circle = tabler-icon.with("\u{ee85}")
 #let ti-edit-circle-off = tabler-icon.with("\u{f11d}")
@@ -8517,6 +8572,7 @@
 #let ti-file-ai = tabler-icon.with("\u{ffa1}")
 #let ti-file-alert = tabler-icon.with("\u{ede6}")
 #let ti-file-analytics = tabler-icon.with("\u{ede7}")
+#let ti-file-analytics-filled = tabler-icon.with("\u{10171}")
 #let ti-file-arrow-left = tabler-icon.with("\u{f033}")
 #let ti-file-arrow-right = tabler-icon.with("\u{f034}")
 #let ti-file-barcode = tabler-icon.with("\u{f035}")
@@ -8529,6 +8585,7 @@
 #let ti-file-code = tabler-icon.with("\u{ebd0}")
 #let ti-file-code-2 = tabler-icon.with("\u{ede8}")
 #let ti-file-code-2-filled = tabler-icon.with("\u{1012d}")
+#let ti-file-code-filled = tabler-icon.with("\u{10170}")
 #let ti-file-cv = tabler-icon.with("\u{fa5a}")
 #let ti-file-cv-filled = tabler-icon.with("\u{1012c}")
 #let ti-file-database = tabler-icon.with("\u{f037}")
@@ -8537,11 +8594,13 @@
 #let ti-file-description = tabler-icon.with("\u{f028}")
 #let ti-file-description-filled = tabler-icon.with("\u{1011e}")
 #let ti-file-diff = tabler-icon.with("\u{ecf1}")
+#let ti-file-diff-filled = tabler-icon.with("\u{1016f}")
 #let ti-file-digit = tabler-icon.with("\u{efa8}")
 #let ti-file-digit-filled = tabler-icon.with("\u{1011d}")
 #let ti-file-dislike = tabler-icon.with("\u{ed2a}")
 #let ti-file-dollar = tabler-icon.with("\u{efe0}")
 #let ti-file-dots = tabler-icon.with("\u{f038}")
+#let ti-file-dots-filled = tabler-icon.with("\u{1016e}")
 #let ti-file-download = tabler-icon.with("\u{ea9d}")
 #let ti-file-download-filled = tabler-icon.with("\u{1012a}")
 #let ti-file-euro = tabler-icon.with("\u{efe1}")
@@ -8549,11 +8608,13 @@
 #let ti-file-export = tabler-icon.with("\u{ede9}")
 #let ti-file-filled = tabler-icon.with("\u{f747}")
 #let ti-file-function = tabler-icon.with("\u{f53e}")
+#let ti-file-function-filled = tabler-icon.with("\u{1016d}")
 #let ti-file-horizontal = tabler-icon.with("\u{ebb0}")
 #let ti-file-horizontal-filled = tabler-icon.with("\u{1011c}")
 #let ti-file-import = tabler-icon.with("\u{edea}")
 #let ti-file-infinity = tabler-icon.with("\u{f502}")
 #let ti-file-info = tabler-icon.with("\u{edec}")
+#let ti-file-info-filled = tabler-icon.with("\u{1016c}")
 #let ti-file-invoice = tabler-icon.with("\u{eb67}")
 #let ti-file-invoice-filled = tabler-icon.with("\u{1011b}")
 #let ti-file-isr = tabler-icon.with("\u{feac}")
@@ -8623,6 +8684,7 @@
 #let ti-file-type-xml = tabler-icon.with("\u{fb1c}")
 #let ti-file-type-zip = tabler-icon.with("\u{fb1d}")
 #let ti-file-typography = tabler-icon.with("\u{f041}")
+#let ti-file-typography-filled = tabler-icon.with("\u{1016b}")
 #let ti-file-unknown = tabler-icon.with("\u{f042}")
 #let ti-file-upload = tabler-icon.with("\u{ec91}")
 #let ti-file-vector = tabler-icon.with("\u{f043}")
@@ -8633,6 +8695,27 @@
 #let ti-files = tabler-icon.with("\u{edef}")
 #let ti-files-off = tabler-icon.with("\u{edee}")
 #let ti-filter = tabler-icon.with("\u{eaa5}")
+#let ti-filter-2 = tabler-icon.with("\u{1014b}")
+#let ti-filter-2-bolt = tabler-icon.with("\u{1015f}")
+#let ti-filter-2-cancel = tabler-icon.with("\u{1015e}")
+#let ti-filter-2-check = tabler-icon.with("\u{1015d}")
+#let ti-filter-2-code = tabler-icon.with("\u{1015c}")
+#let ti-filter-2-cog = tabler-icon.with("\u{1015b}")
+#let ti-filter-2-discount = tabler-icon.with("\u{1015a}")
+#let ti-filter-2-dollar = tabler-icon.with("\u{10159}")
+#let ti-filter-2-down = tabler-icon.with("\u{10158}")
+#let ti-filter-2-edit = tabler-icon.with("\u{10157}")
+#let ti-filter-2-exclamation = tabler-icon.with("\u{10156}")
+#let ti-filter-2-minus = tabler-icon.with("\u{10155}")
+#let ti-filter-2-pause = tabler-icon.with("\u{10154}")
+#let ti-filter-2-pin = tabler-icon.with("\u{10153}")
+#let ti-filter-2-plus = tabler-icon.with("\u{10152}")
+#let ti-filter-2-question = tabler-icon.with("\u{10151}")
+#let ti-filter-2-search = tabler-icon.with("\u{10150}")
+#let ti-filter-2-share = tabler-icon.with("\u{1014f}")
+#let ti-filter-2-spark = tabler-icon.with("\u{1014e}")
+#let ti-filter-2-up = tabler-icon.with("\u{1014d}")
+#let ti-filter-2-x = tabler-icon.with("\u{1014c}")
 #let ti-filter-bolt = tabler-icon.with("\u{fb7c}")
 #let ti-filter-cancel = tabler-icon.with("\u{fb7d}")
 #let ti-filter-check = tabler-icon.with("\u{fb7e}")
@@ -8653,6 +8736,7 @@
 #let ti-filter-question = tabler-icon.with("\u{fb86}")
 #let ti-filter-search = tabler-icon.with("\u{fb87}")
 #let ti-filter-share = tabler-icon.with("\u{fb88}")
+#let ti-filter-spark = tabler-icon.with("\u{1014a}")
 #let ti-filter-star = tabler-icon.with("\u{fa03}")
 #let ti-filter-up = tabler-icon.with("\u{fb89}")
 #let ti-filter-x = tabler-icon.with("\u{fa04}")
@@ -8926,6 +9010,7 @@
 #let ti-heart-bitcoin = tabler-icon.with("\u{ff3b}")
 #let ti-heart-bolt = tabler-icon.with("\u{fb9e}")
 #let ti-heart-broken = tabler-icon.with("\u{ecba}")
+#let ti-heart-broken-filled = tabler-icon.with("\u{1016a}")
 #let ti-heart-cancel = tabler-icon.with("\u{fb9f}")
 #let ti-heart-check = tabler-icon.with("\u{fba0}")
 #let ti-heart-code = tabler-icon.with("\u{fba1}")
@@ -9271,8 +9356,11 @@
 #let ti-lasso-polygon-filled = tabler-icon.with("\u{ff5f}")
 #let ti-laurel-wreath = tabler-icon.with("\u{ff45}")
 #let ti-laurel-wreath-1 = tabler-icon.with("\u{ff48}")
+#let ti-laurel-wreath-1-filled = tabler-icon.with("\u{10169}")
 #let ti-laurel-wreath-2 = tabler-icon.with("\u{ff47}")
+#let ti-laurel-wreath-2-filled = tabler-icon.with("\u{10168}")
 #let ti-laurel-wreath-3 = tabler-icon.with("\u{ff46}")
+#let ti-laurel-wreath-3-filled = tabler-icon.with("\u{10167}")
 #let ti-laurel-wreath-filled = tabler-icon.with("\u{100c0}")
 #let ti-layers-difference = tabler-icon.with("\u{eac8}")
 #let ti-layers-intersect = tabler-icon.with("\u{eac9}")
@@ -9789,6 +9877,7 @@
 #let ti-microphone-filled = tabler-icon.with("\u{fe0f}")
 #let ti-microphone-off = tabler-icon.with("\u{ed16}")
 #let ti-microscope = tabler-icon.with("\u{ef64}")
+#let ti-microscope-filled = tabler-icon.with("\u{10166}")
 #let ti-microscope-off = tabler-icon.with("\u{f40e}")
 #let ti-microwave = tabler-icon.with("\u{f248}")
 #let ti-microwave-filled = tabler-icon.with("\u{fe0e}")
@@ -11495,6 +11584,7 @@
 #let ti-u-turn-left = tabler-icon.with("\u{fea2}")
 #let ti-u-turn-right = tabler-icon.with("\u{fea1}")
 #let ti-ufo = tabler-icon.with("\u{f26f}")
+#let ti-ufo-filled = tabler-icon.with("\u{10165}")
 #let ti-ufo-off = tabler-icon.with("\u{f26e}")
 #let ti-uhd = tabler-icon.with("\u{100aa}")
 #let ti-umbrella = tabler-icon.with("\u{ebf1}")
