@@ -84,10 +84,9 @@ jobs:
       - name: Fetch latest tabler-icons
         run: |
           mkdir temp
-          gh release download -R tabler/tabler-icons -p '*.zip' -D temp
-          npx chalk -t "{green Downloaded latest release of tabler-icons.}"
-          unzip -j temp/*.zip 'webfont/tabler-icons.html' 'webfont/fonts/tabler-icons.ttf' -d temp
-          npx chalk -t "{green Extracted tabler-icons files.}"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/tabler-icons.html" -o "temp/tabler-icons.html"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/fonts/tabler-icons.ttf" -o "temp/tabler-icons.ttf"
+          npx chalk -t "{green Downloaded tabler-icons files from jsdelivr.}"
       
       - name: Generate icons
         run: |
