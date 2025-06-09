@@ -6,11 +6,11 @@
   <img alt="use-tabler-icons" src="assets/banner.svg">
 </h2>
 
-A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5700 free MIT-licensed high-quality SVG icons.
+A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5800 free MIT-licensed high-quality SVG icons.
 
 ## Usage
 ### Install Font
-Download [latest release of tabler-icons](https://github.com/tabler/tabler-icons/releases) and install `webfont/fonts/tabler-icons.ttf`. Or, if you are using Typst web app, simply upload the font file to your project.
+Install the webfont file `tabler-icons.ttf` for Tabler Icons before using this library. Or, if you are using Typst web app, simply upload the font file to your project.
 
 ### Import the Library
 #### Using the Typst Packages
