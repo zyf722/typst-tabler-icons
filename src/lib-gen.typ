@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.33.0
+// Generated based on Tabler Icons v3.34.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -1231,6 +1231,7 @@
   "building-bank": "\u{ebe2}",
   "building-bridge": "\u{ea4b}",
   "building-bridge-2": "\u{ea4a}",
+  "building-bridge-2-filled": "\u{10189}",
   "building-broadcast-tower": "\u{f4be}",
   "building-broadcast-tower-filled": "\u{fe81}",
   "building-burj-al-arab": "\u{ff50}",
@@ -1958,8 +1959,11 @@
   "column-remove": "\u{faf4}",
   "columns": "\u{eb83}",
   "columns-1": "\u{f6d4}",
+  "columns-1-filled": "\u{10188}",
   "columns-2": "\u{f6d5}",
+  "columns-2-filled": "\u{10187}",
   "columns-3": "\u{f6d6}",
+  "columns-3-filled": "\u{10186}",
   "columns-off": "\u{f0d4}",
   "comet": "\u{ec76}",
   "command": "\u{ea78}",
@@ -1976,10 +1980,12 @@
   "cone-off": "\u{f3d8}",
   "cone-plus": "\u{fa94}",
   "confetti": "\u{ee46}",
+  "confetti-filled": "\u{10185}",
   "confetti-off": "\u{f3d9}",
   "confucius": "\u{f58a}",
   "congruent-to": "\u{ffa3}",
   "container": "\u{ee47}",
+  "container-filled": "\u{10184}",
   "container-off": "\u{f107}",
   "contract": "\u{fefb}",
   "contrast": "\u{ec4e}",
@@ -3460,7 +3466,9 @@
   "layout-align-top": "\u{ead2}",
   "layout-align-top-filled": "\u{fe21}",
   "layout-board": "\u{ef95}",
+  "layout-board-filled": "\u{10182}",
   "layout-board-split": "\u{ef94}",
+  "layout-board-split-filled": "\u{10183}",
   "layout-bottombar": "\u{ead3}",
   "layout-bottombar-collapse": "\u{f28b}",
   "layout-bottombar-collapse-filled": "\u{fc35}",
@@ -3577,9 +3585,11 @@
   "letter-z": "\u{ec69}",
   "letter-z-small": "\u{fce0}",
   "library": "\u{fd4c}",
+  "library-filled": "\u{10180}",
   "library-minus": "\u{fd49}",
   "library-photo": "\u{fd4a}",
   "library-plus": "\u{fd4b}",
+  "library-plus-filled": "\u{10181}",
   "license": "\u{ebc0}",
   "license-off": "\u{f153}",
   "lifebuoy": "\u{eadd}",
@@ -4262,9 +4272,11 @@
   "octagon-filled": "\u{f686}",
   "octagon-minus": "\u{fc92}",
   "octagon-minus-2": "\u{fc91}",
+  "octagon-minus-filled": "\u{1017f}",
   "octagon-off": "\u{eeb8}",
   "octagon-plus": "\u{fc94}",
   "octagon-plus-2": "\u{fc93}",
+  "octagon-plus-filled": "\u{1017e}",
   "octahedron": "\u{faae}",
   "octahedron-off": "\u{faac}",
   "octahedron-plus": "\u{faad}",
@@ -4661,15 +4673,21 @@
   "receipt-2": "\u{edfa}",
   "receipt-bitcoin": "\u{fd66}",
   "receipt-dollar": "\u{fd67}",
+  "receipt-dollar-filled": "\u{1017d}",
   "receipt-euro": "\u{fd68}",
+  "receipt-euro-filled": "\u{1017c}",
   "receipt-filled": "\u{ff06}",
   "receipt-off": "\u{edfb}",
   "receipt-pound": "\u{fd69}",
+  "receipt-pound-filled": "\u{1017b}",
   "receipt-refund": "\u{edfc}",
   "receipt-rupee": "\u{fd82}",
+  "receipt-rupee-filled": "\u{1017a}",
   "receipt-tax": "\u{edbd}",
   "receipt-yen": "\u{fd6a}",
+  "receipt-yen-filled": "\u{10179}",
   "receipt-yuan": "\u{fd6b}",
+  "receipt-yuan-filled": "\u{10178}",
   "recharging": "\u{eeca}",
   "record-mail": "\u{eb12}",
   "record-mail-off": "\u{f18b}",
@@ -5475,6 +5493,7 @@
   "temperature-snow": "\u{fda3}",
   "temperature-sun": "\u{fda4}",
   "template": "\u{eb39}",
+  "template-filled": "\u{10177}",
   "template-off": "\u{f1b0}",
   "tent": "\u{eefb}",
   "tent-off": "\u{f435}",
@@ -7158,6 +7177,7 @@
 #let ti-building-bank = tabler-icon.with("\u{ebe2}")
 #let ti-building-bridge = tabler-icon.with("\u{ea4b}")
 #let ti-building-bridge-2 = tabler-icon.with("\u{ea4a}")
+#let ti-building-bridge-2-filled = tabler-icon.with("\u{10189}")
 #let ti-building-broadcast-tower = tabler-icon.with("\u{f4be}")
 #let ti-building-broadcast-tower-filled = tabler-icon.with("\u{fe81}")
 #let ti-building-burj-al-arab = tabler-icon.with("\u{ff50}")
@@ -7885,8 +7905,11 @@
 #let ti-column-remove = tabler-icon.with("\u{faf4}")
 #let ti-columns = tabler-icon.with("\u{eb83}")
 #let ti-columns-1 = tabler-icon.with("\u{f6d4}")
+#let ti-columns-1-filled = tabler-icon.with("\u{10188}")
 #let ti-columns-2 = tabler-icon.with("\u{f6d5}")
+#let ti-columns-2-filled = tabler-icon.with("\u{10187}")
 #let ti-columns-3 = tabler-icon.with("\u{f6d6}")
+#let ti-columns-3-filled = tabler-icon.with("\u{10186}")
 #let ti-columns-off = tabler-icon.with("\u{f0d4}")
 #let ti-comet = tabler-icon.with("\u{ec76}")
 #let ti-command = tabler-icon.with("\u{ea78}")
@@ -7903,10 +7926,12 @@
 #let ti-cone-off = tabler-icon.with("\u{f3d8}")
 #let ti-cone-plus = tabler-icon.with("\u{fa94}")
 #let ti-confetti = tabler-icon.with("\u{ee46}")
+#let ti-confetti-filled = tabler-icon.with("\u{10185}")
 #let ti-confetti-off = tabler-icon.with("\u{f3d9}")
 #let ti-confucius = tabler-icon.with("\u{f58a}")
 #let ti-congruent-to = tabler-icon.with("\u{ffa3}")
 #let ti-container = tabler-icon.with("\u{ee47}")
+#let ti-container-filled = tabler-icon.with("\u{10184}")
 #let ti-container-off = tabler-icon.with("\u{f107}")
 #let ti-contract = tabler-icon.with("\u{fefb}")
 #let ti-contrast = tabler-icon.with("\u{ec4e}")
@@ -9387,7 +9412,9 @@
 #let ti-layout-align-top = tabler-icon.with("\u{ead2}")
 #let ti-layout-align-top-filled = tabler-icon.with("\u{fe21}")
 #let ti-layout-board = tabler-icon.with("\u{ef95}")
+#let ti-layout-board-filled = tabler-icon.with("\u{10182}")
 #let ti-layout-board-split = tabler-icon.with("\u{ef94}")
+#let ti-layout-board-split-filled = tabler-icon.with("\u{10183}")
 #let ti-layout-bottombar = tabler-icon.with("\u{ead3}")
 #let ti-layout-bottombar-collapse = tabler-icon.with("\u{f28b}")
 #let ti-layout-bottombar-collapse-filled = tabler-icon.with("\u{fc35}")
@@ -9504,9 +9531,11 @@
 #let ti-letter-z = tabler-icon.with("\u{ec69}")
 #let ti-letter-z-small = tabler-icon.with("\u{fce0}")
 #let ti-library = tabler-icon.with("\u{fd4c}")
+#let ti-library-filled = tabler-icon.with("\u{10180}")
 #let ti-library-minus = tabler-icon.with("\u{fd49}")
 #let ti-library-photo = tabler-icon.with("\u{fd4a}")
 #let ti-library-plus = tabler-icon.with("\u{fd4b}")
+#let ti-library-plus-filled = tabler-icon.with("\u{10181}")
 #let ti-license = tabler-icon.with("\u{ebc0}")
 #let ti-license-off = tabler-icon.with("\u{f153}")
 #let ti-lifebuoy = tabler-icon.with("\u{eadd}")
@@ -10189,9 +10218,11 @@
 #let ti-octagon-filled = tabler-icon.with("\u{f686}")
 #let ti-octagon-minus = tabler-icon.with("\u{fc92}")
 #let ti-octagon-minus-2 = tabler-icon.with("\u{fc91}")
+#let ti-octagon-minus-filled = tabler-icon.with("\u{1017f}")
 #let ti-octagon-off = tabler-icon.with("\u{eeb8}")
 #let ti-octagon-plus = tabler-icon.with("\u{fc94}")
 #let ti-octagon-plus-2 = tabler-icon.with("\u{fc93}")
+#let ti-octagon-plus-filled = tabler-icon.with("\u{1017e}")
 #let ti-octahedron = tabler-icon.with("\u{faae}")
 #let ti-octahedron-off = tabler-icon.with("\u{faac}")
 #let ti-octahedron-plus = tabler-icon.with("\u{faad}")
@@ -10588,15 +10619,21 @@
 #let ti-receipt-2 = tabler-icon.with("\u{edfa}")
 #let ti-receipt-bitcoin = tabler-icon.with("\u{fd66}")
 #let ti-receipt-dollar = tabler-icon.with("\u{fd67}")
+#let ti-receipt-dollar-filled = tabler-icon.with("\u{1017d}")
 #let ti-receipt-euro = tabler-icon.with("\u{fd68}")
+#let ti-receipt-euro-filled = tabler-icon.with("\u{1017c}")
 #let ti-receipt-filled = tabler-icon.with("\u{ff06}")
 #let ti-receipt-off = tabler-icon.with("\u{edfb}")
 #let ti-receipt-pound = tabler-icon.with("\u{fd69}")
+#let ti-receipt-pound-filled = tabler-icon.with("\u{1017b}")
 #let ti-receipt-refund = tabler-icon.with("\u{edfc}")
 #let ti-receipt-rupee = tabler-icon.with("\u{fd82}")
+#let ti-receipt-rupee-filled = tabler-icon.with("\u{1017a}")
 #let ti-receipt-tax = tabler-icon.with("\u{edbd}")
 #let ti-receipt-yen = tabler-icon.with("\u{fd6a}")
+#let ti-receipt-yen-filled = tabler-icon.with("\u{10179}")
 #let ti-receipt-yuan = tabler-icon.with("\u{fd6b}")
+#let ti-receipt-yuan-filled = tabler-icon.with("\u{10178}")
 #let ti-recharging = tabler-icon.with("\u{eeca}")
 #let ti-record-mail = tabler-icon.with("\u{eb12}")
 #let ti-record-mail-off = tabler-icon.with("\u{f18b}")
@@ -11402,6 +11439,7 @@
 #let ti-temperature-snow = tabler-icon.with("\u{fda3}")
 #let ti-temperature-sun = tabler-icon.with("\u{fda4}")
 #let ti-template = tabler-icon.with("\u{eb39}")
+#let ti-template-filled = tabler-icon.with("\u{10177}")
 #let ti-template-off = tabler-icon.with("\u{f1b0}")
 #let ti-tent = tabler-icon.with("\u{eefb}")
 #let ti-tent-off = tabler-icon.with("\u{f435}")
