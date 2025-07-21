@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.34.0
+// Generated based on Tabler Icons v3.34.1
 
 #import "../src/lib.typ": *
 
@@ -889,6 +889,7 @@
   figure([#ti-brand-douban(size: 2em)], caption: [`\u{f5ff}` \ #text([`brand-douban` \ ```typst #ti-brand-douban()```], size: 0.75em)], supplement: none),
   figure([#ti-brand-dribbble(size: 2em)], caption: [`\u{ec19}` \ #text([`brand-dribbble` \ ```typst #ti-brand-dribbble()```], size: 0.75em)], supplement: none),
   figure([#ti-brand-dribbble-filled(size: 2em)], caption: [`\u{f7e5}` \ #text([`brand-dribbble-filled` \ ```typst #ti-brand-dribbble-filled()```], size: 0.75em)], supplement: none),
+  figure([#ti-brand-dropbox(size: 2em)], caption: [`\u{1018a}` \ #text([`brand-dropbox` \ ```typst #ti-brand-dropbox()```], size: 0.75em)], supplement: none),
   figure([#ti-brand-drops(size: 2em)], caption: [`\u{f4d5}` \ #text([`brand-drops` \ ```typst #ti-brand-drops()```], size: 0.75em)], supplement: none),
   figure([#ti-brand-drupal(size: 2em)], caption: [`\u{f393}` \ #text([`brand-drupal` \ ```typst #ti-brand-drupal()```], size: 0.75em)], supplement: none),
   figure([#ti-brand-edge(size: 2em)], caption: [`\u{ecfc}` \ #text([`brand-edge` \ ```typst #ti-brand-edge()```], size: 0.75em)], supplement: none),
