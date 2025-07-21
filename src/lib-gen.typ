@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.34.0
+// Generated based on Tabler Icons v3.34.1
 
 #import "lib-impl.typ": tabler-icon
 
@@ -887,6 +887,7 @@
   "brand-douban": "\u{f5ff}",
   "brand-dribbble": "\u{ec19}",
   "brand-dribbble-filled": "\u{f7e5}",
+  "brand-dropbox": "\u{1018a}",
   "brand-drops": "\u{f4d5}",
   "brand-drupal": "\u{f393}",
   "brand-edge": "\u{ecfc}",
@@ -6833,6 +6834,7 @@
 #let ti-brand-douban = tabler-icon.with("\u{f5ff}")
 #let ti-brand-dribbble = tabler-icon.with("\u{ec19}")
 #let ti-brand-dribbble-filled = tabler-icon.with("\u{f7e5}")
+#let ti-brand-dropbox = tabler-icon.with("\u{1018a}")
 #let ti-brand-drops = tabler-icon.with("\u{f4d5}")
 #let ti-brand-drupal = tabler-icon.with("\u{f393}")
 #let ti-brand-edge = tabler-icon.with("\u{ecfc}")
