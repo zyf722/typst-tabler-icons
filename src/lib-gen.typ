@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.34.1
+// Generated based on Tabler Icons v3.35.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -2233,6 +2233,7 @@
   "device-gamepad-2": "\u{f1d2}",
   "device-gamepad-3": "\u{fc58}",
   "device-gamepad-3-filled": "\u{10049}",
+  "device-gamepad-filled": "\u{1019c}",
   "device-heart-monitor": "\u{f060}",
   "device-heart-monitor-filled": "\u{fa38}",
   "device-imac": "\u{f7a7}",
@@ -2679,11 +2680,13 @@
   "file-digit-filled": "\u{1011d}",
   "file-dislike": "\u{ed2a}",
   "file-dollar": "\u{efe0}",
+  "file-dollar-filled": "\u{1019b}",
   "file-dots": "\u{f038}",
   "file-dots-filled": "\u{1016e}",
   "file-download": "\u{ea9d}",
   "file-download-filled": "\u{1012a}",
   "file-euro": "\u{efe1}",
+  "file-euro-filled": "\u{1019a}",
   "file-excel": "\u{fef3}",
   "file-export": "\u{ede9}",
   "file-filled": "\u{f747}",
@@ -2704,11 +2707,13 @@
   "file-minus": "\u{ea9e}",
   "file-minus-filled": "\u{1011a}",
   "file-music": "\u{ea9f}",
+  "file-music-filled": "\u{10199}",
   "file-neutral": "\u{fd22}",
   "file-neutral-filled": "\u{10119}",
   "file-off": "\u{ecf2}",
   "file-orientation": "\u{f2a1}",
   "file-pencil": "\u{f039}",
+  "file-pencil-filled": "\u{10198}",
   "file-percent": "\u{f540}",
   "file-percent-filled": "\u{10128}",
   "file-phone": "\u{ecdc}",
@@ -2722,10 +2727,13 @@
   "file-sad": "\u{fd23}",
   "file-sad-filled": "\u{10117}",
   "file-scissors": "\u{f03c}",
+  "file-scissors-filled": "\u{10197}",
   "file-search": "\u{ed5d}",
   "file-settings": "\u{f029}",
+  "file-settings-filled": "\u{10196}",
   "file-shredder": "\u{eaa1}",
   "file-signal": "\u{f03d}",
+  "file-signal-filled": "\u{10195}",
   "file-smile": "\u{fd24}",
   "file-smile-filled": "\u{10116}",
   "file-spark": "\u{ffb9}",
@@ -2740,6 +2748,7 @@
   "file-text-shield": "\u{100f2}",
   "file-text-spark": "\u{ffb8}",
   "file-time": "\u{f040}",
+  "file-time-filled": "\u{10194}",
   "file-type-bmp": "\u{fb07}",
   "file-type-css": "\u{fb08}",
   "file-type-csv": "\u{fb09}",
@@ -2766,13 +2775,17 @@
   "file-typography": "\u{f041}",
   "file-typography-filled": "\u{1016b}",
   "file-unknown": "\u{f042}",
+  "file-unknown-filled": "\u{10193}",
   "file-upload": "\u{ec91}",
+  "file-upload-filled": "\u{10192}",
   "file-vector": "\u{f043}",
+  "file-vector-filled": "\u{10191}",
   "file-word": "\u{fef2}",
   "file-x": "\u{eaa3}",
   "file-x-filled": "\u{f748}",
   "file-zip": "\u{ed4e}",
   "files": "\u{edef}",
+  "files-filled": "\u{10190}",
   "files-off": "\u{edee}",
   "filter": "\u{eaa5}",
   "filter-2": "\u{1014b}",
@@ -4710,6 +4723,7 @@
   "regex": "\u{f31f}",
   "regex-off": "\u{f421}",
   "registered": "\u{eb14}",
+  "registered-filled": "\u{1018f}",
   "relation-many-to-many": "\u{ed7f}",
   "relation-many-to-many-filled": "\u{fe0c}",
   "relation-one-to-many": "\u{ed80}",
@@ -5755,8 +5769,10 @@
   "video": "\u{ed22}",
   "video-filled": "\u{1009b}",
   "video-minus": "\u{ed1f}",
+  "video-minus-filled": "\u{1018e}",
   "video-off": "\u{ed20}",
   "video-plus": "\u{ed21}",
+  "video-plus-filled": "\u{1018d}",
   "view-360": "\u{ed84}",
   "view-360-arrow": "\u{f62f}",
   "view-360-number": "\u{f566}",
@@ -5884,8 +5900,10 @@
   "world-x": "\u{f9eb}",
   "wrecking-ball": "\u{ed97}",
   "writing": "\u{ef08}",
+  "writing-filled": "\u{1018b}",
   "writing-off": "\u{f1cb}",
   "writing-sign": "\u{ef07}",
+  "writing-sign-filled": "\u{1018c}",
   "writing-sign-off": "\u{f1cc}",
   "x": "\u{eb55}",
   "x-power-y": "\u{10072}",
@@ -8180,6 +8198,7 @@
 #let ti-device-gamepad-2 = tabler-icon.with("\u{f1d2}")
 #let ti-device-gamepad-3 = tabler-icon.with("\u{fc58}")
 #let ti-device-gamepad-3-filled = tabler-icon.with("\u{10049}")
+#let ti-device-gamepad-filled = tabler-icon.with("\u{1019c}")
 #let ti-device-heart-monitor = tabler-icon.with("\u{f060}")
 #let ti-device-heart-monitor-filled = tabler-icon.with("\u{fa38}")
 #let ti-device-imac = tabler-icon.with("\u{f7a7}")
@@ -8626,11 +8645,13 @@
 #let ti-file-digit-filled = tabler-icon.with("\u{1011d}")
 #let ti-file-dislike = tabler-icon.with("\u{ed2a}")
 #let ti-file-dollar = tabler-icon.with("\u{efe0}")
+#let ti-file-dollar-filled = tabler-icon.with("\u{1019b}")
 #let ti-file-dots = tabler-icon.with("\u{f038}")
 #let ti-file-dots-filled = tabler-icon.with("\u{1016e}")
 #let ti-file-download = tabler-icon.with("\u{ea9d}")
 #let ti-file-download-filled = tabler-icon.with("\u{1012a}")
 #let ti-file-euro = tabler-icon.with("\u{efe1}")
+#let ti-file-euro-filled = tabler-icon.with("\u{1019a}")
 #let ti-file-excel = tabler-icon.with("\u{fef3}")
 #let ti-file-export = tabler-icon.with("\u{ede9}")
 #let ti-file-filled = tabler-icon.with("\u{f747}")
@@ -8651,11 +8672,13 @@
 #let ti-file-minus = tabler-icon.with("\u{ea9e}")
 #let ti-file-minus-filled = tabler-icon.with("\u{1011a}")
 #let ti-file-music = tabler-icon.with("\u{ea9f}")
+#let ti-file-music-filled = tabler-icon.with("\u{10199}")
 #let ti-file-neutral = tabler-icon.with("\u{fd22}")
 #let ti-file-neutral-filled = tabler-icon.with("\u{10119}")
 #let ti-file-off = tabler-icon.with("\u{ecf2}")
 #let ti-file-orientation = tabler-icon.with("\u{f2a1}")
 #let ti-file-pencil = tabler-icon.with("\u{f039}")
+#let ti-file-pencil-filled = tabler-icon.with("\u{10198}")
 #let ti-file-percent = tabler-icon.with("\u{f540}")
 #let ti-file-percent-filled = tabler-icon.with("\u{10128}")
 #let ti-file-phone = tabler-icon.with("\u{ecdc}")
@@ -8669,10 +8692,13 @@
 #let ti-file-sad = tabler-icon.with("\u{fd23}")
 #let ti-file-sad-filled = tabler-icon.with("\u{10117}")
 #let ti-file-scissors = tabler-icon.with("\u{f03c}")
+#let ti-file-scissors-filled = tabler-icon.with("\u{10197}")
 #let ti-file-search = tabler-icon.with("\u{ed5d}")
 #let ti-file-settings = tabler-icon.with("\u{f029}")
+#let ti-file-settings-filled = tabler-icon.with("\u{10196}")
 #let ti-file-shredder = tabler-icon.with("\u{eaa1}")
 #let ti-file-signal = tabler-icon.with("\u{f03d}")
+#let ti-file-signal-filled = tabler-icon.with("\u{10195}")
 #let ti-file-smile = tabler-icon.with("\u{fd24}")
 #let ti-file-smile-filled = tabler-icon.with("\u{10116}")
 #let ti-file-spark = tabler-icon.with("\u{ffb9}")
@@ -8687,6 +8713,7 @@
 #let ti-file-text-shield = tabler-icon.with("\u{100f2}")
 #let ti-file-text-spark = tabler-icon.with("\u{ffb8}")
 #let ti-file-time = tabler-icon.with("\u{f040}")
+#let ti-file-time-filled = tabler-icon.with("\u{10194}")
 #let ti-file-type-bmp = tabler-icon.with("\u{fb07}")
 #let ti-file-type-css = tabler-icon.with("\u{fb08}")
 #let ti-file-type-csv = tabler-icon.with("\u{fb09}")
@@ -8713,13 +8740,17 @@
 #let ti-file-typography = tabler-icon.with("\u{f041}")
 #let ti-file-typography-filled = tabler-icon.with("\u{1016b}")
 #let ti-file-unknown = tabler-icon.with("\u{f042}")
+#let ti-file-unknown-filled = tabler-icon.with("\u{10193}")
 #let ti-file-upload = tabler-icon.with("\u{ec91}")
+#let ti-file-upload-filled = tabler-icon.with("\u{10192}")
 #let ti-file-vector = tabler-icon.with("\u{f043}")
+#let ti-file-vector-filled = tabler-icon.with("\u{10191}")
 #let ti-file-word = tabler-icon.with("\u{fef2}")
 #let ti-file-x = tabler-icon.with("\u{eaa3}")
 #let ti-file-x-filled = tabler-icon.with("\u{f748}")
 #let ti-file-zip = tabler-icon.with("\u{ed4e}")
 #let ti-files = tabler-icon.with("\u{edef}")
+#let ti-files-filled = tabler-icon.with("\u{10190}")
 #let ti-files-off = tabler-icon.with("\u{edee}")
 #let ti-filter = tabler-icon.with("\u{eaa5}")
 #let ti-filter-2 = tabler-icon.with("\u{1014b}")
@@ -10657,6 +10688,7 @@
 #let ti-regex = tabler-icon.with("\u{f31f}")
 #let ti-regex-off = tabler-icon.with("\u{f421}")
 #let ti-registered = tabler-icon.with("\u{eb14}")
+#let ti-registered-filled = tabler-icon.with("\u{1018f}")
 #let ti-relation-many-to-many = tabler-icon.with("\u{ed7f}")
 #let ti-relation-many-to-many-filled = tabler-icon.with("\u{fe0c}")
 #let ti-relation-one-to-many = tabler-icon.with("\u{ed80}")
@@ -11702,8 +11734,10 @@
 #let ti-video = tabler-icon.with("\u{ed22}")
 #let ti-video-filled = tabler-icon.with("\u{1009b}")
 #let ti-video-minus = tabler-icon.with("\u{ed1f}")
+#let ti-video-minus-filled = tabler-icon.with("\u{1018e}")
 #let ti-video-off = tabler-icon.with("\u{ed20}")
 #let ti-video-plus = tabler-icon.with("\u{ed21}")
+#let ti-video-plus-filled = tabler-icon.with("\u{1018d}")
 #let ti-view-360 = tabler-icon.with("\u{ed84}")
 #let ti-view-360-arrow = tabler-icon.with("\u{f62f}")
 #let ti-view-360-number = tabler-icon.with("\u{f566}")
@@ -11831,8 +11865,10 @@
 #let ti-world-x = tabler-icon.with("\u{f9eb}")
 #let ti-wrecking-ball = tabler-icon.with("\u{ed97}")
 #let ti-writing = tabler-icon.with("\u{ef08}")
+#let ti-writing-filled = tabler-icon.with("\u{1018b}")
 #let ti-writing-off = tabler-icon.with("\u{f1cb}")
 #let ti-writing-sign = tabler-icon.with("\u{ef07}")
+#let ti-writing-sign-filled = tabler-icon.with("\u{1018c}")
 #let ti-writing-sign-off = tabler-icon.with("\u{f1cc}")
 #let ti-x = tabler-icon.with("\u{eb55}")
 #let ti-x-power-y = tabler-icon.with("\u{10072}")

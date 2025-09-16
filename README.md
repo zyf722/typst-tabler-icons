@@ -16,7 +16,7 @@ Install the webfont file `tabler-icons.ttf` for Tabler Icons before using this l
 #### Using the Typst Packages
 You can install the library using the typst packages:
 ```typst
-#import "@preview/use-tabler-icons:0.14.0": *
+#import "@preview/use-tabler-icons:0.15.0": *
 ```
 
 #### Manually Install
