@@ -10,7 +10,7 @@ A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a se
 
 ## Usage
 ### Install Font
-Install the webfont file `tabler-icons.ttf` for Tabler Icons before using this library. Or, if you are using Typst web app, simply upload the font file to your project.
+Install [the webfont for Tabler Icons](https://docs.tabler.io/icons/libraries/webfont) before using this library. Or, if you are using Typst web app, simply upload the font file to your project.
 
 ### Import the Library
 #### Using the Typst Packages
