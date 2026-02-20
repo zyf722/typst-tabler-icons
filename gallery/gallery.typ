@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.36.1
+// Generated based on Tabler Icons v3.37.1
 
 #import "../src/lib.typ": *
 
