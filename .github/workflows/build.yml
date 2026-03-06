@@ -85,12 +85,14 @@ jobs:
         run: |
           mkdir temp
           curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/tabler-icons.html" -o "temp/tabler-icons.html"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/tabler-icons-filled.html" -o "temp/tabler-icons-filled.html"
           curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/fonts/tabler-icons.ttf" -o "temp/tabler-icons.ttf"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/fonts/tabler-icons-filled.ttf" -o "temp/tabler-icons-filled.ttf"
           npx chalk -t "{green Downloaded tabler-icons files from jsdelivr.}"
       
       - name: Generate icons
         run: |
-          npm run generate -- temp/tabler-icons.html src/lib-gen.typ gallery/gallery.typ
+          npm run generate -- temp/tabler-icons.html temp/tabler-icons-filled.html src/lib-gen.typ gallery/gallery.typ
           npx chalk -t "{green Generated {bold.yellow src/lib-gen.typ} and {bold.yellow gallery/gallery.typ}.}"
       
       - name: Install typst

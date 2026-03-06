@@ -12,6 +12,10 @@ A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a se
 ### Install Font
 Install [the webfont for Tabler Icons](https://docs.tabler.io/icons/libraries/webfont) before using this library. Or, if you are using Typst web app, simply upload the font file to your project.
 
+> [!NOTE]
+>
+> Since Tabler Icons v3.36.0, filled icons have been separated into a different font file. If you want to use filled icons, make sure to install both the regular ` tabler-icons.ttf` and filled `tabler-icons-filled.ttf` font files.
+
 ### Import the Library
 #### Using the Typst Packages
 You can install the library using the typst packages:
