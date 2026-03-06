@@ -49,11 +49,7 @@ const main = async () => {
     process.argv.slice(2);
 
   const outlineData = await parseHtml(outlineInput, "tabler-icons");
-  const filledData = await parseHtml(
-    filledInput,
-    "tabler-icons-filled",
-    "filled",
-  );
+  const filledData = await parseHtml(filledInput, "tabler-icons", "filled");
 
   const version = outlineData.version;
   if (version !== filledData.version) {
