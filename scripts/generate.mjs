@@ -19,9 +19,10 @@ import { readFile, writeFile } from "fs/promises";
  *
  * @param {string} filePath - Path to the HTML file.
  * @param {string} fontFamily - The font family name associated with this HTML file.
+ * @param {string} suffix - A suffix to differentiate between outline and filled icons (e.g., "outline" or "filled").
  * @returns {Promise<ParsedResult>} An object containing the version and icon data.
  */
-const parseHtml = async (filePath, fontFamily) => {
+const parseHtml = async (filePath, fontFamily, suffix = "") => {
   const html = await readFile(filePath, "utf8");
   const $ = cheerio.load(html);
 
@@ -31,7 +32,7 @@ const parseHtml = async (filePath, fontFamily) => {
   // Extract all icons
   const icons = $(".tabler-icon")
     .map((_, el) => {
-      const name = $(el).find("strong").text();
+      const name = $(el).find("strong").text() + (suffix ? `-${suffix}` : "");
       // Get the raw code (e.g., &xea12;) and convert it to Typst format (\u{ea12})
       const rawCode = $(el).find(".tabler-icon-codes :nth-child(3)").text();
       const unicode = `\\u{${rawCode.slice(1)}}`;
@@ -48,7 +49,11 @@ const main = async () => {
     process.argv.slice(2);
 
   const outlineData = await parseHtml(outlineInput, "tabler-icons");
-  const filledData = await parseHtml(filledInput, "tabler-icons-filled");
+  const filledData = await parseHtml(
+    filledInput,
+    "tabler-icons-filled",
+    "filled",
+  );
 
   const version = outlineData.version;
   if (version !== filledData.version) {
