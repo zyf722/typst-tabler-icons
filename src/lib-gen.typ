@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.39.0
+// Generated based on Tabler Icons v3.40.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -135,6 +135,7 @@
   "api": (unicode: "\u{effd}", font: "tabler-icons"),
   "api-app": (unicode: "\u{effc}", font: "tabler-icons"),
   "api-app-off": (unicode: "\u{f0ab}", font: "tabler-icons"),
+  "api-book": (unicode: "\u{1020b}", font: "tabler-icons"),
   "api-off": (unicode: "\u{f0f8}", font: "tabler-icons"),
   "app-window": (unicode: "\u{efe6}", font: "tabler-icons"),
   "apple": (unicode: "\u{ef21}", font: "tabler-icons"),
@@ -787,6 +788,7 @@
   "brand-hipchat": (unicode: "\u{edcd}", font: "tabler-icons"),
   "brand-html5": (unicode: "\u{ed6c}", font: "tabler-icons"),
   "brand-inertia": (unicode: "\u{f34a}", font: "tabler-icons"),
+  "brand-infakt": (unicode: "\u{1020a}", font: "tabler-icons"),
   "brand-instagram": (unicode: "\u{ec20}", font: "tabler-icons"),
   "brand-intercom": (unicode: "\u{f1cf}", font: "tabler-icons"),
   "brand-itch": (unicode: "\u{fa22}", font: "tabler-icons"),
@@ -1441,9 +1443,14 @@
   "circle-number-8": (unicode: "\u{ee3c}", font: "tabler-icons"),
   "circle-number-9": (unicode: "\u{ee3d}", font: "tabler-icons"),
   "circle-off": (unicode: "\u{ee40}", font: "tabler-icons"),
+  "circle-open-arrow-down": (unicode: "\u{10209}", font: "tabler-icons"),
+  "circle-open-arrow-left": (unicode: "\u{10208}", font: "tabler-icons"),
+  "circle-open-arrow-right": (unicode: "\u{10207}", font: "tabler-icons"),
+  "circle-open-arrow-up": (unicode: "\u{10206}", font: "tabler-icons"),
   "circle-percentage": (unicode: "\u{fd7b}", font: "tabler-icons"),
   "circle-plus": (unicode: "\u{ea69}", font: "tabler-icons"),
   "circle-plus-2": (unicode: "\u{fc8d}", font: "tabler-icons"),
+  "circle-plus-minus": (unicode: "\u{10205}", font: "tabler-icons"),
   "circle-rectangle": (unicode: "\u{f010}", font: "tabler-icons"),
   "circle-rectangle-off": (unicode: "\u{f0cd}", font: "tabler-icons"),
   "circle-square": (unicode: "\u{ece4}", font: "tabler-icons"),
@@ -2701,6 +2708,7 @@
   "home-heart": (unicode: "\u{f353}", font: "tabler-icons"),
   "home-infinity": (unicode: "\u{f505}", font: "tabler-icons"),
   "home-link": (unicode: "\u{f354}", font: "tabler-icons"),
+  "home-lock": (unicode: "\u{10204}", font: "tabler-icons"),
   "home-minus": (unicode: "\u{f33d}", font: "tabler-icons"),
   "home-move": (unicode: "\u{f33e}", font: "tabler-icons"),
   "home-off": (unicode: "\u{f145}", font: "tabler-icons"),
@@ -3114,6 +3122,7 @@
   "map-east": (unicode: "\u{fc5d}", font: "tabler-icons"),
   "map-exclamation": (unicode: "\u{fbcb}", font: "tabler-icons"),
   "map-heart": (unicode: "\u{fbcc}", font: "tabler-icons"),
+  "map-lock": (unicode: "\u{10203}", font: "tabler-icons"),
   "map-minus": (unicode: "\u{fbcd}", font: "tabler-icons"),
   "map-north": (unicode: "\u{fc5e}", font: "tabler-icons"),
   "map-off": (unicode: "\u{f15c}", font: "tabler-icons"),
@@ -3146,6 +3155,7 @@
   "map-route": (unicode: "\u{fc79}", font: "tabler-icons"),
   "map-search": (unicode: "\u{ef82}", font: "tabler-icons"),
   "map-share": (unicode: "\u{fbd1}", font: "tabler-icons"),
+  "map-shield": (unicode: "\u{10202}", font: "tabler-icons"),
   "map-south": (unicode: "\u{fc5f}", font: "tabler-icons"),
   "map-star": (unicode: "\u{fbd2}", font: "tabler-icons"),
   "map-up": (unicode: "\u{fbd3}", font: "tabler-icons"),
@@ -3221,6 +3231,7 @@
   "menu-4": (unicode: "\u{ff42}", font: "tabler-icons"),
   "menu-deep": (unicode: "\u{fafb}", font: "tabler-icons"),
   "menu-order": (unicode: "\u{f5f5}", font: "tabler-icons"),
+  "mesh": (unicode: "\u{10201}", font: "tabler-icons"),
   "message": (unicode: "\u{eaef}", font: "tabler-icons"),
   "message-2": (unicode: "\u{eaec}", font: "tabler-icons"),
   "message-2-bolt": (unicode: "\u{f95c}", font: "tabler-icons"),
@@ -3918,6 +3929,8 @@
   "qrcode": (unicode: "\u{eb11}", font: "tabler-icons"),
   "qrcode-off": (unicode: "\u{f41e}", font: "tabler-icons"),
   "question-mark": (unicode: "\u{ec9d}", font: "tabler-icons"),
+  "queue-pop-in": (unicode: "\u{10200}", font: "tabler-icons"),
+  "queue-pop-out": (unicode: "\u{101ff}", font: "tabler-icons"),
   "quote": (unicode: "\u{efbe}", font: "tabler-icons"),
   "quote-off": (unicode: "\u{f188}", font: "tabler-icons"),
   "quotes": (unicode: "\u{fb1e}", font: "tabler-icons"),
@@ -4513,6 +4526,9 @@
   "stretching": (unicode: "\u{f2db}", font: "tabler-icons"),
   "stretching-2": (unicode: "\u{fa6d}", font: "tabler-icons"),
   "strikethrough": (unicode: "\u{eb9e}", font: "tabler-icons"),
+  "stroke-curved": (unicode: "\u{101fe}", font: "tabler-icons"),
+  "stroke-dynamic": (unicode: "\u{101fd}", font: "tabler-icons"),
+  "stroke-straight": (unicode: "\u{101fc}", font: "tabler-icons"),
   "submarine": (unicode: "\u{ed94}", font: "tabler-icons"),
   "subscript": (unicode: "\u{eb9f}", font: "tabler-icons"),
   "subtask": (unicode: "\u{ec9f}", font: "tabler-icons"),
@@ -4731,6 +4747,7 @@
   "trending-up": (unicode: "\u{eb43}", font: "tabler-icons"),
   "trending-up-2": (unicode: "\u{edc3}", font: "tabler-icons"),
   "trending-up-3": (unicode: "\u{edc4}", font: "tabler-icons"),
+  "trending-up-down": (unicode: "\u{101fb}", font: "tabler-icons"),
   "triangle": (unicode: "\u{eb44}", font: "tabler-icons"),
   "triangle-inverted": (unicode: "\u{f01d}", font: "tabler-icons"),
   "triangle-minus": (unicode: "\u{fc9b}", font: "tabler-icons"),
@@ -4845,6 +4862,7 @@
   "viewport-wide": (unicode: "\u{ebf4}", font: "tabler-icons"),
   "vinyl": (unicode: "\u{f00d}", font: "tabler-icons"),
   "vip": (unicode: "\u{f3b3}", font: "tabler-icons"),
+  "vip-2": (unicode: "\u{101fa}", font: "tabler-icons"),
   "vip-off": (unicode: "\u{f43a}", font: "tabler-icons"),
   "virus": (unicode: "\u{eb74}", font: "tabler-icons"),
   "virus-off": (unicode: "\u{ed66}", font: "tabler-icons"),
@@ -6193,6 +6211,7 @@
 #let ti-api = tabler-icon.with("\u{effd}", font: "tabler-icons")
 #let ti-api-app = tabler-icon.with("\u{effc}", font: "tabler-icons")
 #let ti-api-app-off = tabler-icon.with("\u{f0ab}", font: "tabler-icons")
+#let ti-api-book = tabler-icon.with("\u{1020b}", font: "tabler-icons")
 #let ti-api-off = tabler-icon.with("\u{f0f8}", font: "tabler-icons")
 #let ti-app-window = tabler-icon.with("\u{efe6}", font: "tabler-icons")
 #let ti-apple = tabler-icon.with("\u{ef21}", font: "tabler-icons")
@@ -6845,6 +6864,7 @@
 #let ti-brand-hipchat = tabler-icon.with("\u{edcd}", font: "tabler-icons")
 #let ti-brand-html5 = tabler-icon.with("\u{ed6c}", font: "tabler-icons")
 #let ti-brand-inertia = tabler-icon.with("\u{f34a}", font: "tabler-icons")
+#let ti-brand-infakt = tabler-icon.with("\u{1020a}", font: "tabler-icons")
 #let ti-brand-instagram = tabler-icon.with("\u{ec20}", font: "tabler-icons")
 #let ti-brand-intercom = tabler-icon.with("\u{f1cf}", font: "tabler-icons")
 #let ti-brand-itch = tabler-icon.with("\u{fa22}", font: "tabler-icons")
@@ -7499,9 +7519,14 @@
 #let ti-circle-number-8 = tabler-icon.with("\u{ee3c}", font: "tabler-icons")
 #let ti-circle-number-9 = tabler-icon.with("\u{ee3d}", font: "tabler-icons")
 #let ti-circle-off = tabler-icon.with("\u{ee40}", font: "tabler-icons")
+#let ti-circle-open-arrow-down = tabler-icon.with("\u{10209}", font: "tabler-icons")
+#let ti-circle-open-arrow-left = tabler-icon.with("\u{10208}", font: "tabler-icons")
+#let ti-circle-open-arrow-right = tabler-icon.with("\u{10207}", font: "tabler-icons")
+#let ti-circle-open-arrow-up = tabler-icon.with("\u{10206}", font: "tabler-icons")
 #let ti-circle-percentage = tabler-icon.with("\u{fd7b}", font: "tabler-icons")
 #let ti-circle-plus = tabler-icon.with("\u{ea69}", font: "tabler-icons")
 #let ti-circle-plus-2 = tabler-icon.with("\u{fc8d}", font: "tabler-icons")
+#let ti-circle-plus-minus = tabler-icon.with("\u{10205}", font: "tabler-icons")
 #let ti-circle-rectangle = tabler-icon.with("\u{f010}", font: "tabler-icons")
 #let ti-circle-rectangle-off = tabler-icon.with("\u{f0cd}", font: "tabler-icons")
 #let ti-circle-square = tabler-icon.with("\u{ece4}", font: "tabler-icons")
@@ -8759,6 +8784,7 @@
 #let ti-home-heart = tabler-icon.with("\u{f353}", font: "tabler-icons")
 #let ti-home-infinity = tabler-icon.with("\u{f505}", font: "tabler-icons")
 #let ti-home-link = tabler-icon.with("\u{f354}", font: "tabler-icons")
+#let ti-home-lock = tabler-icon.with("\u{10204}", font: "tabler-icons")
 #let ti-home-minus = tabler-icon.with("\u{f33d}", font: "tabler-icons")
 #let ti-home-move = tabler-icon.with("\u{f33e}", font: "tabler-icons")
 #let ti-home-off = tabler-icon.with("\u{f145}", font: "tabler-icons")
@@ -9172,6 +9198,7 @@
 #let ti-map-east = tabler-icon.with("\u{fc5d}", font: "tabler-icons")
 #let ti-map-exclamation = tabler-icon.with("\u{fbcb}", font: "tabler-icons")
 #let ti-map-heart = tabler-icon.with("\u{fbcc}", font: "tabler-icons")
+#let ti-map-lock = tabler-icon.with("\u{10203}", font: "tabler-icons")
 #let ti-map-minus = tabler-icon.with("\u{fbcd}", font: "tabler-icons")
 #let ti-map-north = tabler-icon.with("\u{fc5e}", font: "tabler-icons")
 #let ti-map-off = tabler-icon.with("\u{f15c}", font: "tabler-icons")
@@ -9204,6 +9231,7 @@
 #let ti-map-route = tabler-icon.with("\u{fc79}", font: "tabler-icons")
 #let ti-map-search = tabler-icon.with("\u{ef82}", font: "tabler-icons")
 #let ti-map-share = tabler-icon.with("\u{fbd1}", font: "tabler-icons")
+#let ti-map-shield = tabler-icon.with("\u{10202}", font: "tabler-icons")
 #let ti-map-south = tabler-icon.with("\u{fc5f}", font: "tabler-icons")
 #let ti-map-star = tabler-icon.with("\u{fbd2}", font: "tabler-icons")
 #let ti-map-up = tabler-icon.with("\u{fbd3}", font: "tabler-icons")
@@ -9279,6 +9307,7 @@
 #let ti-menu-4 = tabler-icon.with("\u{ff42}", font: "tabler-icons")
 #let ti-menu-deep = tabler-icon.with("\u{fafb}", font: "tabler-icons")
 #let ti-menu-order = tabler-icon.with("\u{f5f5}", font: "tabler-icons")
+#let ti-mesh = tabler-icon.with("\u{10201}", font: "tabler-icons")
 #let ti-message = tabler-icon.with("\u{eaef}", font: "tabler-icons")
 #let ti-message-2 = tabler-icon.with("\u{eaec}", font: "tabler-icons")
 #let ti-message-2-bolt = tabler-icon.with("\u{f95c}", font: "tabler-icons")
@@ -9976,6 +10005,8 @@
 #let ti-qrcode = tabler-icon.with("\u{eb11}", font: "tabler-icons")
 #let ti-qrcode-off = tabler-icon.with("\u{f41e}", font: "tabler-icons")
 #let ti-question-mark = tabler-icon.with("\u{ec9d}", font: "tabler-icons")
+#let ti-queue-pop-in = tabler-icon.with("\u{10200}", font: "tabler-icons")
+#let ti-queue-pop-out = tabler-icon.with("\u{101ff}", font: "tabler-icons")
 #let ti-quote = tabler-icon.with("\u{efbe}", font: "tabler-icons")
 #let ti-quote-off = tabler-icon.with("\u{f188}", font: "tabler-icons")
 #let ti-quotes = tabler-icon.with("\u{fb1e}", font: "tabler-icons")
@@ -10571,6 +10602,9 @@
 #let ti-stretching = tabler-icon.with("\u{f2db}", font: "tabler-icons")
 #let ti-stretching-2 = tabler-icon.with("\u{fa6d}", font: "tabler-icons")
 #let ti-strikethrough = tabler-icon.with("\u{eb9e}", font: "tabler-icons")
+#let ti-stroke-curved = tabler-icon.with("\u{101fe}", font: "tabler-icons")
+#let ti-stroke-dynamic = tabler-icon.with("\u{101fd}", font: "tabler-icons")
+#let ti-stroke-straight = tabler-icon.with("\u{101fc}", font: "tabler-icons")
 #let ti-submarine = tabler-icon.with("\u{ed94}", font: "tabler-icons")
 #let ti-subscript = tabler-icon.with("\u{eb9f}", font: "tabler-icons")
 #let ti-subtask = tabler-icon.with("\u{ec9f}", font: "tabler-icons")
@@ -10789,6 +10823,7 @@
 #let ti-trending-up = tabler-icon.with("\u{eb43}", font: "tabler-icons")
 #let ti-trending-up-2 = tabler-icon.with("\u{edc3}", font: "tabler-icons")
 #let ti-trending-up-3 = tabler-icon.with("\u{edc4}", font: "tabler-icons")
+#let ti-trending-up-down = tabler-icon.with("\u{101fb}", font: "tabler-icons")
 #let ti-triangle = tabler-icon.with("\u{eb44}", font: "tabler-icons")
 #let ti-triangle-inverted = tabler-icon.with("\u{f01d}", font: "tabler-icons")
 #let ti-triangle-minus = tabler-icon.with("\u{fc9b}", font: "tabler-icons")
@@ -10903,6 +10938,7 @@
 #let ti-viewport-wide = tabler-icon.with("\u{ebf4}", font: "tabler-icons")
 #let ti-vinyl = tabler-icon.with("\u{f00d}", font: "tabler-icons")
 #let ti-vip = tabler-icon.with("\u{f3b3}", font: "tabler-icons")
+#let ti-vip-2 = tabler-icon.with("\u{101fa}", font: "tabler-icons")
 #let ti-vip-off = tabler-icon.with("\u{f43a}", font: "tabler-icons")
 #let ti-virus = tabler-icon.with("\u{eb74}", font: "tabler-icons")
 #let ti-virus-off = tabler-icon.with("\u{ed66}", font: "tabler-icons")
