@@ -10,6 +10,19 @@ on:
         description: Skip bumping the typst package version
         type: boolean
         required: false
+      bump_version_type:
+        description: Type of version bump
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+        default: minor
+        required: false
+      skip_precheck:
+        description: Skip the precheck step that checks for the latest version of tabler-icons
+        type: boolean
+        required: false
 
 env:
   FORCE_COLOR: 3
@@ -38,6 +51,7 @@ jobs:
 
       - id: check
         name: Check latest release of tabler-icons
+        if: ${{ !github.event.inputs.skip_precheck }}
         run: |
           LATEST_TABLER_VERSION=$(npx semver $(gh release view -R tabler/tabler-icons --json tagName -q .tagName))
           PACKAGE_TABLER_VERSION=$(jq -r '.typst."tabler-version"' package.json)
@@ -49,6 +63,14 @@ jobs:
             npx chalk -t "{green Tabler-icons is up to date.}"
             echo "SKIP=true" >> $GITHUB_OUTPUT
           fi
+      
+      - id: check-skipped
+        name: Check latest release of tabler-icons (skipped)
+        if: ${{ github.event.inputs.skip_precheck }}
+        run: |
+          LATEST_TABLER_VERSION=$(npx semver $(gh release view -R tabler/tabler-icons --json tagName -q .tagName))
+          echo "LATEST_TABLER_VERSION=$LATEST_TABLER_VERSION" >> $GITHUB_OUTPUT
+          npx chalk -t "{yellow Skipped precheck. Latest tabler-icons version is {bold $LATEST_TABLER_VERSION}.}"
 
   build:
     name: Build
@@ -61,6 +83,7 @@ jobs:
     env:
       LATEST_TABLER_VERSION: ${{ needs.precheck.outputs.latest_tabler_version }}
       BUMP_VERSION: ${{ github.event.inputs.skip_bump_version && 'false' || 'true' }}
+      BUMP_VERSION_TYPE: ${{ github.event.inputs.bump_version_type || 'minor' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -112,7 +135,7 @@ jobs:
         if: ${{ env.BUMP_VERSION == 'true' }}
         run: |
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
-          BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
+          BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i $BUMP_VERSION_TYPE)
           sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
           sed -i "s/#import \"@preview\/use-tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/use-tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
           echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
