@@ -1,20 +1,30 @@
-name: Build (Scheduled)
+name: Build (Manual)
 
 on:
-  # Runs automatically every day at 00:00 UTC
-  schedule: [{ cron: "0 0 * * *" }]
+  workflow_dispatch:
+    inputs:
+      version_bump:
+        description: Version bump type for the typst package
+        type: choice
+        options:
+          - minor
+          - major
+          - patch
+          - none
+        default: minor
+        required: true
 
 env:
   FORCE_COLOR: 3
   GH_TOKEN: ${{ github.token }}
 
 jobs:
-  precheck:
-    name: Precheck
+  build:
+    name: Build
     runs-on: ubuntu-latest
-    outputs:
-      latest_tabler_version: ${{ steps.check.outputs.LATEST_TABLER_VERSION }}
-      skip: ${{ steps.check.outputs.SKIP }}
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v6
@@ -29,64 +39,41 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - id: check
-        name: Check latest release of tabler-icons
+      - id: version
+        name: Determine tabler-icons version
         run: |
           LATEST_TABLER_VERSION=$(npx semver $(gh release view -R tabler/tabler-icons --json tagName -q .tagName))
           PACKAGE_TABLER_VERSION=$(jq -r '.typst."tabler-version"' package.json)
 
           if [[ -z "$PACKAGE_TABLER_VERSION" || $(npx semver $PACKAGE_TABLER_VERSION -r "<$LATEST_TABLER_VERSION") ]]; then
             npx chalk -t "{yellow Tabler-icons has a new version: {bold $LATEST_TABLER_VERSION}.}"
-            echo "LATEST_TABLER_VERSION=$LATEST_TABLER_VERSION" >> $GITHUB_OUTPUT
+            TABLER_VERSION=$LATEST_TABLER_VERSION
+            jq --arg version "$TABLER_VERSION" '.typst."tabler-version" = $version' package.json > package.json.tmp \
+            && mv package.json.tmp package.json
+            echo "TABLER_UPDATED=true" >> $GITHUB_OUTPUT
           else
-            npx chalk -t "{green Tabler-icons is up to date.}"
-            echo "SKIP=true" >> $GITHUB_OUTPUT
+            npx chalk -t "{green Tabler-icons is up to date. Rebuilding with current version.}"
+            TABLER_VERSION=$PACKAGE_TABLER_VERSION
+            echo "TABLER_UPDATED=false" >> $GITHUB_OUTPUT
           fi
+          echo "TABLER_VERSION=$TABLER_VERSION" >> $GITHUB_OUTPUT
 
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    needs: precheck
-    if: ${{ needs.precheck.outputs.skip != 'true' }}
-    permissions:
-      contents: write
-      pull-requests: write
-    env:
-      LATEST_TABLER_VERSION: ${{ needs.precheck.outputs.latest_tabler_version }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-
-      - name: Set up node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 22.x
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Update metadata
+      - name: Fetch tabler-icons
+        env:
+          TABLER_VERSION: ${{ steps.version.outputs.TABLER_VERSION }}
         run: |
-          jq --arg version "$LATEST_TABLER_VERSION" '.typst."tabler-version" = $version' package.json > package.json.tmp \
-          && mv package.json.tmp package.json
-          npx chalk -t "{green Bumped tabler-icons version in {bold.yellow package.json} to {bold.yellow $LATEST_TABLER_VERSION}.}"
-        
-      - name: Fetch latest tabler-icons
-        run: |
-          mkdir temp
-          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/tabler-icons.html" -o "temp/tabler-icons.html"
-          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/tabler-icons-filled.html" -o "temp/tabler-icons-filled.html"
-          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/fonts/tabler-icons.ttf" -o "temp/tabler-icons.ttf"
-          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$LATEST_TABLER_VERSION/dist/fonts/tabler-icons-filled.ttf" -o "temp/tabler-icons-filled.ttf"
+          mkdir -p temp
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$TABLER_VERSION/dist/tabler-icons.html" -o "temp/tabler-icons.html"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$TABLER_VERSION/dist/tabler-icons-filled.html" -o "temp/tabler-icons-filled.html"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$TABLER_VERSION/dist/fonts/tabler-icons.ttf" -o "temp/tabler-icons.ttf"
+          curl -L "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@$TABLER_VERSION/dist/fonts/tabler-icons-filled.ttf" -o "temp/tabler-icons-filled.ttf"
           npx chalk -t "{green Downloaded tabler-icons files from jsdelivr.}"
-      
+
       - name: Generate icons
         run: |
           npm run generate -- temp/tabler-icons.html temp/tabler-icons-filled.html src/lib-gen.typ gallery/gallery.typ
           npx chalk -t "{green Generated {bold.yellow src/lib-gen.typ} and {bold.yellow gallery/gallery.typ}.}"
-      
+
       - name: Install typst
         run: |
           gh release download -R typst/typst -p 'typst-x86_64-unknown-linux-musl.tar.xz' -D temp
@@ -101,23 +88,35 @@ jobs:
           npx chalk -t "{green Compiled {bold.yellow gallery/gallery.pdf}.}"
 
       - name: Bump typst package version
+        if: ${{ inputs.version_bump != 'none' }}
+        env:
+          VERSION_BUMP: ${{ inputs.version_bump }}
         run: |
           TYPST_PACKAGE_VERSION=$(awk -F'"' '/version =/ {print $2}' typst.toml)
-          BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i minor)
+          BUMPED_TYPST_PACKAGE_VERSION=$(npx semver $TYPST_PACKAGE_VERSION -i $VERSION_BUMP)
           sed -i "s/version = \"$TYPST_PACKAGE_VERSION\"/version = \"$BUMPED_TYPST_PACKAGE_VERSION\"/" typst.toml
           sed -i "s/#import \"@preview\/use-tabler-icons:$TYPST_PACKAGE_VERSION\": \*/#import \"@preview\/use-tabler-icons:$BUMPED_TYPST_PACKAGE_VERSION\": \*/" README.md
           echo "BUMPED_TYPST_PACKAGE_VERSION=$BUMPED_TYPST_PACKAGE_VERSION" >> $GITHUB_ENV
           npx chalk -t "{green Bumped typst package version in {bold.yellow typst.toml, README.md} to {bold.yellow $BUMPED_TYPST_PACKAGE_VERSION}.}"
-      
+
       - id: commit
         name: Commit changes in a new branch
+        env:
+          TABLER_VERSION: ${{ steps.version.outputs.TABLER_VERSION }}
+          TABLER_UPDATED: ${{ steps.version.outputs.TABLER_UPDATED }}
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
 
-          BRANCH="tabler-icons-$LATEST_TABLER_VERSION"
+          if [[ "$TABLER_UPDATED" == "true" ]]; then
+            BRANCH="tabler-icons-$TABLER_VERSION"
+            COMMIT_MSG="chore: update tabler-icons to $TABLER_VERSION"
+          else
+            BRANCH="rebuild-tabler-icons-$TABLER_VERSION"
+            COMMIT_MSG="chore: rebuild with tabler-icons $TABLER_VERSION"
+          fi
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
-          
+
           if [[ -z $(git branch --list $BRANCH) ]]; then
             npx chalk -t "{green Creating a new branch {bold.yellow $BRANCH}.}"
             git checkout -b $BRANCH
@@ -134,23 +133,33 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: update tabler-icons to $LATEST_TABLER_VERSION"
+          git commit -m "$COMMIT_MSG"
           git push origin $BRANCH
           npx chalk -t "{green Pushed changes to {bold.yellow $BRANCH}.}"
-      
+
       - name: Create PR
         if: ${{ steps.commit.outputs.SKIP != 'true' }}
+        env:
+          TABLER_VERSION: ${{ steps.version.outputs.TABLER_VERSION }}
+          TABLER_UPDATED: ${{ steps.version.outputs.TABLER_UPDATED }}
         run: |
-          ORIGINAL_RELEASE_MESSAGE=$(
-            gh release view -R tabler/tabler-icons --json body -q .body
-          )
-          
-          echo -e "This PR updates \`tabler-icons\` to the latest version ([v$LATEST_TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$LATEST_TABLER_VERSION)).\n---\n$ORIGINAL_RELEASE_MESSAGE" | \
+          if [[ "$TABLER_UPDATED" == "true" ]]; then
+            ORIGINAL_RELEASE_MESSAGE=$(
+              gh release view -R tabler/tabler-icons --json body -q .body
+            )
+            PR_TITLE="Update \`tabler-icons\` to $TABLER_VERSION"
+            PR_BODY="This PR updates \`tabler-icons\` to version [v$TABLER_VERSION](https://github.com/tabler/tabler-icons/releases/tag/v$TABLER_VERSION).\n---\n$ORIGINAL_RELEASE_MESSAGE"
+          else
+            PR_TITLE="Rebuild with \`tabler-icons\` $TABLER_VERSION"
+            PR_BODY="This PR rebuilds the package using \`tabler-icons\` $TABLER_VERSION (no upstream version change)."
+          fi
+
+          echo -e "$PR_BODY" | \
           gh pr create \
-            --title "Update \`tabler-icons\` to $LATEST_TABLER_VERSION" \
+            --title "$PR_TITLE" \
             --base ${{ github.ref }} \
             --head $BRANCH \
-            --label "auto-update" \
+            --label "manual-build" \
             --body-file -
-          
-              npx chalk -t "{green Created PR.}"
+
+          npx chalk -t "{green Created PR.}"
