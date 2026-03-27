@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.40.0
+// Generated based on Tabler Icons v3.41.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -793,6 +793,7 @@
   "brand-intercom":"\u{f1cf}",
   "brand-itch":"\u{fa22}",
   "brand-javascript":"\u{ef0c}",
+  "brand-jira":"\u{10231}",
   "brand-juejin":"\u{f7b0}",
   "brand-kako-talk":"\u{fd2d}",
   "brand-kbin":"\u{fad0}",
@@ -1169,6 +1170,8 @@
   "car-fan-auto":"\u{fdb4}",
   "car-garage":"\u{fc77}",
   "car-off":"\u{f0c7}",
+  "car-off-road":"\u{10230}",
+  "car-suspension":"\u{1022f}",
   "car-suv":"\u{fc8b}",
   "car-turbine":"\u{f4fd}",
   "carambola":"\u{feb9}",
@@ -1679,6 +1682,7 @@
   "creative-commons-sa":"\u{f222}",
   "creative-commons-zero":"\u{f223}",
   "credit-card":"\u{ea84}",
+  "credit-card-hand":"\u{1022e}",
   "credit-card-off":"\u{ed11}",
   "credit-card-pay":"\u{fd32}",
   "credit-card-refund":"\u{fd33}",
@@ -1818,6 +1822,8 @@
   "desk":"\u{fd35}",
   "details":"\u{ee71}",
   "details-off":"\u{f3e2}",
+  "device-3d-camera":"\u{1022d}",
+  "device-3d-lens":"\u{1022c}",
   "device-airpods":"\u{f5a9}",
   "device-airpods-case":"\u{f646}",
   "device-airtag":"\u{fae6}",
@@ -1950,6 +1956,7 @@
   "device-nintendo-off":"\u{f111}",
   "device-projector":"\u{fc11}",
   "device-remote":"\u{f792}",
+  "device-screen":"\u{1022b}",
   "device-sd-card":"\u{f384}",
   "device-sim":"\u{f4b2}",
   "device-sim-1":"\u{f4af}",
@@ -2762,6 +2769,7 @@
   "ice-cream-2":"\u{ee9f}",
   "ice-cream-off":"\u{f148}",
   "ice-skating":"\u{efcb}",
+  "iceberg":"\u{1022a}",
   "icons":"\u{f1d4}",
   "icons-off":"\u{f3fc}",
   "id":"\u{eac3}",
@@ -2812,6 +2820,7 @@
   "italic":"\u{eb93}",
   "jacket":"\u{f661}",
   "jetpack":"\u{f581}",
+  "jetski":"\u{10229}",
   "jewish-star":"\u{f3ff}",
   "join-bevel":"\u{ff4c}",
   "join-round":"\u{ff4b}",
@@ -3526,26 +3535,26 @@
   "number-32-small":"\u{10002}",
   "number-33-small":"\u{10001}",
   "number-34-small":"\u{10000}",
-  "number-35-small":"\u{ffff}",
-  "number-36-small":"\u{fffe}",
-  "number-37-small":"\u{fffd}",
-  "number-38-small":"\u{fffc}",
-  "number-39-small":"\u{fffb}",
+  "number-35-small":"\u{10210}",
+  "number-36-small":"\u{10211}",
+  "number-37-small":"\u{10212}",
+  "number-38-small":"\u{10213}",
+  "number-39-small":"\u{10214}",
   "number-4":"\u{edf4}",
   "number-4-small":"\u{fcf9}",
-  "number-40-small":"\u{fffa}",
-  "number-41-small":"\u{fff9}",
-  "number-42-small":"\u{fff8}",
-  "number-43-small":"\u{fff7}",
-  "number-44-small":"\u{fff6}",
-  "number-45-small":"\u{fff5}",
-  "number-46-small":"\u{fff4}",
-  "number-47-small":"\u{fff3}",
-  "number-48-small":"\u{fff2}",
-  "number-49-small":"\u{fff1}",
+  "number-40-small":"\u{10215}",
+  "number-41-small":"\u{10216}",
+  "number-42-small":"\u{10217}",
+  "number-43-small":"\u{10218}",
+  "number-44-small":"\u{10219}",
+  "number-45-small":"\u{1021a}",
+  "number-46-small":"\u{1021b}",
+  "number-47-small":"\u{1021c}",
+  "number-48-small":"\u{1021d}",
+  "number-49-small":"\u{1021e}",
   "number-5":"\u{edf5}",
   "number-5-small":"\u{fcfa}",
-  "number-50-small":"\u{fff0}",
+  "number-50-small":"\u{1021f}",
   "number-51-small":"\u{ffef}",
   "number-52-small":"\u{ffee}",
   "number-53-small":"\u{ffed}",
@@ -3617,6 +3626,7 @@
   "octahedron-off":"\u{faac}",
   "octahedron-plus":"\u{faad}",
   "old":"\u{eeb9}",
+  "olympic-torch":"\u{10228}",
   "olympics":"\u{eeba}",
   "olympics-off":"\u{f416}",
   "om":"\u{f58d}",
@@ -3651,6 +3661,7 @@
   "parentheses-off":"\u{f171}",
   "parking":"\u{eb03}",
   "parking-circle":"\u{fd5a}",
+  "parking-meter":"\u{10227}",
   "parking-off":"\u{f172}",
   "password":"\u{f4ca}",
   "password-fingerprint":"\u{fc7b}",
@@ -3790,6 +3801,7 @@
   "pilcrow-right":"\u{fd80}",
   "pill":"\u{ec44}",
   "pill-off":"\u{f178}",
+  "pillow":"\u{10226}",
   "pills":"\u{ef66}",
   "pin":"\u{ec9c}",
   "pin-end":"\u{fd5b}",
@@ -3797,6 +3809,7 @@
   "ping-pong":"\u{f38d}",
   "pinned":"\u{ed60}",
   "pinned-off":"\u{ed5f}",
+  "pipeline":"\u{10225}",
   "pizza":"\u{edbb}",
   "pizza-off":"\u{f179}",
   "placeholder":"\u{f626}",
@@ -3933,6 +3946,7 @@
   "queue-pop-out":"\u{101ff}",
   "quote":"\u{efbe}",
   "quote-off":"\u{f188}",
+  "quote-open":"\u{10224}",
   "quotes":"\u{fb1e}",
   "radar":"\u{f017}",
   "radar-2":"\u{f016}",
@@ -4108,6 +4122,8 @@
   "scale-outline-off":"\u{f199}",
   "scan":"\u{ebc8}",
   "scan-eye":"\u{f1ff}",
+  "scan-letter-a":"\u{10223}",
+  "scan-letter-t":"\u{10222}",
   "scan-position":"\u{fdac}",
   "scan-traces":"\u{101ec}",
   "schema":"\u{f200}",
@@ -4140,6 +4156,7 @@
   "section-sign":"\u{f019}",
   "seedling":"\u{ed51}",
   "seedling-off":"\u{f19d}",
+  "segway":"\u{10221}",
   "select":"\u{ec9e}",
   "select-all":"\u{f9f7}",
   "selector":"\u{eb1d}",
@@ -4982,6 +4999,7 @@
   "writing-sign":"\u{ef07}",
   "writing-sign-off":"\u{f1cc}",
   "x":"\u{eb55}",
+  "x-mark":"\u{10220}",
   "x-power-y":"\u{10072}",
   "xbox-a":"\u{f2b6}",
   "xbox-b":"\u{f2b7}",
@@ -6869,6 +6887,7 @@
 #let ti-brand-intercom = tabler-icon.with("\u{f1cf}")
 #let ti-brand-itch = tabler-icon.with("\u{fa22}")
 #let ti-brand-javascript = tabler-icon.with("\u{ef0c}")
+#let ti-brand-jira = tabler-icon.with("\u{10231}")
 #let ti-brand-juejin = tabler-icon.with("\u{f7b0}")
 #let ti-brand-kako-talk = tabler-icon.with("\u{fd2d}")
 #let ti-brand-kbin = tabler-icon.with("\u{fad0}")
@@ -7245,6 +7264,8 @@
 #let ti-car-fan-auto = tabler-icon.with("\u{fdb4}")
 #let ti-car-garage = tabler-icon.with("\u{fc77}")
 #let ti-car-off = tabler-icon.with("\u{f0c7}")
+#let ti-car-off-road = tabler-icon.with("\u{10230}")
+#let ti-car-suspension = tabler-icon.with("\u{1022f}")
 #let ti-car-suv = tabler-icon.with("\u{fc8b}")
 #let ti-car-turbine = tabler-icon.with("\u{f4fd}")
 #let ti-carambola = tabler-icon.with("\u{feb9}")
@@ -7755,6 +7776,7 @@
 #let ti-creative-commons-sa = tabler-icon.with("\u{f222}")
 #let ti-creative-commons-zero = tabler-icon.with("\u{f223}")
 #let ti-credit-card = tabler-icon.with("\u{ea84}")
+#let ti-credit-card-hand = tabler-icon.with("\u{1022e}")
 #let ti-credit-card-off = tabler-icon.with("\u{ed11}")
 #let ti-credit-card-pay = tabler-icon.with("\u{fd32}")
 #let ti-credit-card-refund = tabler-icon.with("\u{fd33}")
@@ -7894,6 +7916,8 @@
 #let ti-desk = tabler-icon.with("\u{fd35}")
 #let ti-details = tabler-icon.with("\u{ee71}")
 #let ti-details-off = tabler-icon.with("\u{f3e2}")
+#let ti-device-3d-camera = tabler-icon.with("\u{1022d}")
+#let ti-device-3d-lens = tabler-icon.with("\u{1022c}")
 #let ti-device-airpods = tabler-icon.with("\u{f5a9}")
 #let ti-device-airpods-case = tabler-icon.with("\u{f646}")
 #let ti-device-airtag = tabler-icon.with("\u{fae6}")
@@ -8026,6 +8050,7 @@
 #let ti-device-nintendo-off = tabler-icon.with("\u{f111}")
 #let ti-device-projector = tabler-icon.with("\u{fc11}")
 #let ti-device-remote = tabler-icon.with("\u{f792}")
+#let ti-device-screen = tabler-icon.with("\u{1022b}")
 #let ti-device-sd-card = tabler-icon.with("\u{f384}")
 #let ti-device-sim = tabler-icon.with("\u{f4b2}")
 #let ti-device-sim-1 = tabler-icon.with("\u{f4af}")
@@ -8838,6 +8863,7 @@
 #let ti-ice-cream-2 = tabler-icon.with("\u{ee9f}")
 #let ti-ice-cream-off = tabler-icon.with("\u{f148}")
 #let ti-ice-skating = tabler-icon.with("\u{efcb}")
+#let ti-iceberg = tabler-icon.with("\u{1022a}")
 #let ti-icons = tabler-icon.with("\u{f1d4}")
 #let ti-icons-off = tabler-icon.with("\u{f3fc}")
 #let ti-id = tabler-icon.with("\u{eac3}")
@@ -8888,6 +8914,7 @@
 #let ti-italic = tabler-icon.with("\u{eb93}")
 #let ti-jacket = tabler-icon.with("\u{f661}")
 #let ti-jetpack = tabler-icon.with("\u{f581}")
+#let ti-jetski = tabler-icon.with("\u{10229}")
 #let ti-jewish-star = tabler-icon.with("\u{f3ff}")
 #let ti-join-bevel = tabler-icon.with("\u{ff4c}")
 #let ti-join-round = tabler-icon.with("\u{ff4b}")
@@ -9602,26 +9629,26 @@
 #let ti-number-32-small = tabler-icon.with("\u{10002}")
 #let ti-number-33-small = tabler-icon.with("\u{10001}")
 #let ti-number-34-small = tabler-icon.with("\u{10000}")
-#let ti-number-35-small = tabler-icon.with("\u{ffff}")
-#let ti-number-36-small = tabler-icon.with("\u{fffe}")
-#let ti-number-37-small = tabler-icon.with("\u{fffd}")
-#let ti-number-38-small = tabler-icon.with("\u{fffc}")
-#let ti-number-39-small = tabler-icon.with("\u{fffb}")
+#let ti-number-35-small = tabler-icon.with("\u{10210}")
+#let ti-number-36-small = tabler-icon.with("\u{10211}")
+#let ti-number-37-small = tabler-icon.with("\u{10212}")
+#let ti-number-38-small = tabler-icon.with("\u{10213}")
+#let ti-number-39-small = tabler-icon.with("\u{10214}")
 #let ti-number-4 = tabler-icon.with("\u{edf4}")
 #let ti-number-4-small = tabler-icon.with("\u{fcf9}")
-#let ti-number-40-small = tabler-icon.with("\u{fffa}")
-#let ti-number-41-small = tabler-icon.with("\u{fff9}")
-#let ti-number-42-small = tabler-icon.with("\u{fff8}")
-#let ti-number-43-small = tabler-icon.with("\u{fff7}")
-#let ti-number-44-small = tabler-icon.with("\u{fff6}")
-#let ti-number-45-small = tabler-icon.with("\u{fff5}")
-#let ti-number-46-small = tabler-icon.with("\u{fff4}")
-#let ti-number-47-small = tabler-icon.with("\u{fff3}")
-#let ti-number-48-small = tabler-icon.with("\u{fff2}")
-#let ti-number-49-small = tabler-icon.with("\u{fff1}")
+#let ti-number-40-small = tabler-icon.with("\u{10215}")
+#let ti-number-41-small = tabler-icon.with("\u{10216}")
+#let ti-number-42-small = tabler-icon.with("\u{10217}")
+#let ti-number-43-small = tabler-icon.with("\u{10218}")
+#let ti-number-44-small = tabler-icon.with("\u{10219}")
+#let ti-number-45-small = tabler-icon.with("\u{1021a}")
+#let ti-number-46-small = tabler-icon.with("\u{1021b}")
+#let ti-number-47-small = tabler-icon.with("\u{1021c}")
+#let ti-number-48-small = tabler-icon.with("\u{1021d}")
+#let ti-number-49-small = tabler-icon.with("\u{1021e}")
 #let ti-number-5 = tabler-icon.with("\u{edf5}")
 #let ti-number-5-small = tabler-icon.with("\u{fcfa}")
-#let ti-number-50-small = tabler-icon.with("\u{fff0}")
+#let ti-number-50-small = tabler-icon.with("\u{1021f}")
 #let ti-number-51-small = tabler-icon.with("\u{ffef}")
 #let ti-number-52-small = tabler-icon.with("\u{ffee}")
 #let ti-number-53-small = tabler-icon.with("\u{ffed}")
@@ -9693,6 +9720,7 @@
 #let ti-octahedron-off = tabler-icon.with("\u{faac}")
 #let ti-octahedron-plus = tabler-icon.with("\u{faad}")
 #let ti-old = tabler-icon.with("\u{eeb9}")
+#let ti-olympic-torch = tabler-icon.with("\u{10228}")
 #let ti-olympics = tabler-icon.with("\u{eeba}")
 #let ti-olympics-off = tabler-icon.with("\u{f416}")
 #let ti-om = tabler-icon.with("\u{f58d}")
@@ -9727,6 +9755,7 @@
 #let ti-parentheses-off = tabler-icon.with("\u{f171}")
 #let ti-parking = tabler-icon.with("\u{eb03}")
 #let ti-parking-circle = tabler-icon.with("\u{fd5a}")
+#let ti-parking-meter = tabler-icon.with("\u{10227}")
 #let ti-parking-off = tabler-icon.with("\u{f172}")
 #let ti-password = tabler-icon.with("\u{f4ca}")
 #let ti-password-fingerprint = tabler-icon.with("\u{fc7b}")
@@ -9866,6 +9895,7 @@
 #let ti-pilcrow-right = tabler-icon.with("\u{fd80}")
 #let ti-pill = tabler-icon.with("\u{ec44}")
 #let ti-pill-off = tabler-icon.with("\u{f178}")
+#let ti-pillow = tabler-icon.with("\u{10226}")
 #let ti-pills = tabler-icon.with("\u{ef66}")
 #let ti-pin = tabler-icon.with("\u{ec9c}")
 #let ti-pin-end = tabler-icon.with("\u{fd5b}")
@@ -9873,6 +9903,7 @@
 #let ti-ping-pong = tabler-icon.with("\u{f38d}")
 #let ti-pinned = tabler-icon.with("\u{ed60}")
 #let ti-pinned-off = tabler-icon.with("\u{ed5f}")
+#let ti-pipeline = tabler-icon.with("\u{10225}")
 #let ti-pizza = tabler-icon.with("\u{edbb}")
 #let ti-pizza-off = tabler-icon.with("\u{f179}")
 #let ti-placeholder = tabler-icon.with("\u{f626}")
@@ -10009,6 +10040,7 @@
 #let ti-queue-pop-out = tabler-icon.with("\u{101ff}")
 #let ti-quote = tabler-icon.with("\u{efbe}")
 #let ti-quote-off = tabler-icon.with("\u{f188}")
+#let ti-quote-open = tabler-icon.with("\u{10224}")
 #let ti-quotes = tabler-icon.with("\u{fb1e}")
 #let ti-radar = tabler-icon.with("\u{f017}")
 #let ti-radar-2 = tabler-icon.with("\u{f016}")
@@ -10184,6 +10216,8 @@
 #let ti-scale-outline-off = tabler-icon.with("\u{f199}")
 #let ti-scan = tabler-icon.with("\u{ebc8}")
 #let ti-scan-eye = tabler-icon.with("\u{f1ff}")
+#let ti-scan-letter-a = tabler-icon.with("\u{10223}")
+#let ti-scan-letter-t = tabler-icon.with("\u{10222}")
 #let ti-scan-position = tabler-icon.with("\u{fdac}")
 #let ti-scan-traces = tabler-icon.with("\u{101ec}")
 #let ti-schema = tabler-icon.with("\u{f200}")
@@ -10216,6 +10250,7 @@
 #let ti-section-sign = tabler-icon.with("\u{f019}")
 #let ti-seedling = tabler-icon.with("\u{ed51}")
 #let ti-seedling-off = tabler-icon.with("\u{f19d}")
+#let ti-segway = tabler-icon.with("\u{10221}")
 #let ti-select = tabler-icon.with("\u{ec9e}")
 #let ti-select-all = tabler-icon.with("\u{f9f7}")
 #let ti-selector = tabler-icon.with("\u{eb1d}")
@@ -11058,6 +11093,7 @@
 #let ti-writing-sign = tabler-icon.with("\u{ef07}")
 #let ti-writing-sign-off = tabler-icon.with("\u{f1cc}")
 #let ti-x = tabler-icon.with("\u{eb55}")
+#let ti-x-mark = tabler-icon.with("\u{10220}")
 #let ti-x-power-y = tabler-icon.with("\u{10072}")
 #let ti-xbox-a = tabler-icon.with("\u{f2b6}")
 #let ti-xbox-b = tabler-icon.with("\u{f2b7}")
