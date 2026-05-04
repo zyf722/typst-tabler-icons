@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.41.1
+// Generated based on Tabler Icons v3.42.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -906,6 +906,7 @@
   "brand-stackoverflow":"\u{ef58}",
   "brand-stackshare":"\u{f607}",
   "brand-steam":"\u{ed6f}",
+  "brand-stellar":"\u{10243}",
   "brand-stocktwits":"\u{fd78}",
   "brand-storj":"\u{fa54}",
   "brand-storybook":"\u{f332}",
@@ -953,6 +954,7 @@
   "brand-unsplash":"\u{edd8}",
   "brand-upwork":"\u{f39e}",
   "brand-valorant":"\u{f39f}",
+  "brand-vechain":"\u{10242}",
   "brand-vercel":"\u{ef24}",
   "brand-vimeo":"\u{ed06}",
   "brand-vinted":"\u{f20f}",
@@ -1482,6 +1484,8 @@
   "circuit-voltmeter":"\u{f283}",
   "clear-all":"\u{ee41}",
   "clear-formatting":"\u{ebe5}",
+  "clef":"\u{10240}",
+  "clef-staff":"\u{10241}",
   "click":"\u{ebbc}",
   "cliff-jumping":"\u{fefc}",
   "clipboard":"\u{ea6f}",
@@ -1744,6 +1748,7 @@
   "currency-frank":"\u{ee5b}",
   "currency-guarani":"\u{f371}",
   "currency-hryvnia":"\u{f372}",
+  "currency-husd":"\u{1023f}",
   "currency-iranian-rial":"\u{fa58}",
   "currency-kip":"\u{f373}",
   "currency-krone-czech":"\u{ee5c}",
@@ -1777,12 +1782,14 @@
   "currency-som":"\u{f37c}",
   "currency-taka":"\u{ee69}",
   "currency-tenge":"\u{f37d}",
+  "currency-tether":"\u{1023e}",
   "currency-tugrik":"\u{ee6a}",
   "currency-won":"\u{ee6b}",
   "currency-xrp":"\u{fd34}",
   "currency-yen":"\u{ebae}",
   "currency-yen-off":"\u{f3e0}",
   "currency-yuan":"\u{f29a}",
+  "currency-zcash":"\u{1023d}",
   "currency-zloty":"\u{ee6c}",
   "current-location":"\u{ecef}",
   "current-location-off":"\u{f10e}",
@@ -1833,6 +1840,7 @@
   "device-cctv":"\u{ee74}",
   "device-cctv-off":"\u{f3e3}",
   "device-computer-camera":"\u{ee76}",
+  "device-computer-camera-2":"\u{1023c}",
   "device-computer-camera-off":"\u{ee75}",
   "device-desktop":"\u{ea89}",
   "device-desktop-analytics":"\u{ee77}",
@@ -2080,6 +2088,7 @@
   "door":"\u{ef4e}",
   "door-enter":"\u{ef4c}",
   "door-exit":"\u{ef4d}",
+  "door-hanger":"\u{1023b}",
   "door-off":"\u{f11b}",
   "dots":"\u{ea95}",
   "dots-circle-horizontal":"\u{ea91}",
@@ -2123,6 +2132,7 @@
   "ear":"\u{ebce}",
   "ear-off":"\u{ee84}",
   "ear-scan":"\u{fd57}",
+  "earphone-bluetooth":"\u{1023a}",
   "ease-in":"\u{f573}",
   "ease-in-control-point":"\u{f570}",
   "ease-in-out":"\u{f572}",
@@ -2533,6 +2543,7 @@
   "gps":"\u{ed7a}",
   "gradienter":"\u{f3ab}",
   "grain":"\u{ee92}",
+  "grape":"\u{10239}",
   "graph":"\u{f288}",
   "graph-off":"\u{f3f4}",
   "grave":"\u{f580}",
@@ -2559,6 +2570,7 @@
   "h-5":"\u{ec98}",
   "h-6":"\u{ec99}",
   "hammer":"\u{ef91}",
+  "hammer-drill":"\u{10238}",
   "hammer-off":"\u{f13c}",
   "hand-click":"\u{ef4f}",
   "hand-click-off":"\u{100f1}",
@@ -2785,6 +2797,7 @@
   "indent-decrease":"\u{eb91}",
   "indent-increase":"\u{eb92}",
   "infinity":"\u{eb69}",
+  "infinity-2":"\u{10237}",
   "infinity-off":"\u{f3fe}",
   "info-circle":"\u{eac5}",
   "info-hexagon":"\u{f7aa}",
@@ -2865,6 +2878,7 @@
   "laurel-wreath-1":"\u{ff48}",
   "laurel-wreath-2":"\u{ff47}",
   "laurel-wreath-3":"\u{ff46}",
+  "lawn-mower":"\u{10236}",
   "layers-difference":"\u{eac8}",
   "layers-intersect":"\u{eac9}",
   "layers-intersect-2":"\u{eff8}",
@@ -3009,6 +3023,7 @@
   "loader":"\u{eca3}",
   "loader-2":"\u{f226}",
   "loader-3":"\u{f513}",
+  "loader-4":"\u{10235}",
   "loader-quarter":"\u{eca2}",
   "location":"\u{eae0}",
   "location-bolt":"\u{fbaf}",
@@ -3410,6 +3425,7 @@
   "moon-off":"\u{f162}",
   "moon-stars":"\u{ece7}",
   "moped":"\u{ecbc}",
+  "mosque":"\u{10234}",
   "motorbike":"\u{eeb6}",
   "mountain":"\u{ef97}",
   "mountain-off":"\u{f411}",
@@ -3694,6 +3710,7 @@
   "pencil-star":"\u{fc0c}",
   "pencil-up":"\u{fc0d}",
   "pencil-x":"\u{fc0e}",
+  "pendulum":"\u{10233}",
   "pennant":"\u{ed7d}",
   "pennant-2":"\u{f06a}",
   "pennant-off":"\u{f174}",
@@ -3868,6 +3885,7 @@
   "plug-connected-x":"\u{f0a0}",
   "plug-off":"\u{f180}",
   "plug-x":"\u{f0a1}",
+  "plunger":"\u{10232}",
   "plus":"\u{eb0b}",
   "plus-equal":"\u{f7ad}",
   "plus-minus":"\u{f7ae}",
@@ -7000,6 +7018,7 @@
 #let ti-brand-stackoverflow = tabler-icon.with("\u{ef58}")
 #let ti-brand-stackshare = tabler-icon.with("\u{f607}")
 #let ti-brand-steam = tabler-icon.with("\u{ed6f}")
+#let ti-brand-stellar = tabler-icon.with("\u{10243}")
 #let ti-brand-stocktwits = tabler-icon.with("\u{fd78}")
 #let ti-brand-storj = tabler-icon.with("\u{fa54}")
 #let ti-brand-storybook = tabler-icon.with("\u{f332}")
@@ -7047,6 +7066,7 @@
 #let ti-brand-unsplash = tabler-icon.with("\u{edd8}")
 #let ti-brand-upwork = tabler-icon.with("\u{f39e}")
 #let ti-brand-valorant = tabler-icon.with("\u{f39f}")
+#let ti-brand-vechain = tabler-icon.with("\u{10242}")
 #let ti-brand-vercel = tabler-icon.with("\u{ef24}")
 #let ti-brand-vimeo = tabler-icon.with("\u{ed06}")
 #let ti-brand-vinted = tabler-icon.with("\u{f20f}")
@@ -7576,6 +7596,8 @@
 #let ti-circuit-voltmeter = tabler-icon.with("\u{f283}")
 #let ti-clear-all = tabler-icon.with("\u{ee41}")
 #let ti-clear-formatting = tabler-icon.with("\u{ebe5}")
+#let ti-clef = tabler-icon.with("\u{10240}")
+#let ti-clef-staff = tabler-icon.with("\u{10241}")
 #let ti-click = tabler-icon.with("\u{ebbc}")
 #let ti-cliff-jumping = tabler-icon.with("\u{fefc}")
 #let ti-clipboard = tabler-icon.with("\u{ea6f}")
@@ -7838,6 +7860,7 @@
 #let ti-currency-frank = tabler-icon.with("\u{ee5b}")
 #let ti-currency-guarani = tabler-icon.with("\u{f371}")
 #let ti-currency-hryvnia = tabler-icon.with("\u{f372}")
+#let ti-currency-husd = tabler-icon.with("\u{1023f}")
 #let ti-currency-iranian-rial = tabler-icon.with("\u{fa58}")
 #let ti-currency-kip = tabler-icon.with("\u{f373}")
 #let ti-currency-krone-czech = tabler-icon.with("\u{ee5c}")
@@ -7871,12 +7894,14 @@
 #let ti-currency-som = tabler-icon.with("\u{f37c}")
 #let ti-currency-taka = tabler-icon.with("\u{ee69}")
 #let ti-currency-tenge = tabler-icon.with("\u{f37d}")
+#let ti-currency-tether = tabler-icon.with("\u{1023e}")
 #let ti-currency-tugrik = tabler-icon.with("\u{ee6a}")
 #let ti-currency-won = tabler-icon.with("\u{ee6b}")
 #let ti-currency-xrp = tabler-icon.with("\u{fd34}")
 #let ti-currency-yen = tabler-icon.with("\u{ebae}")
 #let ti-currency-yen-off = tabler-icon.with("\u{f3e0}")
 #let ti-currency-yuan = tabler-icon.with("\u{f29a}")
+#let ti-currency-zcash = tabler-icon.with("\u{1023d}")
 #let ti-currency-zloty = tabler-icon.with("\u{ee6c}")
 #let ti-current-location = tabler-icon.with("\u{ecef}")
 #let ti-current-location-off = tabler-icon.with("\u{f10e}")
@@ -7927,6 +7952,7 @@
 #let ti-device-cctv = tabler-icon.with("\u{ee74}")
 #let ti-device-cctv-off = tabler-icon.with("\u{f3e3}")
 #let ti-device-computer-camera = tabler-icon.with("\u{ee76}")
+#let ti-device-computer-camera-2 = tabler-icon.with("\u{1023c}")
 #let ti-device-computer-camera-off = tabler-icon.with("\u{ee75}")
 #let ti-device-desktop = tabler-icon.with("\u{ea89}")
 #let ti-device-desktop-analytics = tabler-icon.with("\u{ee77}")
@@ -8174,6 +8200,7 @@
 #let ti-door = tabler-icon.with("\u{ef4e}")
 #let ti-door-enter = tabler-icon.with("\u{ef4c}")
 #let ti-door-exit = tabler-icon.with("\u{ef4d}")
+#let ti-door-hanger = tabler-icon.with("\u{1023b}")
 #let ti-door-off = tabler-icon.with("\u{f11b}")
 #let ti-dots = tabler-icon.with("\u{ea95}")
 #let ti-dots-circle-horizontal = tabler-icon.with("\u{ea91}")
@@ -8217,6 +8244,7 @@
 #let ti-ear = tabler-icon.with("\u{ebce}")
 #let ti-ear-off = tabler-icon.with("\u{ee84}")
 #let ti-ear-scan = tabler-icon.with("\u{fd57}")
+#let ti-earphone-bluetooth = tabler-icon.with("\u{1023a}")
 #let ti-ease-in = tabler-icon.with("\u{f573}")
 #let ti-ease-in-control-point = tabler-icon.with("\u{f570}")
 #let ti-ease-in-out = tabler-icon.with("\u{f572}")
@@ -8627,6 +8655,7 @@
 #let ti-gps = tabler-icon.with("\u{ed7a}")
 #let ti-gradienter = tabler-icon.with("\u{f3ab}")
 #let ti-grain = tabler-icon.with("\u{ee92}")
+#let ti-grape = tabler-icon.with("\u{10239}")
 #let ti-graph = tabler-icon.with("\u{f288}")
 #let ti-graph-off = tabler-icon.with("\u{f3f4}")
 #let ti-grave = tabler-icon.with("\u{f580}")
@@ -8653,6 +8682,7 @@
 #let ti-h-5 = tabler-icon.with("\u{ec98}")
 #let ti-h-6 = tabler-icon.with("\u{ec99}")
 #let ti-hammer = tabler-icon.with("\u{ef91}")
+#let ti-hammer-drill = tabler-icon.with("\u{10238}")
 #let ti-hammer-off = tabler-icon.with("\u{f13c}")
 #let ti-hand-click = tabler-icon.with("\u{ef4f}")
 #let ti-hand-click-off = tabler-icon.with("\u{100f1}")
@@ -8879,6 +8909,7 @@
 #let ti-indent-decrease = tabler-icon.with("\u{eb91}")
 #let ti-indent-increase = tabler-icon.with("\u{eb92}")
 #let ti-infinity = tabler-icon.with("\u{eb69}")
+#let ti-infinity-2 = tabler-icon.with("\u{10237}")
 #let ti-infinity-off = tabler-icon.with("\u{f3fe}")
 #let ti-info-circle = tabler-icon.with("\u{eac5}")
 #let ti-info-hexagon = tabler-icon.with("\u{f7aa}")
@@ -8959,6 +8990,7 @@
 #let ti-laurel-wreath-1 = tabler-icon.with("\u{ff48}")
 #let ti-laurel-wreath-2 = tabler-icon.with("\u{ff47}")
 #let ti-laurel-wreath-3 = tabler-icon.with("\u{ff46}")
+#let ti-lawn-mower = tabler-icon.with("\u{10236}")
 #let ti-layers-difference = tabler-icon.with("\u{eac8}")
 #let ti-layers-intersect = tabler-icon.with("\u{eac9}")
 #let ti-layers-intersect-2 = tabler-icon.with("\u{eff8}")
@@ -9103,6 +9135,7 @@
 #let ti-loader = tabler-icon.with("\u{eca3}")
 #let ti-loader-2 = tabler-icon.with("\u{f226}")
 #let ti-loader-3 = tabler-icon.with("\u{f513}")
+#let ti-loader-4 = tabler-icon.with("\u{10235}")
 #let ti-loader-quarter = tabler-icon.with("\u{eca2}")
 #let ti-location = tabler-icon.with("\u{eae0}")
 #let ti-location-bolt = tabler-icon.with("\u{fbaf}")
@@ -9504,6 +9537,7 @@
 #let ti-moon-off = tabler-icon.with("\u{f162}")
 #let ti-moon-stars = tabler-icon.with("\u{ece7}")
 #let ti-moped = tabler-icon.with("\u{ecbc}")
+#let ti-mosque = tabler-icon.with("\u{10234}")
 #let ti-motorbike = tabler-icon.with("\u{eeb6}")
 #let ti-mountain = tabler-icon.with("\u{ef97}")
 #let ti-mountain-off = tabler-icon.with("\u{f411}")
@@ -9788,6 +9822,7 @@
 #let ti-pencil-star = tabler-icon.with("\u{fc0c}")
 #let ti-pencil-up = tabler-icon.with("\u{fc0d}")
 #let ti-pencil-x = tabler-icon.with("\u{fc0e}")
+#let ti-pendulum = tabler-icon.with("\u{10233}")
 #let ti-pennant = tabler-icon.with("\u{ed7d}")
 #let ti-pennant-2 = tabler-icon.with("\u{f06a}")
 #let ti-pennant-off = tabler-icon.with("\u{f174}")
@@ -9962,6 +9997,7 @@
 #let ti-plug-connected-x = tabler-icon.with("\u{f0a0}")
 #let ti-plug-off = tabler-icon.with("\u{f180}")
 #let ti-plug-x = tabler-icon.with("\u{f0a1}")
+#let ti-plunger = tabler-icon.with("\u{10232}")
 #let ti-plus = tabler-icon.with("\u{eb0b}")
 #let ti-plus-equal = tabler-icon.with("\u{f7ad}")
 #let ti-plus-minus = tabler-icon.with("\u{f7ae}")
