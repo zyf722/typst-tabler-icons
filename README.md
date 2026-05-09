@@ -3,7 +3,7 @@
 > This project is greatly inspired by and mainly edited based on [typst-fontawesome](https://github.com/duskmoon314/typst-fontawesome).
 
 <h2 align="center">
-  <img alt="use-tabler-icons" src="assets/banner.svg">
+  <img alt="use-tabler-icons" src="assets/banner.svg" title="use-tabler-icons banner">
 </h2>
 
 A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a set of over 5800 free MIT-licensed high-quality SVG icons.
@@ -12,7 +12,7 @@ A Typst library for [Tabler Icons](https://github.com/tabler/tabler-icons), a se
 ### Install Font
 Install [the webfont for Tabler Icons](https://docs.tabler.io/icons/libraries/webfont) before using this library. Or, if you are using Typst web app, simply upload the font file to your project.
 
-> [!NOTE]
+> **Note**
 >
 > Since Tabler Icons v3.36.0, filled icons have been separated into a different font file. If you want to use filled icons, make sure to install both the regular ` tabler-icons.ttf` and filled `tabler-icons-filled.ttf` font files.
 
@@ -24,7 +24,7 @@ You can install the library using the typst packages:
 ```
 
 #### Manually Install
-Just copy all files under [`src`](https://github.com/zyf722/typst-tabler-icons/tree/main/src) to your project and rename them to avoid naming conflicts.
+Just copy all files under [`src`](https://github.com/zyf722/typst-tabler-icons/blob/main/src) to your project and rename them to avoid naming conflicts.
 
 Then, import `lib.typ` to use the library:
 ```typst
@@ -47,15 +47,7 @@ As these icons are actually text with custom font, you can pass any text attribu
 #tabler-icon("calendar", fill: blue)
 ```
 
-Refer to [`gallery.pdf`](https://github.com/zyf722/typst-tabler-icons/tree/main/gallery/gallery.pdf) and [Tabler Icons website](https://tabler.io/icons) for all available icons.
-
-## Contributing
-[Pull Requests](https://github.com/zyf722/typst-tabler-icons/pulls) are welcome!
-
-It is strongly recommended to follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification when writing commit messages and creating pull requests.
-
-### Github Actions Workflow
-This package uses a daily run [Github Actions workflow](https://github.com/zyf722/typst-tabler-icons/tree/main/.github/workflows/build.yml) to keep the library up-to-date with the latest version of Tabler Icons, which internally runs [`scripts/generate.mjs`](https://github.com/zyf722/typst-tabler-icons/tree/main/scripts/generate.mjs) to generate Typst source code of the library and gallery.
+Refer to [`gallery.pdf`](https://github.com/zyf722/typst-tabler-icons/blob/main/gallery/gallery.pdf) and [Tabler Icons website](https://tabler.io/icons) for all available icons.
 
 ## License
-[MIT](https://github.com/zyf722/typst-tabler-icons/tree/main/LICENSE)
+[MIT](LICENSE)
