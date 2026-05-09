@@ -1,4 +1,4 @@
-// Generated based on Tabler Icons v3.42.0
+// Generated based on Tabler Icons v3.44.0
 
 #import "lib-impl.typ": tabler-icon
 
@@ -13,6 +13,8 @@
   "access-point-off":"\u{ed1a}",
   "accessible":"\u{eba9}",
   "accessible-off":"\u{f0a7}",
+  "acorn":"\u{10255}",
+  "acrobatic":"\u{10254}",
   "activity":"\u{ed23}",
   "activity-heartbeat":"\u{f0db}",
   "ad":"\u{ea02}",
@@ -405,6 +407,7 @@
   "ballpen":"\u{f06e}",
   "ballpen-off":"\u{f0b1}",
   "ban":"\u{ea2e}",
+  "banana":"\u{10253}",
   "bandage":"\u{eb7a}",
   "bandage-off":"\u{f3c4}",
   "barbell":"\u{eff0}",
@@ -658,6 +661,7 @@
   "brand-arc":"\u{feae}",
   "brand-asana":"\u{edc5}",
   "brand-astro":"\u{fdb9}",
+  "brand-audible":"\u{10252}",
   "brand-auth0":"\u{fcb3}",
   "brand-aws":"\u{fa4c}",
   "brand-azure":"\u{fa4d}",
@@ -1050,6 +1054,7 @@
   "building-cog":"\u{10062}",
   "building-community":"\u{ebf6}",
   "building-cottage":"\u{ee1b}",
+  "building-eiffel-tower":"\u{10251}",
   "building-estate":"\u{f5a5}",
   "building-factory":"\u{ee1c}",
   "building-factory-2":"\u{f082}",
@@ -1165,12 +1170,14 @@
   "car-4wd":"\u{fdb8}",
   "car-crane":"\u{ef25}",
   "car-crash":"\u{efa4}",
+  "car-door":"\u{10250}",
   "car-fan":"\u{fdb3}",
   "car-fan-1":"\u{fdb7}",
   "car-fan-2":"\u{fdb6}",
   "car-fan-3":"\u{fdb5}",
   "car-fan-auto":"\u{fdb4}",
   "car-garage":"\u{fc77}",
+  "car-lifter":"\u{1024f}",
   "car-off":"\u{f0c7}",
   "car-off-road":"\u{10230}",
   "car-suspension":"\u{1022f}",
@@ -1309,6 +1316,7 @@
   "chevrons-up-left":"\u{ed0f}",
   "chevrons-up-right":"\u{ed10}",
   "chisel":"\u{f383}",
+  "chocolate":"\u{1024e}",
   "christmas-ball":"\u{fd31}",
   "christmas-tree":"\u{ed78}",
   "christmas-tree-off":"\u{f3d5}",
@@ -1582,6 +1590,7 @@
   "clover-2":"\u{f21e}",
   "clubs":"\u{eff4}",
   "code":"\u{ea77}",
+  "code-ai":"\u{10267}",
   "code-asterisk":"\u{f312}",
   "code-circle":"\u{f4ff}",
   "code-circle-2":"\u{f4fe}",
@@ -2127,6 +2136,7 @@
   "droplet-x":"\u{f90b}",
   "droplets":"\u{fc12}",
   "dual-screen":"\u{fa59}",
+  "dumbbell":"\u{1024d}",
   "dumpling":"\u{feb5}",
   "e-passport":"\u{f4df}",
   "ear":"\u{ebce}",
@@ -2150,6 +2160,7 @@
   "eggs":"\u{f500}",
   "elevator":"\u{efdf}",
   "elevator-off":"\u{f3e8}",
+  "email-stamp":"\u{10266}",
   "emergency-bed":"\u{ef5d}",
   "empathize":"\u{f29b}",
   "empathize-off":"\u{f3e9}",
@@ -2171,6 +2182,7 @@
   "exclamation-circle":"\u{f634}",
   "exclamation-mark":"\u{efb4}",
   "exclamation-mark-off":"\u{f124}",
+  "exercise-ball":"\u{1024c}",
   "explicit":"\u{f256}",
   "explicit-off":"\u{f3ea}",
   "exposure":"\u{eb8c}",
@@ -2427,6 +2439,7 @@
   "float-left":"\u{ebb2}",
   "float-none":"\u{ed13}",
   "float-right":"\u{ebb3}",
+  "flood":"\u{1024b}",
   "flower":"\u{eff6}",
   "flower-off":"\u{f131}",
   "focus":"\u{eb8d}",
@@ -2462,6 +2475,7 @@
   "folder-x":"\u{eaac}",
   "folders":"\u{eaae}",
   "folders-off":"\u{f133}",
+  "foodsteps":"\u{10265}",
   "forbid":"\u{ebd5}",
   "forbid-2":"\u{ebd4}",
   "forklift":"\u{ebe9}",
@@ -2527,6 +2541,7 @@
   "git-merge":"\u{eab5}",
   "git-pull-request":"\u{eab6}",
   "git-pull-request-closed":"\u{ef7f}",
+  "git-pull-request-conflict":"\u{10264}",
   "git-pull-request-draft":"\u{efb7}",
   "gizmo":"\u{f02b}",
   "glass":"\u{eab8}",
@@ -2777,6 +2792,7 @@
   "http-que-off":"\u{100df}",
   "http-trace":"\u{fa30}",
   "http-trace-off":"\u{100de}",
+  "hula-hoop":"\u{1024a}",
   "ice-cream":"\u{eac2}",
   "ice-cream-2":"\u{ee9f}",
   "ice-cream-off":"\u{f148}",
@@ -2929,6 +2945,7 @@
   "layout-sidebar-right-inactive":"\u{fd48}",
   "leaf":"\u{ed4f}",
   "leaf-2":"\u{ff44}",
+  "leaf-maple":"\u{10249}",
   "leaf-off":"\u{f400}",
   "lego":"\u{eadc}",
   "lego-off":"\u{f401}",
@@ -3504,7 +3521,9 @@
   "no-copyright":"\u{efb9}",
   "no-creative-commons":"\u{efba}",
   "no-derivatives":"\u{efbb}",
+  "noise-reduction":"\u{10263}",
   "north-star":"\u{f014}",
+  "notdef":"\u{10248}",
   "note":"\u{eb6d}",
   "note-off":"\u{f169}",
   "notebook":"\u{eb96}",
@@ -3767,6 +3786,7 @@
   "phone-x":"\u{ec07}",
   "photo":"\u{eb0a}",
   "photo-ai":"\u{fa32}",
+  "photo-alt":"\u{10262}",
   "photo-bitcoin":"\u{ff31}",
   "photo-bolt":"\u{f990}",
   "photo-cancel":"\u{f35d}",
@@ -3895,11 +3915,14 @@
   "point":"\u{eb0c}",
   "point-off":"\u{f181}",
   "pointer":"\u{f265}",
+  "pointer-2":"\u{10261}",
   "pointer-bolt":"\u{f999}",
   "pointer-cancel":"\u{f99a}",
   "pointer-check":"\u{f99b}",
   "pointer-code":"\u{f99c}",
   "pointer-cog":"\u{f99d}",
+  "pointer-collaboration":"\u{1025f}",
+  "pointer-collaboration-2":"\u{10260}",
   "pointer-dollar":"\u{f99e}",
   "pointer-down":"\u{f99f}",
   "pointer-exclamation":"\u{f9a0}",
@@ -4094,6 +4117,7 @@
   "rotate-clockwise-2":"\u{ebb5}",
   "rotate-dot":"\u{efe5}",
   "rotate-rectangle":"\u{ec15}",
+  "roulette":"\u{1025e}",
   "route":"\u{eb17}",
   "route-2":"\u{f4b6}",
   "route-alt-left":"\u{fca9}",
@@ -4112,6 +4136,7 @@
   "rss":"\u{eb19}",
   "rubber-stamp":"\u{f5ab}",
   "rubber-stamp-off":"\u{f5aa}",
+  "rugby":"\u{10247}",
   "ruler":"\u{eb1a}",
   "ruler-2":"\u{eed2}",
   "ruler-2-off":"\u{f195}",
@@ -4139,6 +4164,7 @@
   "scale-outline":"\u{ef53}",
   "scale-outline-off":"\u{f199}",
   "scan":"\u{ebc8}",
+  "scan-cube":"\u{1025d}",
   "scan-eye":"\u{f1ff}",
   "scan-letter-a":"\u{10223}",
   "scan-letter-t":"\u{10222}",
@@ -4317,6 +4343,7 @@
   "skateboard":"\u{ecc2}",
   "skateboard-off":"\u{f42b}",
   "skateboarding":"\u{faca}",
+  "sketching":"\u{1025c}",
   "skew-x":"\u{fd3b}",
   "skew-y":"\u{fd3c}",
   "ski-jumping":"\u{fa6c}",
@@ -4369,11 +4396,15 @@
   "spacing-horizontal":"\u{ef54}",
   "spacing-vertical":"\u{ef55}",
   "spade":"\u{effa}",
+  "sparkle":"\u{10259}",
+  "sparkle-2":"\u{1025b}",
+  "sparkle-highlight":"\u{1025a}",
   "sparkles":"\u{f6d7}",
   "sparkles-2":"\u{101a6}",
   "speakerphone":"\u{ed61}",
   "speedboat":"\u{ed93}",
   "sphere":"\u{fab8}",
+  "sphere-2":"\u{10258}",
   "sphere-off":"\u{fab6}",
   "sphere-plus":"\u{fab7}",
   "spider":"\u{f293}",
@@ -4623,6 +4654,7 @@
   "tag-starred":"\u{fc99}",
   "tags":"\u{ef86}",
   "tags-off":"\u{efc1}",
+  "taiwan-dollar":"\u{10246}",
   "tallymark-1":"\u{ec46}",
   "tallymark-2":"\u{ec47}",
   "tallymark-3":"\u{ec48}",
@@ -4630,6 +4662,7 @@
   "tallymarks":"\u{ec4a}",
   "tank":"\u{ed95}",
   "target":"\u{eb35}",
+  "target-2":"\u{10245}",
   "target-arrow":"\u{f51a}",
   "target-off":"\u{f1ad}",
   "tax":"\u{feee}",
@@ -4668,6 +4701,7 @@
   "text-recognition":"\u{f204}",
   "text-resize":"\u{ef87}",
   "text-scan-2":"\u{fcc3}",
+  "text-scan-ai":"\u{10257}",
   "text-size":"\u{f2b1}",
   "text-spellcheck":"\u{f2a6}",
   "text-wrap":"\u{ebdd}",
@@ -4817,6 +4851,7 @@
   "umbrella-closed-2":"\u{ff0d}",
   "umbrella-off":"\u{f1bb}",
   "underline":"\u{eba2}",
+  "unicycle":"\u{10244}",
   "universe":"\u{fcc4}",
   "unlink":"\u{eb46}",
   "upload":"\u{eb47}",
@@ -4895,6 +4930,7 @@
   "viewport-short":"\u{fee9}",
   "viewport-tall":"\u{fee8}",
   "viewport-wide":"\u{ebf4}",
+  "vignette":"\u{10256}",
   "vinyl":"\u{f00d}",
   "vip":"\u{f3b3}",
   "vip-2":"\u{101fa}",
@@ -6125,6 +6161,8 @@
 #let ti-access-point-off = tabler-icon.with("\u{ed1a}")
 #let ti-accessible = tabler-icon.with("\u{eba9}")
 #let ti-accessible-off = tabler-icon.with("\u{f0a7}")
+#let ti-acorn = tabler-icon.with("\u{10255}")
+#let ti-acrobatic = tabler-icon.with("\u{10254}")
 #let ti-activity = tabler-icon.with("\u{ed23}")
 #let ti-activity-heartbeat = tabler-icon.with("\u{f0db}")
 #let ti-ad = tabler-icon.with("\u{ea02}")
@@ -6517,6 +6555,7 @@
 #let ti-ballpen = tabler-icon.with("\u{f06e}")
 #let ti-ballpen-off = tabler-icon.with("\u{f0b1}")
 #let ti-ban = tabler-icon.with("\u{ea2e}")
+#let ti-banana = tabler-icon.with("\u{10253}")
 #let ti-bandage = tabler-icon.with("\u{eb7a}")
 #let ti-bandage-off = tabler-icon.with("\u{f3c4}")
 #let ti-barbell = tabler-icon.with("\u{eff0}")
@@ -6770,6 +6809,7 @@
 #let ti-brand-arc = tabler-icon.with("\u{feae}")
 #let ti-brand-asana = tabler-icon.with("\u{edc5}")
 #let ti-brand-astro = tabler-icon.with("\u{fdb9}")
+#let ti-brand-audible = tabler-icon.with("\u{10252}")
 #let ti-brand-auth0 = tabler-icon.with("\u{fcb3}")
 #let ti-brand-aws = tabler-icon.with("\u{fa4c}")
 #let ti-brand-azure = tabler-icon.with("\u{fa4d}")
@@ -7162,6 +7202,7 @@
 #let ti-building-cog = tabler-icon.with("\u{10062}")
 #let ti-building-community = tabler-icon.with("\u{ebf6}")
 #let ti-building-cottage = tabler-icon.with("\u{ee1b}")
+#let ti-building-eiffel-tower = tabler-icon.with("\u{10251}")
 #let ti-building-estate = tabler-icon.with("\u{f5a5}")
 #let ti-building-factory = tabler-icon.with("\u{ee1c}")
 #let ti-building-factory-2 = tabler-icon.with("\u{f082}")
@@ -7277,12 +7318,14 @@
 #let ti-car-4wd = tabler-icon.with("\u{fdb8}")
 #let ti-car-crane = tabler-icon.with("\u{ef25}")
 #let ti-car-crash = tabler-icon.with("\u{efa4}")
+#let ti-car-door = tabler-icon.with("\u{10250}")
 #let ti-car-fan = tabler-icon.with("\u{fdb3}")
 #let ti-car-fan-1 = tabler-icon.with("\u{fdb7}")
 #let ti-car-fan-2 = tabler-icon.with("\u{fdb6}")
 #let ti-car-fan-3 = tabler-icon.with("\u{fdb5}")
 #let ti-car-fan-auto = tabler-icon.with("\u{fdb4}")
 #let ti-car-garage = tabler-icon.with("\u{fc77}")
+#let ti-car-lifter = tabler-icon.with("\u{1024f}")
 #let ti-car-off = tabler-icon.with("\u{f0c7}")
 #let ti-car-off-road = tabler-icon.with("\u{10230}")
 #let ti-car-suspension = tabler-icon.with("\u{1022f}")
@@ -7421,6 +7464,7 @@
 #let ti-chevrons-up-left = tabler-icon.with("\u{ed0f}")
 #let ti-chevrons-up-right = tabler-icon.with("\u{ed10}")
 #let ti-chisel = tabler-icon.with("\u{f383}")
+#let ti-chocolate = tabler-icon.with("\u{1024e}")
 #let ti-christmas-ball = tabler-icon.with("\u{fd31}")
 #let ti-christmas-tree = tabler-icon.with("\u{ed78}")
 #let ti-christmas-tree-off = tabler-icon.with("\u{f3d5}")
@@ -7694,6 +7738,7 @@
 #let ti-clover-2 = tabler-icon.with("\u{f21e}")
 #let ti-clubs = tabler-icon.with("\u{eff4}")
 #let ti-code = tabler-icon.with("\u{ea77}")
+#let ti-code-ai = tabler-icon.with("\u{10267}")
 #let ti-code-asterisk = tabler-icon.with("\u{f312}")
 #let ti-code-circle = tabler-icon.with("\u{f4ff}")
 #let ti-code-circle-2 = tabler-icon.with("\u{f4fe}")
@@ -8239,6 +8284,7 @@
 #let ti-droplet-x = tabler-icon.with("\u{f90b}")
 #let ti-droplets = tabler-icon.with("\u{fc12}")
 #let ti-dual-screen = tabler-icon.with("\u{fa59}")
+#let ti-dumbbell = tabler-icon.with("\u{1024d}")
 #let ti-dumpling = tabler-icon.with("\u{feb5}")
 #let ti-e-passport = tabler-icon.with("\u{f4df}")
 #let ti-ear = tabler-icon.with("\u{ebce}")
@@ -8262,6 +8308,7 @@
 #let ti-eggs = tabler-icon.with("\u{f500}")
 #let ti-elevator = tabler-icon.with("\u{efdf}")
 #let ti-elevator-off = tabler-icon.with("\u{f3e8}")
+#let ti-email-stamp = tabler-icon.with("\u{10266}")
 #let ti-emergency-bed = tabler-icon.with("\u{ef5d}")
 #let ti-empathize = tabler-icon.with("\u{f29b}")
 #let ti-empathize-off = tabler-icon.with("\u{f3e9}")
@@ -8283,6 +8330,7 @@
 #let ti-exclamation-circle = tabler-icon.with("\u{f634}")
 #let ti-exclamation-mark = tabler-icon.with("\u{efb4}")
 #let ti-exclamation-mark-off = tabler-icon.with("\u{f124}")
+#let ti-exercise-ball = tabler-icon.with("\u{1024c}")
 #let ti-explicit = tabler-icon.with("\u{f256}")
 #let ti-explicit-off = tabler-icon.with("\u{f3ea}")
 #let ti-exposure = tabler-icon.with("\u{eb8c}")
@@ -8539,6 +8587,7 @@
 #let ti-float-left = tabler-icon.with("\u{ebb2}")
 #let ti-float-none = tabler-icon.with("\u{ed13}")
 #let ti-float-right = tabler-icon.with("\u{ebb3}")
+#let ti-flood = tabler-icon.with("\u{1024b}")
 #let ti-flower = tabler-icon.with("\u{eff6}")
 #let ti-flower-off = tabler-icon.with("\u{f131}")
 #let ti-focus = tabler-icon.with("\u{eb8d}")
@@ -8574,6 +8623,7 @@
 #let ti-folder-x = tabler-icon.with("\u{eaac}")
 #let ti-folders = tabler-icon.with("\u{eaae}")
 #let ti-folders-off = tabler-icon.with("\u{f133}")
+#let ti-foodsteps = tabler-icon.with("\u{10265}")
 #let ti-forbid = tabler-icon.with("\u{ebd5}")
 #let ti-forbid-2 = tabler-icon.with("\u{ebd4}")
 #let ti-forklift = tabler-icon.with("\u{ebe9}")
@@ -8639,6 +8689,7 @@
 #let ti-git-merge = tabler-icon.with("\u{eab5}")
 #let ti-git-pull-request = tabler-icon.with("\u{eab6}")
 #let ti-git-pull-request-closed = tabler-icon.with("\u{ef7f}")
+#let ti-git-pull-request-conflict = tabler-icon.with("\u{10264}")
 #let ti-git-pull-request-draft = tabler-icon.with("\u{efb7}")
 #let ti-gizmo = tabler-icon.with("\u{f02b}")
 #let ti-glass = tabler-icon.with("\u{eab8}")
@@ -8889,6 +8940,7 @@
 #let ti-http-que-off = tabler-icon.with("\u{100df}")
 #let ti-http-trace = tabler-icon.with("\u{fa30}")
 #let ti-http-trace-off = tabler-icon.with("\u{100de}")
+#let ti-hula-hoop = tabler-icon.with("\u{1024a}")
 #let ti-ice-cream = tabler-icon.with("\u{eac2}")
 #let ti-ice-cream-2 = tabler-icon.with("\u{ee9f}")
 #let ti-ice-cream-off = tabler-icon.with("\u{f148}")
@@ -9041,6 +9093,7 @@
 #let ti-layout-sidebar-right-inactive = tabler-icon.with("\u{fd48}")
 #let ti-leaf = tabler-icon.with("\u{ed4f}")
 #let ti-leaf-2 = tabler-icon.with("\u{ff44}")
+#let ti-leaf-maple = tabler-icon.with("\u{10249}")
 #let ti-leaf-off = tabler-icon.with("\u{f400}")
 #let ti-lego = tabler-icon.with("\u{eadc}")
 #let ti-lego-off = tabler-icon.with("\u{f401}")
@@ -9616,7 +9669,9 @@
 #let ti-no-copyright = tabler-icon.with("\u{efb9}")
 #let ti-no-creative-commons = tabler-icon.with("\u{efba}")
 #let ti-no-derivatives = tabler-icon.with("\u{efbb}")
+#let ti-noise-reduction = tabler-icon.with("\u{10263}")
 #let ti-north-star = tabler-icon.with("\u{f014}")
+#let ti-notdef = tabler-icon.with("\u{10248}")
 #let ti-note = tabler-icon.with("\u{eb6d}")
 #let ti-note-off = tabler-icon.with("\u{f169}")
 #let ti-notebook = tabler-icon.with("\u{eb96}")
@@ -9879,6 +9934,7 @@
 #let ti-phone-x = tabler-icon.with("\u{ec07}")
 #let ti-photo = tabler-icon.with("\u{eb0a}")
 #let ti-photo-ai = tabler-icon.with("\u{fa32}")
+#let ti-photo-alt = tabler-icon.with("\u{10262}")
 #let ti-photo-bitcoin = tabler-icon.with("\u{ff31}")
 #let ti-photo-bolt = tabler-icon.with("\u{f990}")
 #let ti-photo-cancel = tabler-icon.with("\u{f35d}")
@@ -10007,11 +10063,14 @@
 #let ti-point = tabler-icon.with("\u{eb0c}")
 #let ti-point-off = tabler-icon.with("\u{f181}")
 #let ti-pointer = tabler-icon.with("\u{f265}")
+#let ti-pointer-2 = tabler-icon.with("\u{10261}")
 #let ti-pointer-bolt = tabler-icon.with("\u{f999}")
 #let ti-pointer-cancel = tabler-icon.with("\u{f99a}")
 #let ti-pointer-check = tabler-icon.with("\u{f99b}")
 #let ti-pointer-code = tabler-icon.with("\u{f99c}")
 #let ti-pointer-cog = tabler-icon.with("\u{f99d}")
+#let ti-pointer-collaboration = tabler-icon.with("\u{1025f}")
+#let ti-pointer-collaboration-2 = tabler-icon.with("\u{10260}")
 #let ti-pointer-dollar = tabler-icon.with("\u{f99e}")
 #let ti-pointer-down = tabler-icon.with("\u{f99f}")
 #let ti-pointer-exclamation = tabler-icon.with("\u{f9a0}")
@@ -10206,6 +10265,7 @@
 #let ti-rotate-clockwise-2 = tabler-icon.with("\u{ebb5}")
 #let ti-rotate-dot = tabler-icon.with("\u{efe5}")
 #let ti-rotate-rectangle = tabler-icon.with("\u{ec15}")
+#let ti-roulette = tabler-icon.with("\u{1025e}")
 #let ti-route = tabler-icon.with("\u{eb17}")
 #let ti-route-2 = tabler-icon.with("\u{f4b6}")
 #let ti-route-alt-left = tabler-icon.with("\u{fca9}")
@@ -10224,6 +10284,7 @@
 #let ti-rss = tabler-icon.with("\u{eb19}")
 #let ti-rubber-stamp = tabler-icon.with("\u{f5ab}")
 #let ti-rubber-stamp-off = tabler-icon.with("\u{f5aa}")
+#let ti-rugby = tabler-icon.with("\u{10247}")
 #let ti-ruler = tabler-icon.with("\u{eb1a}")
 #let ti-ruler-2 = tabler-icon.with("\u{eed2}")
 #let ti-ruler-2-off = tabler-icon.with("\u{f195}")
@@ -10251,6 +10312,7 @@
 #let ti-scale-outline = tabler-icon.with("\u{ef53}")
 #let ti-scale-outline-off = tabler-icon.with("\u{f199}")
 #let ti-scan = tabler-icon.with("\u{ebc8}")
+#let ti-scan-cube = tabler-icon.with("\u{1025d}")
 #let ti-scan-eye = tabler-icon.with("\u{f1ff}")
 #let ti-scan-letter-a = tabler-icon.with("\u{10223}")
 #let ti-scan-letter-t = tabler-icon.with("\u{10222}")
@@ -10429,6 +10491,7 @@
 #let ti-skateboard = tabler-icon.with("\u{ecc2}")
 #let ti-skateboard-off = tabler-icon.with("\u{f42b}")
 #let ti-skateboarding = tabler-icon.with("\u{faca}")
+#let ti-sketching = tabler-icon.with("\u{1025c}")
 #let ti-skew-x = tabler-icon.with("\u{fd3b}")
 #let ti-skew-y = tabler-icon.with("\u{fd3c}")
 #let ti-ski-jumping = tabler-icon.with("\u{fa6c}")
@@ -10481,11 +10544,15 @@
 #let ti-spacing-horizontal = tabler-icon.with("\u{ef54}")
 #let ti-spacing-vertical = tabler-icon.with("\u{ef55}")
 #let ti-spade = tabler-icon.with("\u{effa}")
+#let ti-sparkle = tabler-icon.with("\u{10259}")
+#let ti-sparkle-2 = tabler-icon.with("\u{1025b}")
+#let ti-sparkle-highlight = tabler-icon.with("\u{1025a}")
 #let ti-sparkles = tabler-icon.with("\u{f6d7}")
 #let ti-sparkles-2 = tabler-icon.with("\u{101a6}")
 #let ti-speakerphone = tabler-icon.with("\u{ed61}")
 #let ti-speedboat = tabler-icon.with("\u{ed93}")
 #let ti-sphere = tabler-icon.with("\u{fab8}")
+#let ti-sphere-2 = tabler-icon.with("\u{10258}")
 #let ti-sphere-off = tabler-icon.with("\u{fab6}")
 #let ti-sphere-plus = tabler-icon.with("\u{fab7}")
 #let ti-spider = tabler-icon.with("\u{f293}")
@@ -10735,6 +10802,7 @@
 #let ti-tag-starred = tabler-icon.with("\u{fc99}")
 #let ti-tags = tabler-icon.with("\u{ef86}")
 #let ti-tags-off = tabler-icon.with("\u{efc1}")
+#let ti-taiwan-dollar = tabler-icon.with("\u{10246}")
 #let ti-tallymark-1 = tabler-icon.with("\u{ec46}")
 #let ti-tallymark-2 = tabler-icon.with("\u{ec47}")
 #let ti-tallymark-3 = tabler-icon.with("\u{ec48}")
@@ -10742,6 +10810,7 @@
 #let ti-tallymarks = tabler-icon.with("\u{ec4a}")
 #let ti-tank = tabler-icon.with("\u{ed95}")
 #let ti-target = tabler-icon.with("\u{eb35}")
+#let ti-target-2 = tabler-icon.with("\u{10245}")
 #let ti-target-arrow = tabler-icon.with("\u{f51a}")
 #let ti-target-off = tabler-icon.with("\u{f1ad}")
 #let ti-tax = tabler-icon.with("\u{feee}")
@@ -10780,6 +10849,7 @@
 #let ti-text-recognition = tabler-icon.with("\u{f204}")
 #let ti-text-resize = tabler-icon.with("\u{ef87}")
 #let ti-text-scan-2 = tabler-icon.with("\u{fcc3}")
+#let ti-text-scan-ai = tabler-icon.with("\u{10257}")
 #let ti-text-size = tabler-icon.with("\u{f2b1}")
 #let ti-text-spellcheck = tabler-icon.with("\u{f2a6}")
 #let ti-text-wrap = tabler-icon.with("\u{ebdd}")
@@ -10929,6 +10999,7 @@
 #let ti-umbrella-closed-2 = tabler-icon.with("\u{ff0d}")
 #let ti-umbrella-off = tabler-icon.with("\u{f1bb}")
 #let ti-underline = tabler-icon.with("\u{eba2}")
+#let ti-unicycle = tabler-icon.with("\u{10244}")
 #let ti-universe = tabler-icon.with("\u{fcc4}")
 #let ti-unlink = tabler-icon.with("\u{eb46}")
 #let ti-upload = tabler-icon.with("\u{eb47}")
@@ -11007,6 +11078,7 @@
 #let ti-viewport-short = tabler-icon.with("\u{fee9}")
 #let ti-viewport-tall = tabler-icon.with("\u{fee8}")
 #let ti-viewport-wide = tabler-icon.with("\u{ebf4}")
+#let ti-vignette = tabler-icon.with("\u{10256}")
 #let ti-vinyl = tabler-icon.with("\u{f00d}")
 #let ti-vip = tabler-icon.with("\u{f3b3}")
 #let ti-vip-2 = tabler-icon.with("\u{101fa}")
